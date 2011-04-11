@@ -1,0 +1,59 @@
+vim: ft=xhtml
+layout: default
+title: about - join
+
+<div id="sub-header" class="join-header">
+	<h2>Welcome to Oz Dorothy. Join into the Connectical world.</h2>
+	<p>Thank you to considerer joining into Connectical crew. Connectical
+	network is built over a number of systems around the world, and
+	supported gratefully by many people of diferent countries. If you are
+	interested in know more about how to help, please keep reading!</p>
+</div>
+<!-- //#sub-header -->
+
+<div id="content">
+		<ul id="step">
+			<li class="item1">
+				<h3>Clone the web</h3>
+				<p>As member of the Connectical network <strong>you must provide a web mirror</strong>, that means that you must
+				clone the current web and publish it in some <acronym title="Uniform Resource Location">URL</acronym>. You can
+				get the source code of the web from <a href="http://github.com/connectical/website">github repository</a>
+				and use <a href="http://furi-ku.org/+/cgit/code/growl/">growl</a> to recreate the web.
+				<strong>You must rebuild &amp; update the web almost once a day.</strong>.</p>
+				<p>You have more information in the <a href="http://github.com/connectical/website">repository README</a> file.</p>
+			</li>
+			<li class="item2">
+				<h3>Report us your mirror</h3>
+				<p>Once you have the mirror running, please send us a mirror reporting via
+				<a href="http://connectical.wufoo.com/forms/m7x3w7/"
+					onclick="window.open(this.href,  null, 'height=814,
+					width=680, toolbar=0, location=0, status=1,
+					scrollbars=1, resizable=1'); return false"
+					title="Membership Form">webform form,</a> or via email to <tt><a href="mailto:devel@lists.connectical.com">devel@lists.connectical.com</a></tt>,
+				if form do not work. <strong>Web form has higher priority.</strong>.
+				You must indicate the URL where mirror lives, your <strong>real</strong> name and a mail address to contact you.
+			</li>
+			<li class="item3">
+				<h3>Monitoring</h3>
+				<p>During a week, we will monitoring your service, which must
+				guarantee a 99.99% of availability.</p>
+			</li>
+			<li class="item4">
+				<h3>Membership</h3>
+				<p>Once your service will be validated after the monitoring
+				step, you will be successfully joined at Connectical network and
+				crew. Since that moment we request your personal data and it will be added to the staff
+				record, your blog and notices will be linked in main Connectical
+				page, and, of course, you will enjoy all the Connectical benefits.</p>
+			</li>
+			<li class="item5">
+				<h3>Leaving the team</h3>
+				<p>If your site becomes to unavailable (unreachable, 500 or 40X
+				error) for a week, then you will be automatically removed from
+				the pool and your data will be removed from the staff
+				records.</p>
+			</li>
+		</ul>
+</div>
+<!-- //#content -->
+

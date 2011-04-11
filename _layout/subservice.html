@@ -1,0 +1,9 @@
+{% extends "default.html" %}
+
+{% block htmlhead %}
+<script type="text/javascript">
+	$(document).ready(function () {
+	$("#emf-form input, #emf-form textarea").tipsy({fade:true, trigger:'focus', gravity:'s'});
+	});
+</script>
+{% endblock %}

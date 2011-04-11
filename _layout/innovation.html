@@ -1,0 +1,15 @@
+{% extends "default.html" %}
+
+{% block htmlhead %}
+<script type="text/javascript" charset="utf-8">
+	$(function () {
+			$(".tag-link").tipsy();
+			$("#tags a").click(function() {
+				var btn=$(this);
+				$("#ideas ." + btn.text()).slideToggle();
+				btn.toggleClass("active");
+				return false;
+			});
+	});
+</script>
+{% endblock %}

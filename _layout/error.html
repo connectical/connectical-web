@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<title>{{ page.title }} - connectical.com</title>
+
+<style type="text/css" media="screen">
+	body,div,dl,dt,dd,h1,h2,h3,h4,h5,h6,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+	table{border-collapse:collapse;border-spacing:0}
+	address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}
+	caption,th{text-align:left}
+	h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+	q:before,q:after{content:''}
+	a:focus{outline:0}
+	.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+	.clearfix{display:block}
+	* html .clearfix{height:1%}
+	fieldset,img,abbr,acronym{border:0}
+	body{background:#fff;font-family:Arial,Helvetica,sans-serif}
+	acronym{border-bottom:1px dotted #000}
+	#header{width:1000px;height:118px;position:relative;margin:0 auto 35px}
+	#header h1{font-family:Arial,Helvetica,sans-serif;padding-top:38px;font-weight:400}
+	#header h1 a{display:block;text-decoration:none;font-size:23px;color:#000;text-transform:uppercase;width:190px;padding:18px}
+	#header h1 a strong{color:#666}
+	#header ul{position:absolute;bottom:15px;right:0}
+	#header ul li,#footer ul li,#submenu li{font-family:'Gill Sans', Futura, 'Helvetica Nueue', Helvetica, sans-serif;letter-spacing:.2em;display:inline}
+	#header ul li a,#footer ul li a,#submenu li a{display:block;float:left;font-size:x-small;color:#000;text-decoration:none;text-transform:uppercase;border-right:1px solid #ccc;padding:0 15px}
+	#header ul li.last-item a,#submenu li.last-item a{padding-right:0;border:none}
+	#footer{font-size:12px;border-top:1px solid #ccc;clear:both;width:1000px;position:relative;margin:1em auto;padding:20px 0}
+	#footer ul li.first-item a{padding-left:0}
+	#header p{font-size:13px;position:absolute;top:40px;right:0}
+	#header p a{color:#000;text-decoration:none;border-left:1px solid #ccc;padding-left:10px;margin-left:5px}
+	#sub-header{width:590px;min-height:230px;border-bottom:1px solid #ccc;margin:0 auto;padding:0 410px 35px 0}
+	#sub-header h2{font-family:Arial,Helvetica, sans-serif;font-size:40px;font-weight:700;margin-bottom:12px}
+	#sub-header p{font-size:16px;line-height:1.6;margin-bottom:15px}
+	#content{width:1000px;margin:0 auto}
+	#content h1{font-family:Arial,Helvetica, sans-serif;font-size:40px;font-weight:700;margin-bottom:1em;margin-top:0}
+	#content h2{font-size:18px;font-weight:700;text-transform:uppercase;border-bottom:1px solid #ccc;margin:1em 0;padding:0}
+	#content h3{font-size:14px;font-weight:700;text-transform:uppercase;margin:.3em 0}
+	#content a{text-decoration:underline;color:#000}
+	#content a:hover {text-decoration:none;color:#000}
+	#header ul a{text-decoration:none}
+	#header ul li a.active,#footer ul li a.active,#sub-header p strong,#footer .custom strong,#content strong,#content dt,.code a.cd_name{font-weight:700}
+	#sub-header p.continue,#services li p.continue{margin-bottom:0}
+	#footer p a{text-decoration:none;color:#000}
+	#footer p a:hover {text-decoration:underline}
+	#sub-header p.continue a:hover,#services li p.continue a:hover,#footer ul li a:hover,#footer .custom a:hover,#header ul a:hover,#sidebar ul a:hover,#submenu li a:hover{text-decoration:underline}
+	h3 a,.code ul li a,.code a,.paper a{text-decoration:none!important}
+	#content p,#content ol,.product{margin:1em 0}
+	.small{font-size:small}
+	.clear{clear:both}
+	.hide{display:none!important}
+	#content em{font-style:italic}
+	#content dd{padding-left:5px}
+	#content ul{margin-left:1em;padding-left:0}
+	#content ul#services{list-style:none}
+	#content li{margin-left:1em;padding-top:.5em!important}
+	#header ul li a.active,#footer ul li a.active,#sub-header p strong,#footer .custom strong,#content strong,#content dt,.code a.cd_name{font-weight:700}
+	#sub-header p.continue,#services li p.continue{margin-bottom:0}
+	#footer p a{text-decoration:none;color:#000}
+	#footer p a:hover {text-decoration:underline}
+	p.custom{margin:0!important}
+	p.custom a{padding:0!important;border:0!important}
+</style>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+{% block htmlhead %}{% endblock %}
+</head>
+<body>
+	{% macro menulink(name, href, title, last="", first="") -%}{% if last != "" %}<li class="{{last}}">{% elif first != "" %}<li class="{{first}}">{% else %}<li>{% endif %}{% if page.title.split(" ")[0] == name %}<a href="{{href}}" class="active">{{title}}</a>{% else %}<a href="{{href}}">{{title}}</a>{% endif %}</li>{%- endmacro %}
+
+<div id="header">
+	<h1><a href="/"><img src="data:image/png;base64,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" alt="Connectical" /></a></h1>
+	<a href="#outmenu" class="hide">Jump menu</a>
+	<ul id="menu">
+		{{ menulink('home', '/', 'Home') }}
+		{{ menulink('innovation', '/innovation', 'Innovation') }}
+		{{ menulink('products', '/products', 'Products') }}
+		{{ menulink('services', '/services', 'Services') }}
+		{{ menulink('planet', '/planet', 'Planet') }}
+		{{ menulink('about', '/about', 'About', last='last-item') }}
+	</ul>
+</div> <!-- //#header -->
+<div id="#outmenu" class="hide"></div>
+
+{{content}}
+
+<div id="footer">
+  <p>Copyright &copy; 2010-2011 Connectical. <a href="http://creativecommons.org/licenses/by-sa/3.0/">Some rights</a> reserved.</p>
+</div>
+<!-- //#footer -->
+
+</body>
+</html>
+
+

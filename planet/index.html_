@@ -1,0 +1,75 @@
+vim: ft=xhtml
+layout: planet
+title: planet
+
+<div id="sub-header" class="planet-header">
+	<h2>Blogs &amp; tweets, the connectical social network.</h2>
+	<p>We live in a social network, here you can found a number of
+	connectical blog articles, and tweets about what connectical crew is
+	thinking right now:</p>
+	<ul id="otweet"></ul>
+</div>
+<!-- //#sub-header -->
+
+<div id="content">
+	<div id="main-content">
+		{% for post in planet.blog.post %}
+		<div id="{{post.url|uniqueid}}" class="item">
+			<div class="tw_avatar tw_blog"></div>
+			<div class="cd_meta"><a class="author" href="{{post.author_url}}">{{post.author}}</a> at <span class="date">{{post.updated|dateFormat}}</span></div>
+			<div><p class="tw_title"><a href="{{post.url}}">{{post.title}}</a></p>
+				<p>{{post.text_content|cutText}}</p>
+			</div>
+		</div>
+		{% endfor %}
+		{% for post in planet.code.commits %}
+		<div class="item">
+			<div class="tw_avatar tw_code"></div>
+			<div class="cd_meta"><a class="author" href="{{post.author_url}}">{{post.author}}</a> on <a class="cd_name" href="{{post.url}}">{{post.name}}@{{post.engine}}</a>
+				at <span class="date">{{post.updated|dateFormat}}</span></div>
+			<ul class="commit">
+				{% for commit in post.commits %}
+				<li><a class="commit_id" href="{{commit.url}}">{{commit.id[:7]}}</a>{{commit.message|cutText}}...</li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endfor %}
+
+	</div> <!-- //#main-content -->
+	<div id="sidebar">
+		<h4>Blog posts <a class="icon" title="Feed RSS" href="/planet/feed/index.xml"><img src="/images/icons/rss.png" alt="RSS icon"/></a></h4>
+		<ul>
+			{% for post in planet.blog.post %}
+			<li><a href="#{{post.url|uniqueid}}">{{post.title}}</a></li>
+			{% endfor %}
+		</ul>
+		<h4>Blogs in planet</h4>
+		<ul>
+			{% for feed in planet.blog.feed %}
+			<li><a href="{{feed.link}}">{{feed.title}}</a></li>
+			{% endfor %}
+		</ul>
+		<h4>Tweets</h4>
+		<ul>
+			{% for tweeter in planet.tweet.links %}
+			<li><a href="{{tweeter.link}}">@{{tweeter.user}}</a></li>
+			{% endfor %}
+		</ul>
+		<h4>Social code</h4>
+		<ul>
+			{% for coder in planet.code.links %}
+			<li><a href="{{coder.link}}">{{coder.user}} at {{coder.engine}}</a></li>
+			{% endfor %}
+		</ul>
+		<h4>Social networks</h4>
+		<ul>
+			<li><a href="http://l.connectical.com/facebook">Facebook</a></li>
+			<li><a href="http://twitter.com/connectical">Twitter</a></li>
+			<li><a href="http://identi.ca/connectical">Identi.ca</a></li>
+			<li><a href="http://groups.diigo.com/group/connectical">Diigo</a></li>
+			<li><a href="https://github.com/Connectical">github</a></li>
+			<li><a href="http://gitorious.org/+connectical">gitorious</a></li>
+		</ul>
+	</div> <!-- //#sidebar -->
+</div> <!-- //#content -->
+

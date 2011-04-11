@@ -1,0 +1,57 @@
+vim: ft=xhtml
+layout: default
+title: services
+
+<div id="sub-header" class="services-header">
+    <h2>Tools &amp; services usefull for the community.</h2>
+    <p>Services and online tools provided by Connectical to the community
+    are one of our best card, from mailing list to talk speechers, we offer
+    our service to the entirely world.</p>
+</div>
+<!-- //#sub-header -->
+
+<div id="content">
+
+		<div class="area serv_mailing">
+			<h3>Mailing lists</h3>
+			<div class="desc">
+				As part of innovation processes into Connectical research,
+				we provide a number of public maling list, from general
+				topics to concrete ones. You can subscribe and unsubscribe
+				to these lists using the usual way for <a href="http://cr.yp.to/ezmlm.html">ezmlm</a>.
+			</div>
+			<div class="more">
+					<ul>
+						<li class="article"><a href="mailto:sysadmin(at)lists.connectical.com"><strong>sysadmin:</strong></a>
+							A general discussion list about systemadministration and system development.</li>
+						<li class="article"><a href="mailto:devel(at)lists.connectical.com"><strong>devel:</strong></a>
+							A general discussion list about connectical related projects or any development issue.</li>
+					</ul>
+			</div>
+		</div>
+		<div class="area serv_talks">
+			<h3>Conference program</h3>
+			<div class="desc">
+				The Connectical vocation is also to promote and broadcast
+				new technology applications. If you want to invite us to any
+				conference or talk, please <a href="mailto:staff@connectical.com">contact us</a>.
+			</div>
+			<div class="more">
+			</div>
+		</div>
+		<div class="area serv_torrent">
+			<h3>Torrent tracker</h3>
+			<div class="desc">
+				In order to share a number of research documents and heavy
+				multimedia items (like videos, high resolution charts etc.),
+				we offer a torrent tracker. <strong>Please note that it's
+					intended to be a research helper torrent.</strong>
+			</div>
+			<div class="more">
+			</div>
+		</div>
+
+
+</div>
+<!-- //#content -->
+
