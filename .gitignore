@@ -2,3 +2,4 @@ _deploy/*
 _cache/*
 *.sw[op]
 *~
+*.py[co]
