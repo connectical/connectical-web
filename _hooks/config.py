@@ -6,7 +6,7 @@
 This hook will read the configuration file from the "_config" directory. Any
 file with ".conf" extension will be parsed."""
 
-import os
+import os, errno
 from glob import glob
 import ConfigParser as cp
 
@@ -25,4 +25,9 @@ if not Site.CONTEXT.config.cache.has_option("cache", "expires"):
     Site.CONTEXT.config.cache.set("cache", "expires", 1800)
 
 # Ensure that the cache directory exists
-os.makedirs(Site.CONTEXT.config.cache.get("cache", "cache_dir"))
+try:
+    os.makedirs(Site.CONTEXT.config.cache.get("cache", "cache_dir"))
+except OSError as e:
+    if e.errno != errno.EEXIST:
+        raise
+
