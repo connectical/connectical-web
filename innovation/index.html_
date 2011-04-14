@@ -1,5 +1,5 @@
 vim: ft=xhtml
-layout: innovation
+layout: default
 title: innovation
 
 <div id="sub-header" class="innovation-header">

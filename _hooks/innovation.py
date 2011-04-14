@@ -5,7 +5,7 @@
 from hashlib import md5
 from HTMLParser import HTMLParser
 
-import ship_feedparser as feedparser
+import feedparser
 import cache
 import ConfigParser
 

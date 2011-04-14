@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 # vim:fenc=utf-8:
 
-import ship_feedparser as feedparser
+import feedparser
 
 
 try:

@@ -7,7 +7,7 @@ from hashlib import md5
 from HTMLParser import HTMLParser
 import PyRSS2Gen
 import datetime
-import ship_feedparser as feedparser
+import feedparser
 import cache
 
 Site.CONTEXT.planet = AttrDict()
@@ -78,7 +78,6 @@ for person in Site.CONTEXT.config.staff.sections():
 
         Site.CONTEXT.planet.blog.post.append(AttrDict(
             title = e.title,
-            author_blog = e.author_detail.name,
             author = unicode(person,"utf-8"),
             author_url = blog.feed.link,
             author_avatar = Site.CONTEXT.config.staff.get(person, "about.avatar"),

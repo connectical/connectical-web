@@ -3,3 +3,4 @@ _cache/*
 *.sw[op]
 *~
 *.py[co]
+planet/feed/index.xml
