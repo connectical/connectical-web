@@ -20,7 +20,7 @@ title: about - join
 				get the source code of the web from <a href="http://github.com/connectical/website">github repository</a>
 				and use <a href="http://furi-ku.org/+/cgit/code/growl/">growl</a> to recreate the web.
 				<strong>You must rebuild &amp; update the web almost once a day.</strong>.</p>
-				<p>You have more information in the <a href="http://github.com/connectical/website">repository README</a> file.</p>
+				<p>You have more information in the <a href="http://github.com/connectical/connectical-web">repository README</a> file.</p>
 			</li>
 			<li class="item2">
 				<h3>Report us your mirror</h3>
