@@ -26,7 +26,7 @@ if ! type -P git 2>&1 >/dev/null; then
 fi
 
 echo "Clonning website..."
-git clone git://github.com/Connectical/website.git
+git clone git://github.com/Connectical/connectical-web.git
 
 echo "Conning growl..."
 git clone git://furi-ku.org/code/growl
@@ -35,10 +35,10 @@ echo "Creating virtualenv..."
 virtualenv /tmp/connectical.com
 
 echo "Installing dependencies..."
-/tmp/connectical.com/bin/pip install -r website/requirements.txt
+/tmp/connectical.com/bin/pip install -r connectical-web/requirements.txt
 
 echo "Entering website..."
-cd website
+cd connectical-web
 
 echo "Building website..."
 /tmp/connectical.com/bin/python ../growl/growl
@@ -48,7 +48,7 @@ rm -rf ../growl
 
 echo "Generating targz with site..."
 mv _deploy connectical.com
-tar -cvzf ../website.tar.gz connectical.com
+tar cvzf ../connectical-web.tar.gz connectical.com
 
 echo "Removing website..."
-cd .. && rm -rf website
+cd .. && rm -rf connectical-web
