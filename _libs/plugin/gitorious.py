@@ -57,10 +57,16 @@ def get (user):
         git_url      = node.getElementsByTagName("clone-url")[0].childNodes[0].nodeValue
 
 
-        if os.path.isdir("/tmp/" + project_name):
-            shutil.rmtree("/tmp/" + project_name)
-        git_repo = git.repo.Repo.init("/tmp/" + project_name)
-        git_repo.create_remote('test', git_url)
+        # TODO: Move repo cache path to config file.
+        if not os.path.isdir("_cache"):
+            os.mkdir("_cache")
+
+        if not os.path.isdir("_cache/" + project_name):
+            git_repo = git.repo.Repo.init("_cache/" + project_name)
+            git_repo.create_remote('test', git_url)
+        else:
+            git_repo = git.repo.Repo("_cache/" + project_name)
+
         test = git_repo.remotes.test
         commits = []
         for info in test.fetch():
@@ -72,7 +78,6 @@ def get (user):
                 "message": commit.message,
                 "committed_date": commit.committed_date,
                 "authored_date": commit.authored_date });
-
 
         updated = dateparser(last_update)
         created = dateparser(created_at)
@@ -90,8 +95,5 @@ def get (user):
             "author": user
         })
 
-
     return ret
-
-
 
