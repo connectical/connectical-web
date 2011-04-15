@@ -16,9 +16,10 @@ except ImportError:
     def dateparser(s):
         return isotime.parse(s)
 
-def fixdates(d):
+def fixcommit(d):
     d.committed_date = dateparser(d.committed_date)
     d.authored_date  = dateparser(d.authored_date)
+    d.url = "http://github.com" + d.url
     return d
 
 def get_link(user):
@@ -35,7 +36,7 @@ def get (user):
             "url": r.url,                        # Repo URL
             "updated": dateparser(r.pushed_at),  # Repo last updated
             "created": dateparser(r.created_at), # Repo created time
-            "commits": map(fixdates, gh.commits.forBranch(user, r.name)[:5]),
+            "commits": map(fixcommit, gh.commits.forBranch(user, r.name)[:5]),
             "author_url": "http://github.com/" + user,
             "author": user
         })
