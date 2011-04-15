@@ -13,7 +13,7 @@ fieldset,img,abbr,acronym{border:0}
 @font-face{font-family:'GeoSans';src:url(geosanslight_regular.ttf)}
 .tipsy{font-size:10px;position:absolute;z-index:100000;padding:5px}
 .tipsy-inner{background-color:#000;color:#FFF;max-width:200px;text-align:center;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:5px 8px 4px}
-.tipsy-arrow{position:absolute;background:url(../images/tipsy.gif) no-repeat top left;width:9px;height:5px}
+.tipsy-arrow{position:absolute;background:url(data:image/gif;base64,R0lGODlhCQAJAIABAAAAAAAAACH5BAEAAAEALAAAAAAJAAkAAAIRjAOnwIrcDJxvwkplPtchVQAAOw==) no-repeat top left;width:9px;height:5px}
 .tipsy-n .tipsy-arrow{top:0;left:50%;margin-left:-4px}
 .tipsy-nw .tipsy-arrow{top:0;left:10px}
 .tipsy-ne .tipsy-arrow{top:0;right:10px}
