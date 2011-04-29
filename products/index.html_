@@ -13,11 +13,14 @@ title: products
 <div id="content">
 	<ul id="services">
 		{% for product in products %}
-		<li class="product {{ loop.cycle('','','last-row-item') }}">
+		<li class="product">
 		<h3 id="{{product.name|uniqueid}}"><a href="{{product.url}}">{{product.name}}</a></h3>
 		<p>{{ product.description|cutText }}</p>
-		<p class="continue"><a href="{{product.url}}">continue reading</a></p>
+		<!--<p class="continue"><a href="{{product.url}}">continue reading</a></p>-->
 		</li>
+		{% if loop.cycle(1,2,3) == 3 %}
+		<div style="clear:both;"></div>
+		{% endif %}
 		{% endfor %}
 	</ul>
 

@@ -37,7 +37,8 @@ acronym{border-bottom:1px dotted #000}
 #footer ul li.first-item a{padding-left:0}
 #header p{font-size:13px;position:absolute;top:40px;right:0}
 #header p a{color:#000;text-decoration:none;border-left:1px solid #ccc;padding-left:10px;margin-left:5px}
-#sub-header{width:45%;border-bottom:1px solid #ccc;margin:0 auto;padding:0 410px 1em 0;min-height:200px}
+#sub-header{width:75%;border-bottom:1px solid #ccc;margin:0 auto;padding:0 0 1em 0;min-height:200px}
+#sub-header h2,#sub-header p{width:55%}
 .main-header{background:url(../images/layout/sub_header.jpg) top right no-repeat}
 .planet-header{background:url(../images/layout/teamug.jpg) top right no-repeat}
 .about-header{background:url(../images/layout/box.jpg) top right no-repeat}
@@ -57,8 +58,7 @@ p.continue a:hover {text-decoration:underline !important}
 #content{width:75%;margin:0 auto}
 #main-content{float:left;padding:25px 0 0;width:65%}
 #content > ul#services{margin-top:25px}
-#services li{float:left;width:30%;margin:0 3% 1.6em 0}
-#services li.last-row-item{margin-right:0}
+#services li{float:left;width:30%;margin:0 3% 0 0}
 #services li h3{font-size:24px;margin-bottom:3px;min-height:32px;text-transform:capitalize;padding:0 0 0 45px}
 #services li h3 a{color:#555}
 #services li p{font-size:14px;line-height:1.4;margin-bottom:15px}
@@ -67,13 +67,14 @@ p.continue a:hover {text-decoration:underline !important}
 #services li.item-3 h3{background:url(../images/sprites.png) 0 -64px no-repeat}
 #services li.item-4 h3{background:url(../images/sprites.png) 0 -96px no-repeat}
 #services li.product h3{padding-left:0;text-transform:capitalize!important}
+#services li.product{margin-bottom:1.5em}
 #sidebar{width:30%;float:right}
 #sidebar h4,#sidebar h3{margin-top:1em}
 #sidebar ul{padding-left:0.5em}
 #sidebar ul li a,#sidebar ol li a{font-size:11px;text-decoration:none;color:#000}
 #sidebar ul li a:before {content:'\2192';font-size:20px}
 #sidebar ol{list-style:square}
-#footer{font-size:12px;border-top:1px solid #ccc;clear:both;width:1000px;position:relative;margin:0 auto;padding:20px 0}
+#footer{font-size:12px;border-top:1px solid #ccc;clear:both;width:75%;position:relative;margin:0 auto;padding:20px 0}
 #footer ul li,#sidebar ol li{font-size:x-small;padding:0 10px}
 #footer p{clear:both;padding-top:15px}
 #footer .custom{position:absolute;right:0;top:0}
