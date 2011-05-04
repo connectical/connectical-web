@@ -42,14 +42,37 @@ title: services
 		<div class="area serv_torrent">
 			<h3>Torrent tracker</h3>
 			<div class="desc">
-				In order to share a number of research documents and heavy
+				in order to share a number of research documents and heavy
 				multimedia items (like videos, high resolution charts etc.),
-				we offer a torrent tracker. <strong>Please note that it's
+				we offer a torrent tracker. <strong>please note that it's
 					intended to be a research helper torrent.</strong>
 			</div>
 			<div class="more">
 			</div>
 		</div>
+		<div class="area serv_time">
+			<h3>Time server</h3>
+			<div class="desc">
+				The time server allows a number of remote machines to keep
+				their clocks synchronized, using <acronym title="Network Time Protocol">NTP</acronym> or <acronym title="Temps Atomique International" xml:lang="fr" lang="fr">TAI</acronym>.
+				The time server works for IPv4 and IPv6 on both protocols
+				(NTP and TAI). To sync using NTP you can use <a href="http://en.wikipedia.org/wiki/Ntpd">ntp daemon</a>,
+				and for TAI, the Bernstein's <a href="http://cr.yp.to/clockspeed.html">clockspeed</a>
+				software.
+			</div>
+			<div class="desc">
+				<strong>Please note that TAI support is experimental
+					and nanoseconds precission is deliberately removed.</strong>
+			</div>
+			<div class="more">
+				<ul>
+					<li class="article"><strong>time.connectical.com</strong> provide an IPv4 TAI64N and NTP stratum-2 server.</li>
+					<li class="article"><strong>time6.connectical.com</strong> provide an IPv6 TAI64N and NTP stratum-2 server.</li>
+				</ul>
+			</div>
+		</div>
+
+
 
 
 </div>
