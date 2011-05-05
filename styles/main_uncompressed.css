@@ -160,7 +160,7 @@ td{padding: 9px 8px 0px 8px;color:#333}
 #step .item5{background:#fff url(../images/steps/step5.png) no-repeat}
 .clickable{padding:2px}
 .clickable:hover {background:#333;border-radius:5px;color:#fff}
-.area{min-height:150px;padding-left:220px;margin-top:1.5em}
+.area{min-height:150px;padding-left:220px;margin:1.5em auto 1em auto}
 .area_embedded{background:#fff url(../images/innovation/embedded.jpg) 0 0 no-repeat}
 .area_cloud{background:#fff url(../images/innovation/cloud.jpg) 0 0 no-repeat}
 .area_social{background:#fff url(../images/innovation/social.jpg) 0 0 no-repeat}
