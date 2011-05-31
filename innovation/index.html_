@@ -16,7 +16,6 @@ title: innovation
 		{% for area in innovation %}
 		<div class="area area_{{area.name}}">
 			<h3>{{area.name}} Research Area</h3>
-			<div class="author"><span class="chair">Chairman:</span> {{area.chairman}}</div>
 			<div class="desc">{{area.summary}}</div>
 			<div class="more">
 				{% if area.articles %}
