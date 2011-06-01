@@ -60,7 +60,6 @@ def get_articles(area):
 for area in Site.CONTEXT.config.innovation.sections():
     Site.CONTEXT.innovation.append({
         "name": unicode(area, "utf-8").lower(),
-        "chairman": unicode(Site.CONTEXT.config.innovation.get(area, "chairman") ,"utf-8"),
         "summary": Site.CONTEXT.config.innovation.get(area, "summary"),
         "articles": get_articles(area.lower())
     })
