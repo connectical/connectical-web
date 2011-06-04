@@ -52,8 +52,10 @@ def get_articles(area):
             blog.feed.title = blog.feed.title.split(u"»")[0]
 
         for e in blog.entries:
-            if "nn_%s" % area in map(lambda x:x["term"],e.tags):
-                ret.append({"link":e.link,"title":e.title})
+            terms =  map(lambda x:x["term"],e.tags)
+            if "idea" in terms or "labs" in terms:
+                if "%s" % area in terms:
+                    ret.append({"link":e.link,"title":e.title})
 
     return ret
 
