@@ -24,6 +24,44 @@ cache.conf
 innovation.conf
   Configure the innovation areas.
 
+Deployment
+==========
+
+There are many ways to deploy a Connectical website mirror. Of course you
+can choice your own way, but we recommended you this one:
+
+0. Install some useful utilities::
+
+   apt-get install python python-virtualenv growl
+
+.. note:: The growl package which some minor modifications (such as yml
+    remplacement) is available in http://apt.igalia.com
+
+1. Choice a production directory for save the repository and clone the
+   git repo::
+
+   git clone git://github.com/Connectical/connectical-web
+
+2. Choice a virtualenv directory (``/var/venv/connectical-web`` in our
+   example), and install virtualenv::
+
+   virtualenv /srv/venv/connectical-web
+
+3. Join into git repository and execute the following command to install the
+   requirements into the venv::
+
+   /srv/venv/connectica-web/bin/pip install -r requirements.txt
+
+.. note:: Some modules can be use any native module, so a combo of
+    gcc/make is a good idea to improve performance. If you do not provide
+    this tools, modules just take a pure python implementation.
+
+
+4. Build the site (from the repository directory)::
+
+   /srv/venv/connectica-web/bin/python /usr/bin/growl .
+
+5. Serve the ``_deploy`` directory and enjoy! :D
 
 Innovation
 ==========
