@@ -2,6 +2,8 @@
 # -*- encoding: utf-8 -*-
 # vim:fenc=utf-8:
 
+"""This module generate contents for planet page, feeding with the blogs
+definitions."""
 
 from hashlib import md5
 from HTMLParser import HTMLParser

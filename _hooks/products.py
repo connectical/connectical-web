@@ -2,6 +2,9 @@
 # -*- encoding: utf-8 -*-
 # vim:fenc=utf-8:
 
+"""This hook create content for products page, feeding from different
+projects hubs, like ohlot."""
+
 from hashlib import md5
 import cache
 from ConfigParser import NoOptionError

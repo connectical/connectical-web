@@ -2,6 +2,8 @@
 # -*- encoding: utf-8 -*-
 # vim:fenc=utf-8:
 
+"""This hook create content for planet pages, feeding from tweets."""
+
 from ConfigParser import NoOptionError
 
 Site.CONTEXT.planet.tweet = AttrDict( tweets=[], links=[] )

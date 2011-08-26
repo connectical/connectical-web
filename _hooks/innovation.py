@@ -2,6 +2,9 @@
 # -*- encoding: utf-8 -*-
 # vim:fenc=utf-8:
 
+"""This module create the innovation area, parsing the people blog and
+looking for special tags, like "labs" or "idea"."""
+
 from hashlib import md5
 from HTMLParser import HTMLParser
 

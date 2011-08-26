@@ -2,6 +2,9 @@
 # -*- encoding: utf-8 -*-
 # vim:fenc=utf-8:
 
+"""This hook create content for planet page, feeding code repositories
+logs."""
+
 from hashlib import md5
 import cache
 from ConfigParser import NoOptionError

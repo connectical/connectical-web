@@ -2,6 +2,9 @@
 # -*- encoding: utf-8 -*-
 # vim:fenc=utf-8:
 
+"""This hook provide a number of usefu filters to use in jinja
+templates."""
+
 import time, math
 from hashlib import md5
 
