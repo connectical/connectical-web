@@ -62,10 +62,13 @@ def get_articles(area):
 
     return ret
 
-for area in Site.CONTEXT.config.innovation.sections():
-    Site.CONTEXT.innovation.append({
-        "name": unicode(area, "utf-8").lower(),
-        "summary": Site.CONTEXT.config.innovation.get(area, "summary"),
-        "articles": get_articles(area.lower())
-    })
+try:
+    for area in Site.CONTEXT.config.innovation.sections():
+        Site.CONTEXT.innovation.append({
+            "name": unicode(area, "utf-8").lower(),
+            "summary": Site.CONTEXT.config.innovation.get(area, "summary"),
+            "articles": get_articles(area.lower())
+        })
+except Exception, e:
+    print "error:innovation: %s" % e
 
