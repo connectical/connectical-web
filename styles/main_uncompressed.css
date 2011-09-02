@@ -176,6 +176,7 @@ td{padding: 9px 8px 0px 8px;color:#333}
 .serv_talks{background:#fff url(../images/services/talks.jpg) 0 0 no-repeat}
 .serv_torrent{background:#fff url(../images/services/torrent.jpg) 0 0 no-repeat}
 .serv_time{background:#fff url(../images/services/time.jpg) 0 0 no-repeat}
+.serv_pad{background:#fff url(../images/services/pad.jpg) 0 0 no-repeat}
 .about_history{background:#fff url(../images/about/history.jpg) 0 0 no-repeat}
 .about_people{background:#fff url(../images/about/people.jpg) 0 0 no-repeat}
 .about_core{background:#fff url(../images/about/core.jpg) 0 0 no-repeat}
@@ -193,3 +194,4 @@ p.custom a{padding:0!important;border:0!important}
 .icon_facebook{background:#fff url(../images/sicons.png) 0 -48px no-repeat}
 .icon_linkedin{background:#fff url(../images/sicons.png) 0 -72px no-repeat}
 .icon_diigo{background:#fff url(../images/sicons.gif) 0 -96px no-repeat}
+.area input{display:inline !important;margin-left:1em;border:1px solid #aaa;border-radius:3px;color:#000}
