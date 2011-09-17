@@ -10,7 +10,19 @@ a:focus{outline:0}
 .clearfix{display:block}
 * html .clearfix{height:1%}
 fieldset,img,abbr,acronym{border:0}
-@font-face{font-family:'GeoSans';src:url(geosanslight_regular.ttf)}
+
+@font-face {
+    font-family: 'GeoSans';
+    src: url('geosanslight_regular.eot');
+    src: url('geosanslight_regular.eot?#iefix') format('embedded-opentype'),
+         url('geosanslight_regular.woff') format('woff'),
+         url('geosanslight_regular.ttf') format('truetype'),
+         url('geosanslight_regular.svg#GeosansLightRegular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
 .tipsy{font-size:10px;position:absolute;z-index:100000;padding:5px}
 .tipsy-inner{background-color:#000;color:#FFF;max-width:200px;text-align:center;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:5px 8px 4px}
 .tipsy-arrow{position:absolute;background:url(data:image/gif;base64,R0lGODlhCQAJAIABAAAAAAAAACH5BAEAAAEALAAAAAAJAAkAAAIRjAOnwIrcDJxvwkplPtchVQAAOw==) no-repeat top left;width:9px;height:5px}
@@ -27,7 +39,7 @@ acronym{border-bottom:1px dotted #000}
 .center{text-align:center;margin 0 auto}
 .collapse{height:0}
 #header{width:75%;height:118px;position:relative;border-bottom:1px solid #ccc;margin:0 auto 35px}
-#header h1{font-family:GeoSans, Arial, Helvetica, sans-serif;padding-top:38px;font-weight:400}
+#header h1{font-family:GeoSans, Arial, Helvetica, sans-serif;padding-top:38px;font-weight:100}
 #header h1 a{display:block;text-decoration:none;font-size:23px;color:#000;text-transform:uppercase;width:190px;padding:18px}
 #header h1 a strong{color:#666}
 #header ul{position:absolute;bottom:15px;right:0}
@@ -50,7 +62,7 @@ acronym{border-bottom:1px dotted #000}
 .services-websaving-header{background:url(../images/layout/woodbox.jpg) top right no-repeat}
 .innovation-header{background:url(../images/layout/train.jpg) top right no-repeat}
 .products-header{background:url(../images/layout/tin.jpg) top right no-repeat}
-#sub-header h2{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:40px;font-weight:700;margin-bottom:12px}
+#sub-header h2{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:40px;font-weight:100;margin-bottom:12px}
 #sub-header p{font-size:16px;line-height:1.6;margin-bottom:15px}
 p.continue a{color:#000;font-style:italic !important;text-decoration:none !important}
 p.continue a:before {content:'\2192';font-size:20px !important}
@@ -80,7 +92,7 @@ p.continue a:hover {text-decoration:underline !important}
 #footer .custom{position:absolute;right:0;top:0}
 #footer .custom strong a{font-weight:400;color:#000;text-decoration:none}
 #footer .custom span{color:#ccc;padding:0 5px}
-#content h1{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:40px;font-weight:700;margin-bottom:1em;margin-top:0}
+#content h1{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:40px;font-weight:100;margin-bottom:1em;margin-top:0}
 #content h2{font-size:18px;font-weight:700;text-transform:uppercase;border-bottom:1px solid #ccc;margin:1em 0;padding:0}
 #content h3{font-size:14px;font-weight:700;text-transform:uppercase;margin:.3em 0}
 #content a{text-decoration:underline;color:#000}
