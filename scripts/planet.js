@@ -12,3 +12,4 @@ return sort.call(this,comparator).each(function(i){placements[i].call(getSortabl
 $("#otweet").newsTicker();$("#otweet").removeClass("loading");});}
 function pnt (tweet_feeds){$(tweet_feeds).each(function(i,o){$.getJSON(o,function(data){$(data).each(function(k,obj){$("#main-content").append('<div class="item tweet"><div class="tw_avatar tw_tweet"></div><div class="tw_meta"><a class="author" href="'+
 obj.user.statusnet_profile_url+'">@'+ obj.user.screen_name+'</a> at <span class="date">'+ new Date(obj.created_at).format("Y\\-m\\-d\\ H\\:i")+'</span></div><p>'+obj.statusnet_html+'</p>'+'</div>');$(".item").sortElements(function(a,b){return $(a).find(".date").text() > $(b).find(".date").text() ?-1:1;});});});});}
+$(function(){ntw();pnt();$(".tipa").tipsy({"gravity":"s","fade":true});});

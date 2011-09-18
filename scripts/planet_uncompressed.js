@@ -88,8 +88,7 @@ function ntw () { $.getJSON("http://identi.ca/api/search.json?q=%23connectical",
 			$("#otweet").removeClass("loading");
 			});}
 
-function pnt (){
-	var tweet_feeds={{ planet.tweet.tweets }};
+function pnt (tweet_feeds){
 	$(tweet_feeds).each(function(i,o){
 			$.getJSON(o,function(data){$(data).each(function(k,obj){
 					$("#main-content").append('<div class="item tweet"><div class="tw_avatar tw_tweet"></div><div class="tw_meta"><a class="author" href="'+
