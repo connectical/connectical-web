@@ -46,7 +46,10 @@ def get (user):
 
     for node in d.getElementsByTagName("repository"):
         created_at   = node.getElementsByTagName("created-at")[0].childNodes[0].nodeValue
-        last_update  = node.getElementsByTagName("last-pushed-at")[0].childNodes[0].nodeValue
+        last_update  = node.getElementsByTagName("last-pushed-at")[0].childNodes
+        if len(last_update) < 1:
+            continue
+        last_update  = last_update[0].nodeValue
         project_name = node.getElementsByTagName("project")[0].childNodes[0].nodeValue
         project_line = node.getElementsByTagName("name")[0].childNodes[0].nodeValue
         if len(node.getElementsByTagName("description")[0].childNodes):
