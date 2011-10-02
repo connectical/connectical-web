@@ -78,7 +78,10 @@ try:
             cmp(y.updated.replace(tzinfo=None),x.updated.replace(tzinfo=None)) )
 
 except Exception, e:
-    print "error:products: %s" % e
+    if Site.CONTEXT.config.debug.getboolean('debug','enabled') == True:
+        raise
+    else:
+        print "error:products: %s" % e
 
 
 

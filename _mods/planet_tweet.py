@@ -30,5 +30,8 @@ try:
             print "warning:planet_tweet:skip planet tweet for %s. None engine defined." % person
 
 except Exception, e:
-    print "error:planet_tweet: %s" % e
+    if Site.CONTEXT.config.debug.getboolean('debug','enabled') == True:
+        raise
+    else:
+        print "error:planet_tweet: %s" % e
 

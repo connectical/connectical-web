@@ -70,5 +70,8 @@ try:
             "articles": get_articles(area.lower())
         })
 except Exception, e:
-    print "error:innovation: %s" % e
+    if Site.CONTEXT.config.debug.getboolean('debug','enabled') == True:
+        raise
+    else:
+        print "error:innovation: %s" % e
 

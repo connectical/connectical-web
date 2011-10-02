@@ -62,6 +62,9 @@ try:
             cmp = lambda x,y:
             cmp(y.updated.replace(tzinfo=None),x.updated.replace(tzinfo=None)) )
 
-except Exception,e :
-    print "error:planet_code: %s" % e
+except Exception,e:
+    if Site.CONTEXT.config.debug.getboolean('debug','enabled') == True:
+        raise
+    else:
+        print "error:planet_code: %s" % e
 

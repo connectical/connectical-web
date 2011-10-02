@@ -97,5 +97,8 @@ try:
     atom_feed.write_xml(open("planet/feed/index.xml", "w"))
 
 except Exception, e:
-    print "error:planet_blog: %s" % e
+    if Site.CONTEXT.config.debug.getboolean('debug','enabled') == True:
+        raise
+    else:
+        print "error:planet_blog: %s" % e
 
