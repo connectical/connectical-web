@@ -2,11 +2,11 @@
 Connectical Website Creator
 ===========================
 
-This is a growl [1]_ based website for Connectical site. This site is
-modular and can retrieve data from many remote locations, including git
+This is a Roar [1]_ based website for the Connectical site. This site is
+modular and can retrieve data from many remote locations, including Git
 repos where available.
 
-.. [1] http://furi-ku.org/+/cgit/code/growl/
+.. [1] http://pypi.python.org/pypi/roar
 
 Configuration
 =============
@@ -50,7 +50,7 @@ can choice your own way, but we recommended you this one:
 3. Join into git repository and execute the following command to install the
    requirements into the venv::
 
-   /srv/venv/connectica-web/bin/pip install -r requirements.txt
+   /srv/venv/connectical-web/bin/pip install -r requirements.txt
 
 .. note:: Some modules can be use any native module, so a combo of
     gcc/make is a good idea to improve performance. If you do not provide
@@ -59,7 +59,7 @@ can choice your own way, but we recommended you this one:
 
 4. Build the site (from the repository directory)::
 
-   /srv/venv/connectica-web/bin/python /usr/bin/growl .
+   /srv/venv/connectica-web/bin/roar .
 
 5. Serve the ``_deploy`` directory and enjoy! :D
 
