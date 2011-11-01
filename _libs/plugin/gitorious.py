@@ -72,15 +72,18 @@ def get (user):
 
         test = git_repo.remotes.test
         commits = []
-        for info in test.fetch():
-            commit = info.commit
-            commits.append({
-                "id": commit.hexsha,
-                "url": "http://gitorious.org/%s/%s/commit/%s" \
-                    % ( project_name, project_line, commit.hexsha),
-                "message": commit.message,
-                "committed_date": commit.committed_date,
-                "authored_date": commit.authored_date });
+        try:
+          for info in test.fetch():
+                commit = info.commit
+                commits.append({
+                    "id": commit.hexsha,
+                    "url": "http://gitorious.org/%s/%s/commit/%s" \
+                        % ( project_name, project_line, commit.hexsha),
+                    "message": commit.message,
+                    "committed_date": commit.committed_date,
+                    "authored_date": commit.authored_date });
+        except:
+            continue
 
         updated = dateparser(last_update)
         created = dateparser(created_at)

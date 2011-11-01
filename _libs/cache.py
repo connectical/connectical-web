@@ -15,7 +15,7 @@ def get(key, expires=1800):
             return None
         else:
             return obj["contents"]
-    except IOError:
+    except:
         return None
 
 def set(key, value):
