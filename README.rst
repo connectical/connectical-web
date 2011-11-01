@@ -32,36 +32,34 @@ can choice your own way, but we recommended you this one:
 
 0. Install some useful utilities::
 
-   apt-get install python python-virtualenv growl
+   apt-get install python python-virtualenv
 
-.. note:: The growl package which some minor modifications (such as yml
-    remplacement) is available in http://apt.igalia.com
-
-1. Choice a production directory for save the repository and clone the
-   git repo::
+1. Choice a production directory (``/srv/git/connectica-web``, for example),
+   to save the repository and clone the git repo::
 
    git clone git://github.com/Connectical/connectical-web
 
-2. Choice a virtualenv directory (``/var/venv/connectical-web`` in our
-   example), and install virtualenv::
+2. Choice a virtualenv directory (``/srv/venv/connectical-web`` in our
+   example), and install the site::
 
-   virtualenv /srv/venv/connectical-web
+    /srv/git/connectical-web/_tools/install /srv/venv/connectical-web \
+                                            /srv/git/connectical-web
 
-3. Join into git repository and execute the following command to install the
-   requirements into the venv::
 
-   /srv/venv/connectical-web/bin/pip install -r requirements.txt
-
-.. note:: Some modules can be use any native module, so a combo of
-    gcc/make is a good idea to improve performance. If you do not provide
-    this tools, modules just take a pure python implementation.
-
+.. note:: To execute the install sript you need to provide a base dir, which
+    is the virtualenv directory. The working dir will be created into
+    virtualenv directory.
 
 4. Build the site (from the repository directory)::
 
    /srv/venv/connectica-web/bin/roar .
 
-5. Serve the ``_deploy`` directory and enjoy! :D
+5. Or try the update script::
+
+   /srv/git/connectical-web/_tools/update /srv/venv/connectical-web \
+                                          /srv/git/connectical-web
+
+6. Serve the ``_deploy`` directory and enjoy! :D
 
 Innovation
 ==========
