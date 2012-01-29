@@ -4,7 +4,7 @@ Connectical Website Creator
 
 This is a Roar [1]_ based website for the Connectical site. This site is
 modular and can retrieve data from many remote locations, including Git
-repos where available.
+repositories where available.
 
 .. [1] http://pypi.python.org/pypi/roar
 
@@ -14,14 +14,14 @@ Configuration
 The configuration files are under ``_config`` directory. There are the
 following configuration files:
 
-staff.conf
+``staff.conf``
   Configure the staff people, address and descriptions.
 
-cache.conf
-  Configure the update cache, where git repos are saved and blog articles
-  cached.
+``cache.conf``
+  Configure the update cache, where Git repositories are saved and
+  blog articles cached.
 
-innovation.conf
+``innovation.conf``
   Configure the innovation areas.
 
 Deployment
@@ -34,25 +34,25 @@ can choice your own way, but we recommended you this one:
 
    apt-get install python python-virtualenv
 
-1. Choice a production directory (``/srv/git/connectica-web``, for example),
+1. Choose a production directory (``/srv/git/connectical-web``, for example),
    to save the repository and clone the git repo::
 
    git clone git://github.com/Connectical/connectical-web
 
-2. Choice a virtualenv directory (``/srv/venv/connectical-web`` in our
+2. Choice a *virtualenv* directory (``/srv/venv/connectical-web`` in our
    example), and install the site::
 
     /srv/git/connectical-web/_tools/install /srv/venv/connectical-web \
                                             /srv/git/connectical-web
 
 
-.. note:: To execute the install sript you need to provide a base dir, which
-    is the virtualenv directory. The working dir will be created into
-    virtualenv directory.
+.. note:: To execute the install script you need to provide a base
+    directory, which is the *virtualenv* directory. The working
+    directory will be created into the *virtualenv* directory.
 
 4. Build the site (from the repository directory)::
 
-   /srv/venv/connectica-web/bin/roar .
+   /srv/venv/connectical-web/bin/roar .
 
 5. Or try the update script::
 
@@ -74,6 +74,8 @@ area.
 Planet
 ======
 
-The planet will link not only blog post, but also tweets (and identi.ca
-notices too) and any commit on staff's personal repos.
+The planet will link not only blog post, but also tweets (and `identi.ca`__
+notices too) and any commit on staff's personal repositories.
+
+__ http://identi.ca
 
