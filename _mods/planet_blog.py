@@ -62,6 +62,10 @@ try:
             blog = feedparser.parse(feed)
             cache.set(cache_key, blog)
 
+        if len(blog.feed) == 0:
+            print "warning:planet_blog:feed %s is not available" % feed
+            continue
+
         # Remove appeded title for category based feeds in wordpress
         if blog.feed.title.find(u"»") != -1:
             blog.feed.title = blog.feed.title.split(u"»")[0]

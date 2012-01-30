@@ -50,6 +50,12 @@ def get_articles(area):
             blog = feedparser.parse(feed)
             cache.set(cache_key, blog)
 
+        if len(blog.feed) == 0:
+            print "warning:innovation:%s:feed %s is not available" % (
+                    area, feed
+            )
+            continue
+
         # Remove appeded title for category based feeds in wordpress
         if blog.feed.title.find(u"»") != -1:
             blog.feed.title = blog.feed.title.split(u"»")[0]
