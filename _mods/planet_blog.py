@@ -60,6 +60,9 @@ try:
 
         if not blog:
             blog = feedparser.parse(feed)
+            if blog["status"] != "200":
+                print "warning:planet_blog:feed %s returns a non valid status" % feed
+                continue
             cache.set(cache_key, blog)
 
         if len(blog.feed) == 0:
