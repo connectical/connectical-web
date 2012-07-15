@@ -22,7 +22,7 @@ def get_commits(repo, maxn=5):
     count = 0
     ret = []
     for x in repo.commits():
-        ret.append(fixcommit(x))
+        ret.append(fixcommit(x, repo))
         count +=1
         if count == maxn:
             return ret
@@ -30,12 +30,14 @@ def get_commits(repo, maxn=5):
     return ret
 
 
-def fixcommit(d):
+def fixcommit(d,r):
     #d.committed_date = dateparser(d.committed_date)
     #d.authored_date  = dateparser(d.authored_date)
     #d.url = "http://github.com" + d.url
     d["commit"]["author"]["date"] = dateparser(d["commit"]["author"]["date"])
     d["commit"]["committer"]["date"] = dateparser(d["commit"]["committer"]["date"])
+    d["commit"]["url"] = "https://github.com/%s/%s/commit/%s" % (
+        r.user, r.repo, d["sha"] )
     return d
 
 def get_link(user):
@@ -50,7 +52,7 @@ def get (user):
         ret.append({
              "name": r["name"],                      # Repo name
              "description": r["description"],        # Repo description
-             "url": r["url"],                   # Repo URL
+             "url": "https://github.com/%s/%s" % (user,r["name"]),     # Repo URL
              "updated": dateparser(r["pushed_at"]),  # Repo last updated
              "created": dateparser(r["created_at"]), # Repo created time
              "commits": get_commits(repo),
