@@ -29,7 +29,7 @@ title: planet
 				at <span class="date">{{post.updated|dateFormat}}</span></div>
 			<ul class="commit">
 				{% for commit in post.commits %}
-				<li><a class="commit_id" href="{{commit.url}}">{{commit.id[:7]}}</a>{{commit.message|cutText}}...</li>
+				<li><a class="commit_id" href="{{commit.url}}">{{commit.sha[:7]}}</a>{{commit.message|cutText}}...</li>
 				{% endfor %}
 			</ul>
 		</div>

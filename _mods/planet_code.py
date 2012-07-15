@@ -40,7 +40,7 @@ try:
                 for c in code:
                     l = []
                     for commit in c["commits"]:
-                        if commit.committed_date >= c["updated"]:
+                        if commit["commit"]["committer"]["date"] >= c["updated"]:
                             l.append(commit)
                     if not l:
                         l = [ c["commits"][0] ]
@@ -58,9 +58,9 @@ try:
             print "warning:planet_code:skip planet code for %s. None engine defined."  % person
 
 
-    Site.CONTEXT.planet.code.commits.sort(
-            cmp = lambda x,y:
-            cmp(y.updated.replace(tzinfo=None),x.updated.replace(tzinfo=None)) )
+    #Site.CONTEXT.planet.code.commits.sort(
+    #        cmp = lambda x,y:
+    #        cmp(y.updated.replace(tzinfo=None),x.updated.replace(tzinfo=None)) )
 
 except Exception,e:
     if Site.CONTEXT.config.debug.getboolean('debug','enabled') == True:
