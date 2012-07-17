@@ -48,7 +48,7 @@ def get_articles(area):
 
         if not blog:
             blog = feedparser.parse(feed)
-            if blog["status"] != 200:
+            if not blog.has_key("status") or blog["status"] != 200:
                 print "warning:innovation:%s:feed %s return a non valid status. Skipping..." % (area, feed)
                 continue
             cache.set(cache_key, blog)
