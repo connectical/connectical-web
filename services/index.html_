@@ -31,16 +31,6 @@ title: services
 					</ul>
 			</div>
 		</div>
-		<div class="area serv_talks">
-			<h3>Conference program</h3>
-			<div class="desc">
-				The Connectical vocation is also to promote and broadcast
-				new technology applications. If you want to invite us to any
-				conference or talk, please <a href="mailto:staff@connectical.com">contact us</a>.
-			</div>
-			<div class="more">
-			</div>
-		</div>
 		<div class="area serv_torrent">
 			<h3>Torrent tracker</h3>
 			<div class="desc">
@@ -67,22 +57,15 @@ title: services
 				</ul>
 			</div>
 		</div>
-		<div class="area serv_pad">
-			<h3>Pad reader &amp; writer</h3>
+		<div class="area serv_talks">
+			<h3>Conference program</h3>
 			<div class="desc">
-				The Connectical Pad allows you to create documents and share
-				these documents with other people, so a team can be work
-				online with the same document, chat about it and other cool
-				things.
+				The Connectical vocation is also to promote and broadcast
+				new technology applications. If you want to invite us to any
+				conference or talk, please <a href="mailto:staff@connectical.com">contact us</a>.
 			</div>
 			<div class="more">
-				<form action="#" onsubmit="pad();return false;">
-					<ul><li class="article"><strong>type the pad name:</strong><input type="text" id="padname" /></li></ul>
-				</form>
 			</div>
-			<script type="text/javascript">
-				function pad(){var p=document.getElementById("padname").value;p.length>0?window.location="http://pad.connectical.com/p/"+p:alert("Please enter a name for pad");}
-			</script>
 		</div>
 
 </div>

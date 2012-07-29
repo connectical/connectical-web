@@ -34,7 +34,7 @@ fieldset,img,abbr,acronym{border:0}
 .tipsy-se .tipsy-arrow{bottom:0;right:10px;background-position:bottom left}
 .tipsy-e .tipsy-arrow{top:50%;margin-top:-4px;right:0;width:5px;height:9px;background-position:top right}
 .tipsy-w .tipsy-arrow{top:50%;margin-top:-4px;left:0;width:5px;height:9px}
-body{font-family:"Bitstream Vera Sans",Arial,Helvetica,sans-serif;background:#fff url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIAHAAcAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/wAALCADIAAUBAREA/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACCf/EABsQAQEAAgMBAAAAAAAAAAAAAAASAQIRMWFB/9oACAEBAAA/AOi8kks8/CSWSSWSxz2SfCSXGvhM65LPhM6tJJJJJP/Z) 0 0 repeat-x}
+body{font-family:"Bitstream Vera Sans",Helvetica,Arial,Verdana,sans-serif;background:#fff url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIAHAAcAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/wAALCADIAAUBAREA/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACCf/EABsQAQEAAgMBAAAAAAAAAAAAAAASAQIRMWFB/9oACAEBAAA/AOi8kks8/CSWSSWSxz2SfCSXGvhM65LPhM6tJJJJJP/Z) 0 0 repeat-x}
 acronym{border-bottom:1px dotted #000}
 .center{text-align:center;margin 0 auto}
 .collapse{height:0}
@@ -60,7 +60,7 @@ acronym{border-bottom:1px dotted #000}
 .core-header{background:url(../images/layout/block.jpg) top right no-repeat}
 .innovation-header{background:url(../images/layout/bulb.jpg) top right no-repeat}
 .products-header{background:url(../images/layout/tin.jpg) top right no-repeat}
-#sub-header h2{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:40px;font-weight:100;margin-bottom:12px}
+#sub-header h2{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:235%;font-weight:100;margin-bottom:12px}
 #sub-header p{font-size:16px;line-height:1.6;margin-bottom:15px}
 p.continue a{color:#000;font-style:italic !important;text-decoration:none !important}
 p.continue a:before {content:'\2192';font-size:20px !important}
@@ -90,9 +90,9 @@ p.continue a:hover {text-decoration:underline !important}
 #footer .custom{position:absolute;right:0;top:0}
 #footer .custom strong a{font-weight:400;color:#000;text-decoration:none}
 #footer .custom span{color:#ccc;padding:0 5px}
-#content h1{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:40px;font-weight:100;margin-bottom:1em;margin-top:0}
-#content h2{font-size:18px;font-weight:700;text-transform:uppercase;border-bottom:1px solid #ccc;margin:1em 0;padding:0}
-#content h3{font-size:14px;font-weight:700;text-transform:uppercase;margin:.3em 0}
+/*#content h1{font-family:GeoSans, Arial, Helvetica, sans-serif;font-size:40px;font-weight:100;margin-bottom:1em;margin-top:0}
+#content h2{font-size:18px;font-weight:700;text-transform:uppercase;border-bottom:1px solid #ccc;margin:1em 0;padding:0}*/
+#content h3{font-family:"URW Gothic L",sans-serif;font-size:85%;font-weight:700;text-transform:uppercase;margin:.3em 0;word-spacing:0.3em;color:#333}
 #content a{text-decoration:underline;color:#000}
 #content a:hover {text-decoration:none;color:#000}
 #header ul a{text-decoration:none}
@@ -140,6 +140,7 @@ table.docutils em{font-weight:700;color:#000}
 .loading{background:#fff url(../images/icons/loading.gif) 50% 50% no-repeat;min-height:32px;min-width:32px}
 .area .author{margin-top:-.5em!important;font-size:x-small;color:#333!important}
 .area .desc{font-size:small;margin-top:1em}
+.area p {text-align:justify;}
 #header ul li a.active,#footer ul li a.active,#sub-header p strong,#footer .custom strong,#content strong,#content dt,.code a.cd_name{font-weight:700}
 #sub-header p.continue,#services li p.continue{margin-bottom:0}
 #footer p a{text-decoration:none;color:#000}
@@ -172,7 +173,7 @@ td{padding: 9px 8px 0px 8px;color:#333}
 .clickable:hover {background:#333;border-radius:5px;color:#fff}
 .area{min-height:150px;padding-left:220px;margin:1.5em auto 1em auto}
 .area_embedded{background:#fff url(../images/innovation/embedded.jpg) 0 0 no-repeat}
-.area_cloud{background:#fff url(../images/innovation/cloud.jpg) 0 0 no-repeat}
+.area_scalability{background:#fff url(../images/innovation/scalability.jpg) 0 0 no-repeat}
 .area_social{background:#fff url(../images/innovation/social.jpg) 0 0 no-repeat}
 .area_security{background:#fff url(../images/innovation/security.jpg) 0 0 no-repeat}
 .area .author .chair{color:#000}
@@ -205,3 +206,4 @@ p.custom a{padding:0!important;border:0!important}
 .icon_linkedin{background:#fff url(../images/sicons.png) 0 -96px no-repeat}
 .icon_twitter{background:#fff url(../images/sicons.png) 0 -120px no-repeat}
 .area input{display:inline !important;margin-left:1em;border:1px solid #aaa;border-radius:3px;color:#000}
+.area.about_core {margin-bottom:1.5em;}
