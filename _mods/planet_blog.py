@@ -79,11 +79,15 @@ try:
            author = unicode(person,"utf-8") ))
 
         for e in blog.entries:
+            try:
+                content = e.content[0].value
+            except AttributeError:
+                content = e.summary_detail.value
             atom_feed.items.append(PyRSS2Gen.RSSItem(
                 title = e.title,
                 link  = e.link,
                 author = unicode(person,"utf-8"),
-                description = e.content[0].value,
+                description = content,
                 pubDate = e.updated
             ))
 
@@ -95,8 +99,8 @@ try:
                 updated = e.updated_parsed,
                 updated_str = e.updated,
                 url = e.link,
-                content = e.content[0].value,
-                text_content = strip_tags(e.content[0].value)))
+                content = content,
+                text_content = strip_tags(content)))
 
     Site.CONTEXT.planet.blog.post.sort( cmp = lambda x,y: cmp(y.updated,x.updated) )
     Site.CONTEXT.planet.blog.post = Site.CONTEXT.planet.blog.post[0:5]
