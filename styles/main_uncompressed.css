@@ -34,7 +34,7 @@ fieldset,img,abbr,acronym{border:0}
 .tipsy-se .tipsy-arrow{bottom:0;right:10px;background-position:bottom left}
 .tipsy-e .tipsy-arrow{top:50%;margin-top:-4px;right:0;width:5px;height:9px;background-position:top right}
 .tipsy-w .tipsy-arrow{top:50%;margin-top:-4px;left:0;width:5px;height:9px}
-body{font-family:"Arial Black", Gadget, sans-serif;font-size:14pt;background:#fff url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIAHAAcAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/wAALCADIAAUBAREA/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACCf/EABsQAQEAAgMBAAAAAAAAAAAAAAASAQIRMWFB/9oACAEBAAA/AOi8kks8/CSWSSWSxz2SfCSXGvhM65LPhM6tJJJJJP/Z) 0 0 repeat-x}
+body{font-family:Gadget,sans-serif;font-size:14pt;background:#fff url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIAHAAcAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/wAALCADIAAUBAREA/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACCf/EABsQAQEAAgMBAAAAAAAAAAAAAAASAQIRMWFB/9oACAEBAAA/AOi8kks8/CSWSSWSxz2SfCSXGvhM65LPhM6tJJJJJP/Z) 0 0 repeat-x}
 acronym{border-bottom:1px dotted #000}
 .center{text-align:center;margin 0 auto}
 .collapse{height:0}
