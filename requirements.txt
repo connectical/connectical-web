@@ -1,7 +1,0 @@
-GitPython>=0.3.0-beta2
-slimmer>=0.1.30
-PyRSS2Gen>=1.0.0
-python-dateutil>=1.5.0,<2.0.0
-jinja2>=2.0.0
-feedparser>=1.4
-roar>=0.1.1
