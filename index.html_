@@ -1,0 +1,57 @@
+vim:ft=html:
+layout: default
+title: home
+
+<div id="content" class="container"></div>
+<div class="homepage">
+	<div class="container">
+		<div class="hero-unit"></div>
+
+		<div class="row">
+			<div class="span8">
+				<div class="lead">
+					<p class="title">Open lab for the advance on computer
+					science.</p>
+					<p>Connectical is a self-managed laboratory to research and
+					develop new ideas in the field of computer science and IT,
+					with the premises of free(dom) knowledge and free(dom)
+					software.</p>
+				</div>
+			</div>
+			<div class="span4">
+				<div class="pic pic_header"></div>
+			</div>
+		</div>
+
+		<hr />
+
+		<div class="row vspace">
+			<div class="span4">
+				<h2><span class="icon icon-beaker grey"></span><span class="grey">The</span> Innovation</h2>
+				<p>Innovation is always present in Connectical. We are
+				technology builders, so we are always thinking about some ideas
+				and try to create something new from those. That is our innovation lab!</p>
+				<p><a class="" href="index.html#">Read more &raquo;</a></p>
+			</div>
+			<div class="span4">
+				<h2><span class="icon icon-download-alt grey"></span><span class="grey">Our</span> Products</h2>
+				<p>A product is any piece of code or hardware ready to be
+				useful for everyone. Products are the goal of an idea and the
+				begin of a new cycle of improvements and fixes. Welcome to our
+				product center!</p>
+				<p><a class="" href="index.html#">Read more &raquo;</a></p>
+			</div>
+			<div class="span4">
+				<h2><span class="icon icon-cloud grey"> </span><span class="grey">Our </span> Services</h2>
+				<p>Connectical begins with a hard social orientation and
+				motivation. We are focused in spread new ideas and developments,
+				so we provide many of those as a service for the world. That is
+				our service pack!</p>
+				<p><a class="" href="index.html#">Read more &raquo;</a></p>
+			</div>
+		</div>
+		<div></div>
+	</div>
+</div>
+<div class="clearmin"></div>
+

@@ -1,0 +1,37 @@
+vim:ft=html:
+layout: default
+title: products
+
+<div id="content" class="container">
+	<div class="hero-unit">
+		<div class="ac">
+			<h1>Fresh technology, software & code, these are our products.</h1>
+			<p>Products is a number of innovation projects which are mature
+			enought to leave the incubator and produce an usable piece of
+			software, which is distributed under any free (of freedom)
+			license.</p>
+		</div>
+	</div>
+
+	{% for product in products %}
+	{% if loop.index % 3 == 1 %}
+	<div class="row">
+	{% endif %}
+	<div class="product span4 {{ loop.cycle('odd','even') }}">
+		<div class="pinner">
+		<h3 id="{{product.name|uniqueid}}"><a
+				href="{{product.url}}">{{product.name}}<span class="icon icon-download-alt"></span></a></h3>
+		<p class="small"><span class="grey">By</span> {{product.author}}</p>
+		<p>{{ product.description|cutText }}</p>
+	</div>
+	</div>
+	{% if loop.index % 3 == 0 %}
+	</div>
+	{% endif %}
+	{% endfor %}
+	</div>
+
+</div>
+<div class="clearline"></div>
+
+

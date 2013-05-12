@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }} - connectical</title>
+
+		<meta name="description" content="Connectical is a self-managed laboratory to research and
+							develop new ideas in the field of computer science and IT,
+							with the premises of free(dom) knowledge and free(dom)
+							software.">
+		<meta name="author" content="connectical staff">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Custom css -->
+		<link href="/css/style.css" rel="stylesheet">
+		<link href="/css/font-awesome/font-awesome.css" rel="stylesheet">
+		<link href="/css/main.css" rel="stylesheet">
+
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+		<!--[if IE 7]>
+		<link href="css/font-awesome/font-awesome-ie7.css" rel="stylesheet">
+		<![endif]-->
+
+		<link
+		href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.8.3.min.js"%3E%3C/script%3E'))</script>
+	</head>
+	<body>
+		<header id="header">
+{% set navigation_bar = [
+    ('/', 'home', 'Home'),
+    ('/innovation/', 'innovation', 'Innovation'),
+    ('/products/', 'products', 'Products'),
+    ('/services/', 'services', 'Services'),
+    ('/talks/', 'talks', 'Talks'),
+    ('/blog/', 'blog', 'Blog'),
+    ('/about/', 'about', 'About')
+] -%}
+{% set active_page = page.title|default('home') -%}
+
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="index.html">
+						<h1 class="hide">Connectical</h1>
+					</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+						{% for href, id, caption in navigation_bar %}
+						  <li{% if id == active_page %} class="active"{% endif
+						  %}><a href="{{ href|e }}">{{ caption|e }}</a></li>
+						{% endfor %}
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</header>
+
+		{{content}}
+
+
+		<footer>
+		<div id="footer-extra">
+			<div class="container">
+				<div class="row">
+					<div class="span6">
+					Copyright © 2007-2013 Connectical. <a
+						href="http://creativecommons.org/licenses/by-sa/3.0/">Some
+						rights</a> reserved.
+					</div>
+					<div class="span6 icon">
+						<a class="hint--top hint--rounded" data-hint="Follow us on Twitter!" href="http://twitter.com/connectical"><span class="icon-twitter"></span><span	class="hide">@connectical</span></a>
+						<a class="hint--top hint--rounded" data-hint="Fork us on github!" href="http://github.com/connectical"><span class="icon-github"></span><span class="hide">Github</span></a>
+						<a class="hint--top hint--rounded" data-hint="Visit us at Facebook!" href="http://l.connectical.com/facebook"><span class="icon-facebook"></span><span class="hide">Facebook</span></a>
+						<a class="hint--top hint--rounded" data-hint="Follow us at Google+!" href="https://plus.google.com/112539764208188646949"><span class="icon-google-plus"></span><span class="hide">Google+</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</footer>
+
+		<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.touchSwipe.js"></script>
+		<script type="text/javascript" src="/js/jquery.hotkeys.min.js"></script>
+		<script type="text/javascript" src="/js/functions.min.js"></script>
+
+	</body>
+</html>

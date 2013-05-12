@@ -1,0 +1,63 @@
+vim:ft=html:
+layout: default
+title: services
+
+<div id="content" class="container">
+	<div class="hero-unit">
+		<div class="ac">
+			<h1>Tools & services useful for the community.</h1>
+			<p>Services and online tools provided by Connectical to the
+			community are one of our best card, from mailing list to talk
+			speechers, we offer our service to the entirely world.</p>
+		</div>
+	</div>
+
+		{% for service in services %}
+			<div class="row">
+				{% if loop.index % 2 %}
+				<div class="span8">
+						<h3 class="area">{{service.name}}</h3>
+						<p>{{service.summary}}</p>
+						{% if service.elements %}
+					<dl class="dl-horizontal elements">
+						{% for a in service.elements %}
+						<dt><a href="{{a.link}}"><span
+								class="{{service.icon}}">
+						</span> {{a.name}}</a></dt><dd>{{a.description}}</dd>
+						{% endfor %}
+					</dl>
+					{% endif %}
+				</div>
+				<div class="span4">
+					<div class="asset"
+						style="background:url('/img/assets/{{service.name|firstword}}.jpg')"></div>
+				</div>
+
+				{% else %}
+				<div class="span4">
+					<div class="asset"
+						style="background:url('/img/assets/{{service.name|firstword}}.jpg')"></div>
+				</div>
+				<div class="span8">
+					<h3 class="area">{{service.name}}</h3>
+					<p>{{service.summary}}</p>
+					{% if service.elements %}
+					<dl class="dl-horizontal elements">
+						{% for a in service.elements %}
+						<dt><a href="{{a.link}}"><span
+								class="{{service.icon}}">
+						</span> {{a.name}}</a></dt><dd>{{a.description}}</dd>
+						{% endfor %}
+					</dl>
+					{% endif %}
+
+				</div>
+				{% endif %}
+			</div>
+		{% if not loop.last %}<hr />{% endif %}
+		{% endfor %}
+	</div>
+</div>
+<div class="clearline"></div>
+
+

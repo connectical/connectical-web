@@ -1,0 +1,63 @@
+vim:ft=html:
+layout: default
+title: innovation
+
+<div id="content" class="container">
+	<div class="hero-unit">
+		<div class="ac">
+			<h1>A handful of ideas that make the future happen.</h1>
+			<p>Welcome to connectical labs, where ideas lives and become to be
+			products or just another lonely paper. This is the right place
+			to start a project or write an idea to do something.</p>
+		</div>
+	</div>
+
+		{% for area in innovation %}
+			<div class="row">
+				{% if loop.index % 2 %}
+				<div class="span8">
+						<h3 class="area">{{area.name}}</h3>
+						<p>{{area.summary}}</p>
+						{% if area.articles %}
+						<ul class="articles">
+						{% for a in area.articles %}
+						<li class="hint--right hint--rounded"
+						data-hint="Read More"><a href="{{a.link}}"><span
+								class="icon-beaker"> </span>{{a.title}}</a></li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+				</div>
+				<div class="span4">
+					<div class="asset"
+						style="background:url('/img/assets/{{area.name|firstword}}.jpg')"></div>
+				</div>
+
+				{% else %}
+				<div class="span4">
+					<div class="asset"
+						style="background:url('/img/assets/{{area.name|firstword}}.jpg')"></div>
+				</div>
+				<div class="span8">
+					<h3 class="area">{{area.name}}</h3>
+					<p>{{area.summary}}</p>
+					{% if area.articles %}
+					<ul class="articles">
+						{% for a in area.articles %}
+						<li class="hint--right hint--rounded"
+						data-hint="Read More"><a href="{{a.link}}"><span
+								class="icon-beaker"> </span>{{a.title}}</a></li>
+						{% endfor %}
+					</ul>
+					{% endif %}
+
+				</div>
+				{% endif %}
+			</div>
+		{% if not loop.last %}<hr />{% endif %}
+		{% endfor %}
+	</div>
+</div>
+<div class="clearline"></div>
+
+

@@ -1,0 +1,44 @@
+#! /bin/bash
+# Update script for connectical-web
+# --
+# (c) 2011 Andrés J. Díaz <ajdiaz@connectical.com>
+# This file is part of connectical-web project
+# Distributed under terms of MIT license.
+
+err () { echo "$@" >&2 && eval ${E:+exit $E}; }
+exe () { type -P "$1" >/dev/null 2>/dev/null; }
+
+[ $# -lt 1 ] && \
+	E=1 err "usage: $0 <base_dir> [repo_dir]"
+
+base_dir="${1:-/srv/connectical-web}"
+repo_dir="${2:-$PWD}"
+
+[ -d "${repo_dir}" ] || E=1 err "error: repo dir is not a directory"
+[ -d "${repo_dir}/.git" ] || \
+	E=1 err "error: repo dir is not a git repository or is bare ones."
+
+mkdir -p "$base_dir"/work   || E=1 err "error: unable to create base dir"
+
+( cd "${repo_dir}" && git pull ) || \
+	E=1 err "error: unable to pull repository"
+
+[ -r "${repo_dir}/requirements.txt" ] && \
+	${base_dir}/bin/pip install -r ${repo_dir}/requirements.txt || \
+	E=1 err "error: unable to install requirements"
+
+rsync -av ${repo_dir}/* "${base_dir}/work" || \
+	E=1 err "unable to sync contents"
+
+if [ -x "${base_dir}/bin/roar" ] ; then
+	while ! "${base_dir}/bin/roar" "${base_dir}/work"; do
+		echo "warning: something fails building site for first time"
+		echo "info: resuming building process in 10s"
+		sleep 10
+	done
+else
+	E=1 err "error: unable to run roar"
+fi
+
+echo "info: evolution complete."
+

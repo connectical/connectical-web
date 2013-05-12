@@ -1,0 +1,40 @@
+vim:ft=html:
+layout: default
+title: talks
+
+<div id="content" class="container">
+	<div class="hero-unit">
+		<div class="ac">
+			<h1>We love to spech about technology!</h1>
+			<p>As part of our public vocation, we usually talk about
+			different technologies or project, from small courses to pich
+			elevator, every slide is here.</p>
+		</div>
+	</div>
+
+	<div id="portfolio">
+
+		<!-- portfolio filter -->		
+		<ul id="portfolio-filter" class="nav nav-tabs">
+			<li class="active"><a href="#" class="filter" data-filter="*">All</a></li>
+			{% for user in staff %}
+			<li><a href="#" class="filter" data-filter=".user_{{user.name|uniqueid}}">{{user.name}}</a></li>
+			{% endfor %}
+		</ul>
+
+		<div class="row isotope" id="portfolio-items">
+		<!-- portfolio items -->
+		{% for talk in talks %}
+
+			<!-- portfolio item-->
+			<div class="span6 project user_{{talk.author|uniqueid}}" data-tags="user_{{talk.author|uniqueid}}">
+				{{talk.embed}}
+			</div>
+			<!-- end portfolio item-->
+
+		{% endfor %}
+
+		</div>
+	</div>
+</div>
+
