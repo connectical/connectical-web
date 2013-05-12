@@ -1,57 +1,117 @@
 vim:ft=html:
 layout: default
-title: home
+title: services - keyserver
 
-<div id="content" class="container"></div>
-<div class="homepage">
+<div class="jumbotron masthead">
 	<div class="container">
-		<div class="hero-unit"></div>
+		<h1>Connectical Keyserver</h1>
+		<p>Welcome to the Connectical OpenPGP keyserver. This server is part
+		of the world-wide SKS pool and it is a <em>pro bono</em> service to
+		the community.</p>
+	</div>
 
-		<div class="row">
-			<div class="span8">
-				<div class="lead">
-					<p class="title">Open lab for the advance on computer
-					science.</p>
-					<p>Connectical is a self-managed laboratory to research and
-					develop new ideas in the field of computer science and IT,
-					with the premises of free(dom) knowledge and free(dom)
-					software.</p>
-				</div>
-			</div>
-			<div class="span4">
-				<div class="pic pic_header"></div>
-			</div>
-		</div>
+</div>
+<div class="hero-unit">
+	<div class="ac">
+		<p id="hkp_status"><span class="icon-ok"></span> Server is fully
+		operational. Serving <span id="total-keys">a lot of</span> keys.</p>
+<div class="sh">
+		<form id="keysh" class="form-horizontal" method="get" action="/pks/lookup">
+			<fieldset>
+				<input name="op" value="index" type="hidden" class="hide">
+				<input name="fingerprint" value="on" type="hidden" class="hide">
+			    	<input id="search" name="search" type="text"
+			    	placeholder="Type the name to search"
+			    	class="input-xlarge search-query">&nbsp;
+					<button id="hkp_search" name="singlebutton" class="btn
+						btn-primary">Search</button>
+				</fieldset>
+				<p style="font-size:small">
+					<a style="color:#666"
+						href="http://keys.connectical.com:11371/"
+						id="hks_add_new" data-toggle="modal"><span class="icon-upload-alt"></span> Upload a key</a>
+				</p>
+		</form>
+	</div>
+	<script type="text/javascript" src="/js/keyserver.js"></script>
 
-		<hr />
 
-		<div class="row vspace">
-			<div class="span4">
-				<h2><span class="icon icon-beaker grey"></span><span class="grey">The</span> Innovation</h2>
-				<p>Innovation is always present in Connectical. We are
-				technology builders, so we are always thinking about some ideas
-				and try to create something new from those. That is our innovation lab!</p>
-				<p><a class="" href="index.html#">Read more &raquo;</a></p>
-			</div>
-			<div class="span4">
-				<h2><span class="icon icon-download-alt grey"></span><span class="grey">Our</span> Products</h2>
-				<p>A product is any piece of code or hardware ready to be
-				useful for everyone. Products are the goal of an idea and the
-				begin of a new cycle of improvements and fixes. Welcome to our
-				product center!</p>
-				<p><a class="" href="index.html#">Read more &raquo;</a></p>
-			</div>
-			<div class="span4">
-				<h2><span class="icon icon-cloud grey"> </span><span class="grey">Our </span> Services</h2>
-				<p>Connectical begins with a hard social orientation and
-				motivation. We are focused in spread new ideas and developments,
-				so we provide many of those as a service for the world. That is
-				our service pack!</p>
-				<p><a class="" href="index.html#">Read more &raquo;</a></p>
-			</div>
-		</div>
-		<div></div>
 	</div>
 </div>
-<div class="clearmin"></div>
+
+
+<div id="content" class="container">
+	<style type="text/css" scoped>
+		.key-info {
+			border-radius:5px;
+			padding:1em;
+			font-family:monospace;
+			min-height:150px;
+			padding-right:150px;
+			margin-bottom:2em;
+		}
+		.key-type { padding-left:2em; }
+		.key-algo { padding-left:1em; }
+		.key-created { padding-left:2em; }
+		.uid-valid { padding-left:2.2em; font-size:80%; color:#666;}
+		.uid-name { padding-left:1em; }
+		.key-uids { padding-left:4em; }
+		.key-uid { padding-top:1em; }
+		.key-expires, .uid-expires { padding-left:1em; }
+		.key-download { padding-top:1em;font-family:sans-serif; font-size:80%;
+			text-align:center;}
+		.key-flag { padding-top:1em; text-align:center;
+			text-transform:uppercase; font-weight:700; font-size:110%;}
+		.key-flag:before, .key-flag:after { content:' \*** '; }
+		#modal_error { padding:0 1em; color:red; }
+		textarea { font-family: monospace; font-size:80%;}
+	</style>
+			<div id="key-uid-template" class="hide key-uid"><span class="icon-user"></span>
+				<span class="uid-name"></span>
+				<div class="uid-valid">
+					<span class="uid-created"></span> 
+					<span class="uid-expires"></span>
+				</div>
+
+			</div>
+
+	<div id="key-template" class="hide key-info" style="background: #ff9494
+		url(//api.qrserver.com/v1/create-qr-code/?data=http%3A%2F%2Fkeys.connectical.com%2Fpks%2Flookup%3Fop%3Dget%26search%3D0x425F9120C43E1A3E&size=155x155&margin=12&qzone=2&bgcolor=DADADA&ecc=M)
+		no-repeat top right">
+		<div class="key-meta"><span class="icon-key"></span> <b
+				class="key-type"></b>/<a class="key-id"
+				href="#">0x3ff872</a>&nbsp;<span
+				class="key-algo"></span>/<span
+				class="key-size"></span><span
+				class="key-created"></span> 
+			<span class="key-expires"></span>
+		</div>
+		<div class="key-flag hide"></div>
+		<div class="key-uids">
+		</div>
+		<div class="key-download"><a href="#"><span
+					class="icon-download-alt"></span> Download key</a></div>
+	</div>
+	<div id="results"></div>
+</div>
+
+<div id="add_key" class="modal hide fade" tabindex="-1" role="dialog"
+	aria-labelledby="add_key" aria-hidden="true">
+	<form method="POST" action="/pks/add">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3>Upload OpenPGP Key</h3>
+		</div>
+		<div class="modal-body">
+			<p>Enter your armored OpenPGP Key:</p>
+			<textarea name="keytext" style="width:95%; margin:0 auto!important;" rows="15"></textarea>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Discard</button>
+			<button class="btn btn-primary">Save changes</button>
+		</div>
+		<div id="modal_error">
+		</div>
+	</form>
+</div>
 
