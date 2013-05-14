@@ -69,8 +69,8 @@ title: services
 			</div>
 			<div class="more">
 				<ul>
-					<li class="article"><strong>time.connectical.com</strong> provide an IPv4 TAI64N and NTP stratum-2 server.</li>
-					<li class="article"><strong>time6.connectical.com</strong> provide an IPv6 TAI64N and NTP stratum-2 server.</li>
+					<li class="article"><strong>time.connectical.com</strong> provides an IPv4 TAI64N and NTP stratum-2 server.</li>
+					<li class="article"><strong>time6.connectical.com</strong> provides an IPv6 TAI64N and NTP stratum-2 server.</li>
 				</ul>
 			</div>
 		</div>
