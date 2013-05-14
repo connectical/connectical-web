@@ -42,6 +42,23 @@ title: services
 			<div class="more">
 			</div>
 		</div>
+		<div class="area serv_keys">
+			<h3>PGP key server</h3>
+			<div class="desc">
+				The PGP key server allows for obtaining and distributing public keys as used
+				by <acronym title="Pretty Good Privacy">PGP</acronym>. The server is syndicated
+				with the rest of public servers of the worldwide <a href="http://sks-keyservers.net/">SKS pool</a>.
+			</div>
+			<div class="more">
+				<ul>
+					<li class="article">The <a href="http://keys.connectical.com">web interface</a>
+					can be used with any web broser.</li>
+					<li class="article">The <strong>hkp://keys.connectical.com</strong> URL can
+					be used to reach the server using a PGP tool suite supporting <acronym
+						title="HTTP Keyserver Protocol">HKP</acronym>.</li>
+				</ul>
+			</div>
+		</div>
 		<div class="area serv_time">
 			<h3>Time server</h3>
 			<div class="desc">
