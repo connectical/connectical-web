@@ -16,8 +16,8 @@ title: about
 		{% for member in staff %}
 		{% if loop.index % 4 == 1 %}
 		<div class="row">
-		{% endif %}
-		<article class="member span3">
+			{% endif %}
+			<article class="member span3">
 
 			<div class="member-avatar">
 				<img alt="Photography of {{member.name}}" class="thumbnail"
@@ -25,16 +25,16 @@ title: about
 			</div>
 
 			<p class="member-networks">
-				{% for network,link in member.links.items() %}
-				<a href="{{link}}" class="icon-{{network}}"></a>
-				{% endfor %}
+			{% for network,link in member.links.items() %}
+			<a href="{{link}}" class="icon-{{network}}"></a>
+			{% endfor %}
 			</p>
 			<h3 class="member-name">{{member.name}}</h3>
 			<h4 class="member-position">{{member.about_position}}</h4>
 			<p class="member-bio">{{member.about_me}}</p>
-		</article>
+			</article>
 
-		{% if loop.index % 4 == 0 %}
+			{% if loop.index % 4 == 0 %}
 		</div>
 		{% endif %}
 		{% endfor %}
@@ -48,46 +48,67 @@ title: about
 		{% endfor %}
 	</ul>
 
-		{% for section in about %}
-		<div class="row" id="{{section.name|firstword}}">
-				{% if loop.index % 2 %}
-				<div class="span8">
-						<h3 class="area">{{section.name}}</h3>
-						<p>{{section.summary}}</p>
-					{% if section.elements %}
-					<ul class="articles">
-						{% for a in section.elements %}
-						<li class="hint--right hint--rounded" data-hint="Read More"><span class="icon-file"> </span><a href="{{a.link}}">{{a.title}}</a></li>
-						{% endfor %}
-					</ul>
-					{% endif %}
-				</div>
-				<div class="span4">
-					<div class="asset"
-						style="background:url('/img/assets/{{section.name|firstword}}.jpg')"></div>
-				</div>
+	{% for section in about %}
+	<div class="row" id="{{section.name|firstword}}">
+		{% if loop.index % 2 %}
+		<div class="span8">
+			<h3 class="area">{{section.name}}</h3>
+			<p>{{section.summary}}</p>
+			{% if section.elements %}
+			<ul class="articles">
+				{% for a in section.elements %}
+				<li class="hint--right hint--rounded" data-hint="Read More"><span class="icon-file"> </span><a href="{{a.link}}">{{a.title}}</a></li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+		<div class="span4">
+			<div class="asset"
+				style="background:url('/img/assets/{{section.name|firstword}}.jpg')"></div>
+		</div>
 
-				{% else %}
-				<div class="span4">
-					<div class="asset"
-						style="background:url('/img/assets/{{section.name|firstword}}.jpg')"></div>
-				</div>
-				<div class="span8">
-					<h3 class="area">{{section.name}}</h3>
-					<p>{{section.summary}}</p>
-					{% if section.elements %}
-					<ul class="articles">
-						{% for a in section.elements %}
-						<li class="hint--right hint--rounded" data-hint="Read More"><span class="icon-file"> </span><a href="{{a.link}}">{{a.title}}</a></li>
-						{% endfor %}
-					</ul>
-					{% endif %}
+		{% else %}
+		<div class="span4">
+			<div class="asset"
+				style="background:url('/img/assets/{{section.name|firstword}}.jpg')"></div>
+		</div>
+		<div class="span8">
+			<h3 class="area">{{section.name}}</h3>
+			<p>{{section.summary}}</p>
+			{% if section.elements %}
+			<ul class="articles">
+				{% for a in section.elements %}
+				<li class="hint--right hint--rounded" data-hint="Read More"><span class="icon-file"> </span><a href="{{a.link}}">{{a.title}}</a></li>
+				{% endfor %}
+			</ul>
+			{% endif %}
 
-				</div>
-				{% endif %}
-			</div>
-		{% if not loop.last %}<hr />{% endif %}
-		{% endfor %}
+		</div>
+		{% endif %}
+	</div>
+	{% if not loop.last %}<hr />{% endif %}
+	{% endfor %}
+	<hr>
+	<script type="text/javascript">
+		$(function() {
+					$("#room_link").attr("href","#room");
+		});
+	</script>
+	<style type="text/css" scoped>
+		#room { width:60%; margin-left:-30%;}
+		table th { min-width:6em; text-align:left; }
+	</style>
+	<div class="modal hide fade" id="room">
+		<div class="modal-header">
+			<h3>The Jabber Room</h3>
+		</div>
+		<div class="modal-body">
+		<iframe style="min-height:300px; width:98%;"
+			src="http://www.speeqe.com/room/connectical@conf.netlab.cz/"></iframe>
+		</div>
+		<div class="modal-footer">
+			<a data-dismiss="modal" class="btn" >Close</a>
+		</div>
 	</div>
 </div>
 <div class="clearline"></div>
