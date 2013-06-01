@@ -300,3 +300,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 .tab-content {
 	min-height:10em;
 }
+
+#produce .row { padding-right:200px; }
+img.right { float:right; }

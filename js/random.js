@@ -20,6 +20,7 @@ $(function() {
 
 	$("#produce button").click(function() {
 		var type=$(this).text().toLowerCase();
+		var row=$(this).parent().parent().parent();
 		var input=$(this).parent().parent().parent().find("input");
 		if (type == "raw data") type="raw";
 
@@ -33,6 +34,7 @@ $(function() {
 
 
 		$.getJSON("/api/1/" + type + size, function(data) {
+			$(row).append('<img class="right" src="https://api.qrserver.com/v1/create-qr-code/?data='+data.value+'&size=155x155&margin=12&qzone=2&bgcolor=ffffff&ecc=M" alt="QR Code for random value"/>');
 			$(input).val(data.value);
 			get_entropy();
 		});
