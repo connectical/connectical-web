@@ -247,9 +247,9 @@ h1.alt {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(/img/services/keyserver.jpg) no-repeat 0 0;
+  background: url(/img/services/random.jpg) no-repeat 0 0;
   background-size:cover;
-  opacity: .1;
+  opacity: .5;
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -293,4 +293,10 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   color: rgba(255,255,255,.25);
 }
 
+.rng-data {
+	margin-left:10em;
+}
 
+.tab-content {
+	min-height:10em;
+}

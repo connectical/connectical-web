@@ -1,117 +1,232 @@
 vim:ft=html:
 layout: default
-title: services - keyserver
+title: services - random
 
 <div class="jumbotron masthead">
 	<div class="container">
-		<h1>Connectical Keyserver</h1>
-		<p>Welcome to the Connectical OpenPGP keyserver. This server is part
-		of the world-wide SKS pool and it is a <em>pro bono</em> service to
-		the community.</p>
+		<h1>True Random Number Generator</h1>
+		<p>Welcome to the Connectical TRNG server. This server provides you
+		good quality (FIPS-240 passed) random number generated from
+		different true random sources.</p>
 	</div>
 
 </div>
 <div class="hero-unit">
 	<div class="ac">
-		<p id="hkp_status"><span class="icon-ok"></span> Server is fully
-		operational. Serving <span id="total-keys">a lot of</span> keys.</p>
-<div class="sh">
-		<form id="keysh" class="form-horizontal" method="get" action="/pks/lookup">
-			<fieldset>
-				<input name="op" value="index" type="hidden" class="hide">
-				<input name="fingerprint" value="on" type="hidden" class="hide">
-			    	<input id="search" name="search" type="text"
-			    	placeholder="Type the name to search"
-			    	class="input-xlarge search-query">&nbsp;
-					<button id="hkp_search" name="singlebutton" class="btn
-						btn-primary">Search</button>
-				</fieldset>
-				<p style="font-size:small">
-					<a style="color:#666"
-						href="http://keys.connectical.com:11371/"
-						id="hks_add_new" data-toggle="modal"><span class="icon-upload-alt"></span> Upload a key</a>
-				</p>
-		</form>
+		<p id="rng_status"><span class="icon-ok"></span> Server is fully
+		operational, loaded with <span id="total-entropy">a lot of</span> bits of entropy.</p>
+		<div class="sh">
 	</div>
-	<script type="text/javascript" src="/js/keyserver.js"></script>
-
-
+		<script type="text/javascript" src="/js/random.js"></script>
 	</div>
 </div>
 
 
 <div id="content" class="container">
-	<style type="text/css" scoped>
-		.key-info {
-			border-radius:5px;
-			padding:1em;
-			font-family:monospace;
-			min-height:150px;
-			padding-right:150px;
-			margin-bottom:2em;
-		}
-		.key-type { padding-left:2em; }
-		.key-algo { padding-left:1em; }
-		.key-created { padding-left:2em; }
-		.uid-valid { padding-left:2.2em; font-size:80%; color:#666;}
-		.uid-name { padding-left:1em; }
-		.key-uids { padding-left:4em; }
-		.key-uid { padding-top:1em; }
-		.key-expires, .uid-expires { padding-left:1em; }
-		.key-download { padding-top:1em;font-family:sans-serif; font-size:80%;
-			text-align:center;}
-		.key-flag { padding-top:1em; text-align:center;
-			text-transform:uppercase; font-weight:700; font-size:110%;}
-		.key-flag:before, .key-flag:after { content:' \*** '; }
-		#modal_error { padding:0 1em; color:red; }
-		textarea { font-family: monospace; font-size:80%;}
-	</style>
-			<div id="key-uid-template" class="hide key-uid"><span class="icon-user"></span>
-				<span class="uid-name"></span>
-				<div class="uid-valid">
-					<span class="uid-created"></span> 
-					<span class="uid-expires"></span>
+			<ul class="nav nav-tabs" id="thetab">
+				<li><a href="#produce" data-toggle="tab">Produce</a></li>
+				<li><a href="#faq" data-toggle="tab">FAQ</a></li>
+				<li><a href="#api" data-toggle="tab">API</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div class="tab-pane active" id="produce">
+					<div class="row">
+						<div class="span2">
+							<div class="btn-group"><button class="btn">Integer</button></div>
+						</div>
+						<div class="span2">
+							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="span2">
+							<div class="btn-group"><button
+									class="btn">Long</button></div>
+						</div>
+						<div class="span2">
+							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="span2">
+							<div class="btn-group"><button
+									class="btn">Float</button></div>
+						</div>
+						<div class="span2">
+							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="span2">
+							<div class="btn-group"><button
+									class="btn">Double</button></div>
+						</div>
+						<div class="span2">
+							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="span2">
+							<div class="btn-group"><button
+									class="btn">String</button></div>
+						</div>
+						<div class="span2">
+							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="span2">
+							<div class="btn-group"><button
+									class="btn">Raw data</button></div>
+						</div>
+						<div class="span2">
+							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
+						</div>
+					</div>
+
 				</div>
+				<div class="tab-pane active" id="faq">
+					<h2>What this hell is?</h2>
+					<p>This service provides online <a
+						href="http://en.wikipedia.org/wiki/Random_number_generation#.22True.22_random_numbers_vs._pseudorandom_numbers">true 
+						random number</a> generator to the public. This
+					service is provided by the <a
+						href="http://connectical.com">Connectical</a> lab as
+					part of the security area efforts.
+					</p>
+					<h2>What means truly random?</h2>
+					<p>In a truly random sequence, given as many past bits,
+					we will not be able to predict the next bit with greater
+					than 50 percent probability of success.</p>
+					<h2>How these numbers are generated?</h2>
+					<p>We use a mix of different sources directly attached
+					to the server. One is based on <a
+						href="http://holdenc.altervista.org/avalanche/">noise
+						avalanche</a> in zener
+					diode, the other one is <a
+						href="http://en.wikipedia.org/wiki/Quantum_fluctuation">quantum fluctuation of the
+						vacuum</a>.
+					</p>
+					<h2>Why are you sure that these number are random?</h2>
+					<p>We test the sources using different tools, like
+					dieharder, or FIPS tests, if the test are not passed, we
+					stop to serve data.</p>
+					<h2>There are any limit to use these numbers?</h2>
+					<p>To prevent against DoS atacks, we only allow 10
+					requests per second per IP address.</p>
+					<h2>How can I download these numbers?</h2>
+					<p>You can use the web interface, or the API. Please
+					read the <a href="#api" data-toggle="tab">API</a> to
+					read more about how to directly access to the
+					service.</p>
+				</div>
+				<div class="tab-pane active" id="api">
+					<dl>
+						<dt><span class="label label-info">GET
+							/api/1/integer</span></dt>
+						<dd>
+						Return a JSON with three fields: the type (must be
+						"integer", the size (must be 32bits) and the value
+						(a 32 bits decimal number).
 
+						<pre style="width:auto!important">{
+	"type": "integer",
+	"size": 32,
+	"value": *the random number*
+}</pre>
+</dd>
+
+
+						<dt><span class="label label-info">GET
+							/api/1/long</span></dt>
+						<dd>
+						Return a JSON with three fields: the type (must be
+						"long", the size (must be 64bits) and the value
+						(a 64 bits decimal number).
+
+						<pre style="width:auto!important">{
+	"type": "long",
+	"size": 64,
+	"value": *the random number*
+}</pre>
+						 </dd>
+						<dt><span class="label label-info">GET
+							/api/1/float</span></dt>
+						<dd>
+						Return a JSON with two fields, the type (must be
+						"float", the size (must be 32bits) and the value
+						(a 32 bits float number).
+
+						<pre style="width:auto!important">{
+	"type": "float",
+	"size": 32,
+	"value": *the random number*
+}</pre>
+						 </dd>
+						<dt><span class="label label-info">GET
+							/api/1/double</span></dt>
+						<dd>
+						Return a JSON with two fields, the type (must be
+						"double", the size (must be 64bits) and the value
+						(a 64 bits decimal number).
+
+						<pre style="width:auto!important">{
+	"type": "double",
+	"size": 64,
+	"value": *the random number*
+}</pre>
+						 </dd>
+						<dt><span class="label label-info">GET
+							/api/1/string/<em>size</em></span></dt>
+						<dd>
+						Where size is the size of the string in characters
+						(bytes).
+
+						Return a JSON with three fields, the type (must be
+						"string", the size (in bits, that means the provided
+						size times eight) and the value (a string with
+						alphanumeric characters and also '-' and '_').
+
+						<pre style="width:auto!important">{
+	"type": "string",
+	"size": *size*,
+	"value": *the random string*
+}</pre>
+						 </dd>
+						<dt><span class="label label-info">GET
+							/api/1/raw/<em>size</em></span></dt>
+						<dd>
+						Where size is the size of the raw data in bits
+						(current maximum limit is 8192 bits).
+
+						Return a JSON with three fields, the type (must be
+						"raw", the size (provided as argument) and the value
+						(a BASE64 string with binary chunk encoded).
+
+						<pre style="width:auto!important">{
+	"type": "raw",
+	"size": *size*,
+	"value": *the random raw chunk encoded in BASE64*
+}</pre>
+						 </dd>
+
+
+
+						</dl>
+				</div>
 			</div>
-
-	<div id="key-template" class="hide key-info" style="background: #ff9494
-		url(//api.qrserver.com/v1/create-qr-code/?data=http%3A%2F%2Fkeys.connectical.com%2Fpks%2Flookup%3Fop%3Dget%26search%3D0x425F9120C43E1A3E&size=155x155&margin=12&qzone=2&bgcolor=DADADA&ecc=M)
-		no-repeat top right">
-		<div class="key-meta"><span class="icon-key"></span> <b
-				class="key-type"></b>/<a class="key-id"
-				href="#">0x3ff872</a>&nbsp;<span
-				class="key-algo"></span>/<span
-				class="key-size"></span><span
-				class="key-created"></span> 
-			<span class="key-expires"></span>
-		</div>
-		<div class="key-flag hide"></div>
-		<div class="key-uids">
-		</div>
-		<div class="key-download"><a href="#"><span
-					class="icon-download-alt"></span> Download key</a></div>
-	</div>
-	<div id="results"></div>
+			<script>
+				$(function () {
+				   $('#thetab a:first').tab('show');
+  	        	})
+			</script>
+			<div class="clearline"></div>
 </div>
 
-<div id="add_key" class="modal hide fade" tabindex="-1" role="dialog"
-	aria-labelledby="add_key" aria-hidden="true">
-	<form method="POST" action="/pks/add">
-		<div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3>Upload OpenPGP Key</h3>
-		</div>
-		<div class="modal-body">
-			<p>Enter your armored OpenPGP Key:</p>
-			<textarea name="keytext" style="width:95%; margin:0 auto!important;" rows="15"></textarea>
-		</div>
-		<div class="modal-footer">
-			<button class="btn" data-dismiss="modal" aria-hidden="true">Discard</button>
-			<button class="btn btn-primary">Save changes</button>
-		</div>
-		<div id="modal_error">
-		</div>
-	</form>
-</div>
 
