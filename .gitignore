@@ -3,4 +3,3 @@ _cache/*
 *.sw[op]
 *~
 *.py[co]
-blog/feed/index.xml
