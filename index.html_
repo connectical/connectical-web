@@ -6,7 +6,7 @@ title: services - random
 	<div class="container">
 		<h1>True Random Number Generator</h1>
 		<p>Welcome to the Connectical TRNG server. This server provides you
-		good quality (FIPS-240 passed) random number generated from
+		good quality (FIPS-140 passed) random number generated from
 		different true random sources.</p>
 	</div>
 
