@@ -31,7 +31,7 @@ title: home
 				<p>Innovation is always present in Connectical. We are
 				technology builders, so we are always thinking about some ideas
 				and try to create something new from those. That is our innovation lab!</p>
-				<p><a class="" href="index.html#">Read more &raquo;</a></p>
+				<p><a class="" href="/innovation">Read more &raquo;</a></p>
 			</div>
 			<div class="span4">
 				<h2><span class="icon icon-download-alt grey"></span><span class="grey">Our</span> Products</h2>
@@ -39,7 +39,7 @@ title: home
 				useful for everyone. Products are the goal of an idea and the
 				begin of a new cycle of improvements and fixes. Welcome to our
 				product center!</p>
-				<p><a class="" href="index.html#">Read more &raquo;</a></p>
+				<p><a class="" href="/products">Read more &raquo;</a></p>
 			</div>
 			<div class="span4">
 				<h2><span class="icon icon-cloud grey"> </span><span class="grey">Our </span> Services</h2>
@@ -47,7 +47,7 @@ title: home
 				motivation. We are focused in spread new ideas and developments,
 				so we provide many of those as a service for the world. That is
 				our service pack!</p>
-				<p><a class="" href="index.html#">Read more &raquo;</a></p>
+				<p><a class="" href="/services">Read more &raquo;</a></p>
 			</div>
 		</div>
 		<div></div>
