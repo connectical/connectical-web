@@ -263,7 +263,8 @@ title: services - random
 						<div id="fail" class="row"><span class="label span2
 								label-important">FAIL</span>&nbsp;
 							<span class="badge span1 badge-important"></span></div>
-						<div id="report" class="row">
+						<hr>
+						<div id="report" >
 							<pre></pre>
 						</div>
 						<div><address>Last updated: <span
