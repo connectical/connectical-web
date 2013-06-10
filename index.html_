@@ -213,7 +213,7 @@ title: services - random
 }</pre>
 						 </dd>
 						<dt><span class="label label-info">GET
-							/api/1/passwd/<em>size</em></span></dt>
+							/api/1/password/<em>size</em></span></dt>
 						<dd>
 						Where size is the size of the string in characters
 						(bytes).
@@ -225,7 +225,7 @@ title: services - random
 						symbols).
 
 						<pre style="width:auto!important">{
-	"type": "passwd",
+	"type": "password",
 	"size": *size*,
 	"value": *the random passwd*
 }</pre>

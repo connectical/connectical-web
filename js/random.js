@@ -27,7 +27,7 @@ $(function() {
 		switch(type) {
 			case "raw": size="/1024"; break;
 			case "string": size="/8"; break;
-			case "passwd": size="/8"; break;
+			case "password": size="/8"; break;
 			default: size="";
 		}
 
