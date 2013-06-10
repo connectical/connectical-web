@@ -27,7 +27,7 @@ title: services - random
 				<li><a href="#produce" data-toggle="tab">Produce</a></li>
 				<li><a href="#faq" data-toggle="tab">FAQ</a></li>
 				<li><a href="#api" data-toggle="tab">API</a></li>
-				<li><a href="#api" data-toggle="tab">Status</a></li>
+				<li><a href="#status" data-toggle="tab">Status</a></li>
 			</ul>
 
 			<div class="tab-content">
@@ -252,7 +252,22 @@ title: services - random
 
 						</dl>
 					</div>
-					<div class="tab-pane active" id="status">
+					<div class="tab-pane" id="status">
+						<div id="state"></div>
+						<div id="pass" class="row"><span class="span2 label
+								label-success">PASS</span>&nbsp;<span
+								class="badge badge-success span1"></span></div>
+						<div id="weak" class="row"><span class="span2 label
+								label-warning">WEAK</span>&nbsp;<span
+								class="badge span1 badge-warning"></span></div>
+						<div id="fail" class="row"><span class="label span2
+								label-important">FAIL</span>&nbsp;
+							<span class="badge span1 badge-important"></span></div>
+						<div id="report" class="row">
+							<pre></pre>
+						</div>
+						<div><address>Last updated: <span
+									id="last_updated"></span></address></div>
 					</div>
 			</div>
 			<script>

@@ -14,9 +14,28 @@ function get_entropy() {
 	});
 }
 
+function get_report() {
+	$.getJSON("/api/1/report", function(data) {
+		$("#state").html("<h2>" + data.status + "</h2>");
+		$("#pass .badge").html(data.pass);
+		$("#weak .badge").html(data.weak);
+		$("#fail .badge").html(data.fail);
+		$.ajax({
+			url: data.content,
+			type: "GET",
+			dataType: "text",
+			sucess: function(data) {
+				$("#report pre").html(data.content);
+			}
+		});
+		$("#last_updated").html(data.updated);
+	});
+}
+
 $(function() {
 
 	get_entropy();
+	get_report();
 
 	$("#produce button").click(function() {
 		var type=$(this).text().toLowerCase();
