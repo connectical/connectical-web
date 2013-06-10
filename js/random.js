@@ -25,7 +25,7 @@ function get_report() {
 			type: "GET",
 			dataType: "text",
 			sucess: function(data) {
-				$("#report pre").html(data.content);
+				$("#report pre").text(data);
 			}
 		});
 		$("#last_updated").html(data.updated);
