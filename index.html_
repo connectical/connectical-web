@@ -27,6 +27,7 @@ title: services - random
 				<li><a href="#produce" data-toggle="tab">Produce</a></li>
 				<li><a href="#faq" data-toggle="tab">FAQ</a></li>
 				<li><a href="#api" data-toggle="tab">API</a></li>
+				<li><a href="#api" data-toggle="tab">Status</a></li>
 			</ul>
 
 			<div class="tab-content">
@@ -79,6 +80,18 @@ title: services - random
 							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
 						</div>
 					</div>
+
+					<div class="row">
+						<div class="span2">
+							<div class="btn-group"><button
+									class="btn">Password</button></div>
+						</div>
+						<div class="span2">
+							<input type="text" class="input-large"	placeholder="Generate new random value" disabled>
+						</div>
+					</div>
+
+
 
 					<div class="row">
 						<div class="span2">
@@ -200,6 +213,25 @@ title: services - random
 }</pre>
 						 </dd>
 						<dt><span class="label label-info">GET
+							/api/1/passwd/<em>size</em></span></dt>
+						<dd>
+						Where size is the size of the string in characters
+						(bytes).
+
+						Return a JSON with three fields, the type (must be
+						"passwd", the size (in bits, that means the provided
+						size times eight) and the value (a string with
+						alphanumeric characters and some other printable
+						symbols).
+
+						<pre style="width:auto!important">{
+	"type": "passwd",
+	"size": *size*,
+	"value": *the random passwd*
+}</pre>
+						 </dd>
+
+						<dt><span class="label label-info">GET
 							/api/1/raw/<em>size</em></span></dt>
 						<dd>
 						Where size is the size of the raw data in bits
@@ -219,7 +251,9 @@ title: services - random
 
 
 						</dl>
-				</div>
+					</div>
+					<div class="tab-pane active" id="status">
+					</div>
 			</div>
 			<script>
 				$(function () {
