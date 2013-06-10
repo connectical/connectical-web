@@ -24,7 +24,7 @@ function get_report() {
 			url: data.content,
 			type: "GET",
 			dataType: "text",
-			sucess: function(data) {
+			success: function(data) {
 				$("#report pre").text(data);
 			}
 		});
