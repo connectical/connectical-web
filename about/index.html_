@@ -13,10 +13,8 @@ title: about
 	</div>
 
 	<div id="team-members">
-		{% for member in staff %}
-		{% if loop.index % 4 == 1 %}
 		<div class="row">
-			{% endif %}
+		{% for member in staff %}
 			<article class="member span3">
 
 			<div class="member-avatar">
@@ -34,10 +32,8 @@ title: about
 			<p class="member-bio">{{member.about_me}}</p>
 			</article>
 
-			{% if loop.index % 4 == 0 %}
-		</div>
-		{% endif %}
 		{% endfor %}
+		</div>
 	</div>
 	<div class="clearmin"></div>
 

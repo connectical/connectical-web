@@ -295,3 +295,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 
 .full-width { width:100%!important; }
 
+.articles li a { color:#444; }
+.articles li a:hover { text-decoration:none; color:#0085cc; }
+.articles { list-style:none; padding-top:0.5em!important; font-size:95%; }
+.articles span {padding-right:0.4em;}

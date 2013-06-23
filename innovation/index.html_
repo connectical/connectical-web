@@ -21,8 +21,7 @@ title: innovation
 						{% if area.articles %}
 						<ul class="articles">
 						{% for a in area.articles %}
-						<li class="hint--right hint--rounded"
-						data-hint="Read More"><a href="{{a.link}}"><span
+						<li><a href="{{a.link}}"><span
 								class="icon-beaker"> </span>{{a.title}}</a></li>
 						{% endfor %}
 						</ul>
@@ -44,8 +43,7 @@ title: innovation
 					{% if area.articles %}
 					<ul class="articles">
 						{% for a in area.articles %}
-						<li class="hint--right hint--rounded"
-						data-hint="Read More"><a href="{{a.link}}"><span
+						<li><a href="{{a.link}}"><span
 								class="icon-beaker"> </span>{{a.title}}</a></li>
 						{% endfor %}
 					</ul>
