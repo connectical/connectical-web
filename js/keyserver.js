@@ -118,8 +118,11 @@ $(function() {
 		success: function(data) {
 			var items = $.parseHTML(data);
 			$.each(items, function(i,o) {
-				if(o.nodeName === "P")
-					$("#total-keys").html(getRepString($(o).html().split(":")[1]));
+				if(o.nodeName === "P") {
+					var val=$(o).text().split(":")[1]
+					if(val)
+						$("#total-keys").text(getRepString(val));
+				}
 			});
 
 			$("#hks_add_new").attr("href", "#add_key");
