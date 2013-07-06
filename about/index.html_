@@ -12,14 +12,24 @@ title: about
 		</div>
 	</div>
 
-	<div id="team-members">
+	<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#team-members" data-toggle="tab">Team</a></li>
+				{% for section in about %}
+				<li><a href="#{{section.name|firstword}}" data-toggle="tab">{{section.name}}</a></li>
+				{% endfor %}
+			</ul>
+
+			<div class="tab-content">
+
+	<div id="team-members" class="tab-pane active">
 		<div class="row">
 		{% for member in staff %}
 			<article class="member span3">
 
 			<div class="member-avatar">
 				<img alt="Photography of {{member.name}}" class="thumbnail"
-				src="{{member.about_avatar}}?s=100" />
+				src="{{member.avatar}}?s=100" />
 			</div>
 
 			<p class="member-networks">
@@ -28,8 +38,8 @@ title: about
 			{% endfor %}
 			</p>
 			<h3 class="member-name">{{member.name}}</h3>
-			<h4 class="member-position">{{member.about_position}}</h4>
-			<p class="member-bio">{{member.about_me}}</p>
+			<h4 class="member-position">{{member.position}}</h4>
+			<p class="member-bio">{{member.about}}</p>
 			</article>
 
 		{% endfor %}
@@ -37,15 +47,8 @@ title: about
 	</div>
 	<div class="clearmin"></div>
 
-	<ul class="nav nav-pills">
-		{% for section in about %}
-		<li><a
-			href="#{{section.name|firstword}}">{{section.name}}</a></li>
-		{% endfor %}
-	</ul>
-
 	{% for section in about %}
-	<div class="row" id="{{section.name|firstword}}">
+	<div class="row tab-pane" id="{{section.name|firstword}}">
 		{% if loop.index % 2 %}
 		<div class="span8">
 			<h3 class="area">{{section.name}}</h3>
@@ -82,8 +85,8 @@ title: about
 		</div>
 		{% endif %}
 	</div>
-	{% if not loop.last %}<hr />{% endif %}
 	{% endfor %}
+</div></div>
 	<hr>
 	<script type="text/javascript">
 		$(function() {
@@ -108,5 +111,4 @@ title: about
 	</div>
 </div>
 <div class="clearline"></div>
-
 

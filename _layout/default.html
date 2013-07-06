@@ -15,9 +15,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!-- Custom css -->
-		<link href="/css/style.css" rel="stylesheet">
-		<link href="/css/font-awesome/font-awesome.css" rel="stylesheet">
-		<link href="/css/main.css" rel="stylesheet">
+		<!--<link href="/css/font-awesome/font-awesome.css"
+		rel="stylesheet">-->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<link href="/css/base.min.css" rel="stylesheet">
 
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
@@ -42,8 +43,7 @@
     ('/innovation/', 'innovation', 'Innovation'),
     ('/products/', 'products', 'Products'),
     ('/services/', 'services', 'Services'),
-    ('/talks/', 'talks', 'Talks'),
-    ('/blog/', 'blog', 'Blog'),
+    ('/live/', 'live', 'Live'),
     ('/about/', 'about', 'About')
 ] -%}
 {% set active_page = page.title|default('home') -%}
@@ -56,7 +56,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="index.html">
+					<a class="brand" href="/">
 						<h1 class="hide">Connectical</h1>
 					</a>
 					<div class="nav-collapse">

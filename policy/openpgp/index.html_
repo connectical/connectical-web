@@ -1,0 +1,63 @@
+vim: ft=html:
+layout: default
+title: opengpg - policy
+
+<div id="content" class="container">
+	<div class="hero-unit">
+		<div class="ac">
+			<h1>OpenPGP Connectical Common Signing Policy</h1>
+			<p>Common policy used for Connectical team to sign emails,
+			webcontent, applications or, in general any other content.</p>
+		</div>
+	</div>
+
+
+		<h2 id="preamble">Preamble</h2>
+<p>This policy is valid for all signatures made by the following GnuPG keys:</p>
+<pre>
+
+pub   4096R/031EE2EF 2010-08-10
+
+      Key fingerprint = FCE7 1C20 5345 EDA5 198D  B3FC 5841 4BA9 031E E2EF
+
+uid                  Andres J. Diaz 
+
+uid                  [jpeg image of size 2034]
+
+sub   4096R/CA2A80E3 2010-08-10
+
+</pre>
+<p>These keys will always be available on this page, but the most current versions can usually be fetched from keyserver hkp://keys.gnupg.net (<a href="http://keys.gnupg.net/" rel="nofollow">http://keys.gnupg.net/</a>). </p>
+<p>This policy was originally written on 2010-08-10 and will be followed from this date on but it may be replaced with a new version at any time. Content and structure of this document are strongly based on the <a href="http://www.mathematik.uni-bielefeld.de/~mmutz/sign-policy.html">OpenPGP Key Signing Policy of Marc Mutz</a>, <a href="http://www.lysator.liu.se/~jc/signing-policy.html">Jörgen Cederlöf ones</a> and <a href="http://www.sc-delphin-eschweiler.de/pgp/">Marcus Frings</a> but have been slightly modified from the original sources.</p>
+<h2 id="loc">Location</h2>
+<p>I live in Galicia (Spain) and I am open to sign keys at any time. The easiest way for verifying keys would be to meet me here in <a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=a+coru%C3%B1a&amp;sll=40.396764,-3.713379&amp;sspn=12.758925,19.709473&amp;ie=UTF8&amp;hq=&amp;hnear=A+Coru%C3%B1a,+La+Coru%C3%B1a,+Galicia&amp;z=13">A Coruña</a>. Another opportunity to get in personal contact would be to address me at certain computer related fairs. </p>
+<h2 id="req">Prerequisites for signing</h2>
+<ol>
+<li>The <em>signee</em> (the key owner who wishes to obtain a signature to his/her key from me, the signer) must make his/her OpenPGP key available on a publicly accessible keyserver (see above for example keyservers).</li>
+<li>The signee must prove his/her identity to me by way of a valid identity card or driving licence. These documents must feature a photographic picture of the <em>signee</em>. No other kind of documents will be accepted. This also implies that the signee&#8217;s key must feature his/her real name in order to be checked up on his/her identity card. A key which only contains a pseudonym will not be signed.</li>
+<li>For people from outside the European Union I will check both of these two tokens (since I cannot assess their risk of fraud). Exceptions may be made if there is a good reason for me to do so.</li>
+</ol>
+<p>The signee should have prepared a strip of paper with a printout of the output:</p>
+<pre>
+
+gpg --fingerprint 0x12345678
+
+</pre>
+<p>(or an equivalent command if the signee does not use GnuPG) where 0&#215;12345678 is the key ID of the key which is to be signed.</p>
+<p>A handwritten piece of paper featuring the fingerprint and all UIDs the signee wants me to sign will also be accepted.</p>
+<p>The above must take place under reasonable circumstances (i.e. ourselves not being in a hurry, exchanging key data at a calm place and so on).</p>
+<h2 id="act">The act of signing</h2>
+<p>After having received (or exchanged) the proof detailed in the above I will sign the signee&#8217;s piece of paper myself to avoid fraud.</p>
+<p>At home I will sign the UIDs which I was asked to sign. Each signature will then be mailed separately to the corresponding mail address of the single UIDs.</p>
+<p>Depending on the character of the key which is to be signed by me I will use different levels of signatures:</p>
+<h2 id="level">Levels of signatures</h2>
+<p>Here are the levels of trust that I can give to my signatures:</p>
+<h3>Level 3</h3>
+<p>A level of 3 is given to sign-and-encrypt keys: I have met the signee, I have verified his/her identity card and fingerprint and I was able to send my signatures encrypted with the corresponding key of the signee. These signatures are the strongest in my web of trust. Photographic UIDs are also going to be signed with a level of 3 if I can still remember the signee&#8217;s face when I will be back at home.</p>
+<h3>Level 2</h3>
+<p>A level of 2 is given to sign-only keys. It is not clear to determine if the owner of the mail account is the same as the key owner because encryption cannot be used, hence the signatures only receive a lower level of 2.</p>
+<h3>Level 1</h3>
+<p>A level of 1 will never be used by me for it weakens the web of trust in my opinion. I have never signed keys without appropriate verification and I will never do so in the future.</p>
+<h3>Level 0</h3>
+<p>A level of 0 is given to keys of Certification Authorities since in most cases the key owner is a whole organization and not a single person. Usually the fingerprints of those keys have to be verified by getting them from the corresponding website of the CA and cannot be checked by exchange with a member of the CA who is in charge. These signatures are the weakest in my web of trust.</p>
+</div>

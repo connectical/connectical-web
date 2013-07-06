@@ -11,12 +11,17 @@ import PyRSS2Gen
 import datetime
 import feedparser
 import cache
+import utils
 
 Site.CONTEXT.planet = AttrDict()
 Site.CONTEXT.planet.blog = AttrDict()
 Site.CONTEXT.planet.blog.post = []
 Site.CONTEXT.planet.blog.feed = []
 Site.CONTEXT.planet.blog.tags = set()
+
+config_fields = "rss"
+config_avatar = "avatar"
+default_avatar = "/img/avatar.png"
 
 atom_feed = PyRSS2Gen.RSS2(
         title = "Connectical Blog Feed",
@@ -50,7 +55,7 @@ try:
 
     for person in Site.CONTEXT.config.staff.sections():
 
-        feed = Site.CONTEXT.config.staff.get(person, "planet_blog")
+        feed = Site.CONTEXT.config.staff.get(person, config_fields)
 
         cache_key = os.path.join(
             Site.CONTEXT.config.cache.get("cache","cache_dir"),
@@ -92,28 +97,35 @@ try:
                 pubDate = e.updated
             ))
 
+            if Site.CONTEXT.config.staff.has_option(person, config_avatar):
+                _avatar = Site.CONTEXT.config.staff.get(person, config_avatar)
+            else:
+                _avatar = default_avatar
+
+            img = utils.get_img(content)
+
             Site.CONTEXT.planet.blog.post.append(AttrDict(
                 title = e.title,
                 author = unicode(person,"utf-8"),
                 author_url = blog.feed.link,
-                author_avatar = Site.CONTEXT.config.staff.get(person,
-                    "about_avatar"),
+                author_avatar = _avatar,
                 updated = e.updated_parsed,
                 updated_str = e.updated,
+                img = img,
                 url = e.link,
                 content = content,
                 tags = map(lambda d:d.term,e.tags) if getattr(e,"tags",False) else [],
                 comments = e.slash_comments if getattr(e,"slash_comments",False) else 0,
                 text_content = strip_tags(content)))
 
-
-            if getattr(e, "tags", False):
-                Site.CONTEXT.planet.blog.tags = Site.CONTEXT.planet.blog.tags.union(map(lambda d:d.term,e.tags))
-
     Site.CONTEXT.planet.blog.post.sort( cmp = lambda x,y: cmp(y.updated,x.updated) )
-    Site.CONTEXT.planet.blog.post = Site.CONTEXT.planet.blog.post[0:5]
+    Site.CONTEXT.planet.blog.post = Site.CONTEXT.planet.blog.post[0:10]
 
-    atom_feed.write_xml(open("blog/feed/index.xml", "w"))
+    for obj in Site.CONTEXT.planet.blog.post:
+        if obj.tags:
+            Site.CONTEXT.planet.blog.tags = Site.CONTEXT.planet.blog.tags.union(set(obj.tags))
+
+    atom_feed.write_xml(open("live/feed/index.xml", "w"))
 
 except Exception, e:
     if Site.CONTEXT.config.debug.getboolean('debug','enabled') == True:

@@ -13,6 +13,8 @@ import feedparser
 import cache
 import ConfigParser
 
+config_field = "rss"
+
 Site.CONTEXT.innovation = []
 
 class MLStripper(HTMLParser):
@@ -40,7 +42,7 @@ def strip_tags(html):
 def get_articles(area):
     ret = []
     for person in Site.CONTEXT.config.staff.sections():
-        feed = Site.CONTEXT.config.staff.get(person, "planet_blog")
+        feed = Site.CONTEXT.config.staff.get(person, config_field)
 
         cache_key = os.path.join(
             Site.CONTEXT.config.cache.get("cache","cache_dir"),
@@ -69,7 +71,7 @@ def get_articles(area):
         for e in blog.entries:
             if getattr(e,"tags", False):
                 terms =  map(lambda x:x["term"].lower(),e.tags)
-                if "idea" in terms or "labs" in terms:
+                if "idea" in terms or "labs" or "lab" in terms:
                     if "%s" % area in terms:
                         ret.append({"link":e.link,"title":e.title})
 

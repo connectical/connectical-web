@@ -3,11 +3,56 @@ layout: default
 title: products
 
 <div id="content" class="container">
+<style type="text/css" scoped>
+/*---------- whitengrey Styles ---------*/
+.sh_whitengrey{background:none; padding:0; margin:0; border:0 none}
+.sh_whitengrey .sh_sourceCode{background-color:#ededed;color:#696969;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_keyword{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_type{color:#696969;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_string{color:#080;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_regexp{color:#080;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_specialchar{color:#080;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_comment{color:#1326a2;font-weight:normal;font-style:italic;}.sh_whitengrey .sh_sourceCode .sh_number{color:#b0f;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_preproc{color:#470000;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_function{color:#000;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_url{color:#080;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_date{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_time{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_file{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_ip{color:#080;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_name{color:#080;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_variable{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_oldfile{color:#080;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_newfile{color:navy;font-weight:normal;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_difflines{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_selector{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_property{color:#696969;font-weight:bold;font-style:normal;}.sh_whitengrey .sh_sourceCode .sh_value{color:#080;font-weight:normal;font-style:normal;}
+
+/*-------- Snippet Base Styles ----------*/
+.snippet-wrap {position:relative}
+*:first-child+html .snippet-wrap {display:inline-block;}
+* html .snippet-wrap {display:inline-block;}
+.snippet-reveal{text-decoration:underline;}
+.snippet-wrap .snippet-menu, .snippet-wrap .snippet-hide {position:absolute; top:10px; right:15px; font-size:.9em;z-index:1;background-color:transparent;}
+.snippet-wrap .snippet-hide {top:auto; bottom:10px;}
+*:first-child+html .snippet-wrap .snippet-hide {bottom:25px;}
+* html .snippet-wrap .snippet-hide {bottom:25px;}
+.snippet-wrap .snippet-menu pre, .snippet-wrap .snippet-hide pre {background-color:transparent; margin:0; padding:0;}
+.snippet-wrap .snippet-menu a, .snippet-wrap .snippet-hide a {padding:0 5px; text-decoration:underline;}
+.snippet-wrap
+pre.sh_sourceCode{padding:1em;line-height:1.8em;overflow:auto;position:relative;
+height:8em;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;}
+.snippet-wrap pre.snippet-textonly {padding:2em;}
+*:first-child+html .snippet-wrap pre.snippet-formatted {padding:2em 1em;}
+* html .snippet-wrap pre.snippet-formatted {padding:2em 1em;}
+.snippet-reveal pre.sh_sourceCode {padding:.5em 1em; text-align:right;}
+.snippet-wrap .snippet-num li{padding-left:1.5em;}
+.snippet-wrap .snippet-no-num{list-style:none!important; padding:0; margin:0;}
+.snippet-wrap .snippet-no-num li {white-space:nowrap; overflow:hidden;list-style:none!important; padding-left:0;}
+.snippet-wrap .snippet-num {margin:1em 0 1em 1em; padding-left:3em;}
+.snippet-wrap .snippet-num li {list-style:decimal-leading-zero outside none;}
+.snippet-wrap .snippet-no-num li.box {padding:0 6px; margin-left:-6px;}
+.snippet-wrap .snippet-num li.box {border:1px solid; list-style-position:inside; margin-left:-3em; padding-left:6px;}
+*:first-child+html .snippet-wrap .snippet-num li.box {margin-left:-2.4em;}
+* html .snippet-wrap .snippet-num li.box {margin-left:-2.4em;}
+.snippet-wrap li.box-top {border-width:1px 1px 0 !important;}
+.snippet-wrap li.box-bot {border-width:0 1px 1px !important;}
+.snippet-wrap li.box-mid {border-width:0 1px !important;}
+.snippet-wrap .snippet-num li .box-sp {width:18px; display:inline-block;}
+*:first-child+html .snippet-wrap .snippet-num li .box-sp {width:27px;}
+* html .snippet-wrap .snippet-num li .box-sp {width:27px;}
+.snippet-wrap .snippet-no-num li.box {border:1px solid;}
+.snippet-wrap .snippet-no-num li .box-sp {display:none;}
+</style>
+
 	<div class="hero-unit">
 		<div class="ac">
 			<h1>Fresh technology, software & code, these are our products.</h1>
-			<p>Products is a number of innovation projects which are mature
-			enought to leave the incubator and produce an usable piece of
+			<p>Products are a number of innovation projects which are mature
+			enough to leave the incubator and produce an usable piece of
 			software, which is distributed under any free (of freedom)
 			license.</p>
 		</div>
@@ -16,17 +61,22 @@ title: products
 	{% for product in products %}
 	{% if loop.index % 3 == 1 %}
 	<div class="row">
-	{% endif %}
-	<div class="product span4 {{ loop.cycle('odd','even') }}">
+		{% endif %}
+
+	<div class="product span4 _{{ loop.cycle('odd','even') }}">
 		<div class="pinner">
 		<h3 id="{{product.name|uniqueid}}"><a
-				href="{{product.url}}">{{product.name}}<span class="icon icon-download-alt"></span></a></h3>
+				href="{{product.url}}"><span class="icon icon-download-alt"></span> {{product.name}}</a></h3>
 		<p class="small"><span class="grey">By</span> {{product.author}}</p>
-		<p>{{ product.description|cutText }}</p>
+		{% if product.patch %}
+		<pre class="prod_code">{{product.patch | randomLines}}</pre>
+		{% endif %}
+		<p class="desc">{{ product.description|cutText }}</p>
 	</div>
 	</div>
 	{% if loop.index % 3 == 0 %}
 	</div>
+	<hr>
 	{% endif %}
 	{% endfor %}
 	</div>
@@ -34,4 +84,10 @@ title: products
 </div>
 <div class="clearline"></div>
 
-
+<script src="/js/jquery.snippet.min.js" type="text/javascript"></script>
+<script src="/js/sh_diff.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+			$(".prod_code").snippet("diff",{style:"whitengrey",showNum:false, menu:false});
+	});
+</script>

@@ -1,0 +1,158 @@
+vim:ft=html:
+layout: default
+title: live
+
+<article id="post-ghactivity-tpl" class="project hide post post-ghactivity" data-tags="tag_GitHub,tag_code">
+<div class="entry-body">
+	<h2><a href="#"></a></h2>
+	<dl class="dl-horizontal"></dl>
+</div>
+<div class="entry-meta">
+	<span class="entry-github"></span>
+	<span class="entry-author"><a href="x">xx</a></span>
+	<span class="entry-date">xxx</span>
+</div>
+<div class="clr"></div>
+</article>
+
+
+<div id="content" class="container">
+	<div class="hero-unit">
+		<div class="ac">
+			<h1>Blogs & tweets, the connectical social network.</h1>
+			<p>We live in a social network, here you can found
+			a number of connectical blog articles, and tweets about what
+			connectical crew is thinking right now.</p>
+		</div>
+	</div>
+
+	<!-- #blog -->
+	<div class="row faq isotope filtrable" id="blog">
+
+		<div class="tabbable span8">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#bitems" data-toggle="tab">Articles</a></li>
+				<li><a href="#gitems" data-toggle="tab">Code</a></li>
+				<li><a href="#news" data-toggle="tab">News</a></li>
+			</ul>
+
+			<div class="tab-content">
+			<!-- posts -->
+			<div class="tab-pane active" id="bitems"> 
+				<div class="filtrable-items">
+
+					{% for post in planet.blog.post %}
+
+					<article class="post project" data-tags="{{post|tags}}">
+					<div class="entry-body">
+						<a href="{{post.url}}">
+							<h2 class="entry-title">{{post.title}}</h2>
+						</a>
+						{% if post.img %}
+						<div class="post_img"><img src="{{post.img}}" alt="Post	image"></div>
+						{% endif %}
+						<p>{{post.text_content|cutText}}</p>
+					</div>
+					<div class="entry-meta">
+						<span class="entry-type"></span>
+						<span class="entry-author"><a href="{{post.author_url}}">{{post.author}}</a></span>
+						<span class="entry-date">{{post.updated|dateFormat}}</span>
+						<span class="entry-comments"> {{post.comments}} comments</span>
+					</div>
+					<div class="clr"></div>
+					</article>
+					{% endfor %}
+				</div>
+
+			</div>
+
+			<div class="tab-pane" id="gitems"></div>
+			<div class="tab-pane" id="news">
+<script src="http://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="connectical" data-columns="" data-expand="true" style="height:800px;width:100%;">    <div class="tintup-inner"></div>    <a href="http://www.tintup.com/blog/the-best-twitter-widget" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">twitter on website</a></div>
+			
+			</div>
+
+
+		</div>
+		</div> <!-- tabbable -->
+
+		<div class="sidebar span4">
+
+			<div class="widget faq">
+				<input type="search" class="animated" placeholder="Search" />
+			</div>
+
+			<div class="widget">
+				<h4>Blogs!</h4>
+				<ul class="list-style">
+					{% for feed in planet.blog.feed %}
+					<li><a href="{{feed.link}}"><i
+							class="icon-chevron-right"> </i>
+						{{feed.author}}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+
+
+			<div class="widget">
+				<h4>Categories</h4>
+				<ul class="tags filtrable-filter">
+					<li class="active"><a class="filter" data-filter="*"
+						href="#">All</a></li>
+					{% for tag in planet.blog.tags %}
+					<li><a class="filter" data-filter="tag_{{tag}}" href="#">{{tag}}</a></li>
+					{%endfor%}
+				</ul>
+			</div>
+
+			<!-- Simple text widget -->
+			<!--<div class="widget">
+				<h4>Text widget</h4>
+				<p>Cupcake ipsum dolor sit amet wafer gummi bears pudding applicake. Jujubes brownie powder. Sweet roll powder gingerbread gummies. </p>
+			</div>-->
+
+		</div><!-- end sidebar -->
+
+	</div><!-- end #blog -->
+
+	<script type="text/javascript">
+		function getGithubActivity(user) {
+			$.ajax({
+url: "https://api.github.com/users/" + user + "/events",
+type: 'GET',
+dataType: 'JSONP',
+success: function(data) {
+$.each(data.data.filter(function(o) {
+
+
+		return o.type == "PushEvent";
+		}), function(i,o) {
+	if(data.data && data.data.length > 0) {
+	var code = $("#post-ghactivity-tpl").clone().attr('id','');
+
+	$(code).find("h2 a").attr("href",
+		o.repo.url).text("Push code at " + o.repo.name);
+	} else { return; }
+
+	$(code).find(".entry-author").html('<a href="https://github.com/' + o.actor.login + '">' + o.actor.login + "</a>");
+	$(code).find(".entry-date").html(o.created_at.split("T")[0]);
+	$.each(o.payload.commits, function(i,o2) {
+		$(code).find("dl").append('<dt class="entry-title"><a href="' + o2.url + '">#' + o2.sha.slice(0,8) + "</a></dt><dd>" + o2.message + '</dd>');
+		});
+	$(code).appendTo("#gitems").removeClass("hide");
+	$("#gitems article").sortElements(function(a,b) {
+		a = $(a).find(".entry-date").html();
+		b = $(b).find(".entry-date").html();
+		return (a<b)?1:((a==b)?0:-1);
+		});
+});
+}
+});
+}
+$(function() {
+		{% for user in staff %}{% if user.github %}
+		getGithubActivity("{{user.github}}");
+		{% endif %}{% endfor %}
+		});
+</script>
+	</div>

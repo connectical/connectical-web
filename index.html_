@@ -27,14 +27,18 @@ title: home
 
 		<div class="row vspace">
 			<div class="span4">
-				<h2><span class="icon icon-beaker grey"></span><span class="grey">The</span> Innovation</h2>
+				<h2><a href="/innovation"><span class="icon icon-beaker
+							grey"></span><span class="grey">The</span>
+						Innovation</a></h2>
 				<p>Innovation is always present in Connectical. We are
 				technology builders, so we are always thinking about some ideas
 				and try to create something new from those. That is our innovation lab!</p>
 				<p><a class="" href="/innovation">Read more &raquo;</a></p>
 			</div>
 			<div class="span4">
-				<h2><span class="icon icon-download-alt grey"></span><span class="grey">Our</span> Products</h2>
+				<h2><a href="/products"><span class="icon icon-download-alt
+							grey"></span><span class="grey">Our</span>
+						Products</a></h2>
 				<p>A product is any piece of code or hardware ready to be
 				useful for everyone. Products are the goal of an idea and the
 				begin of a new cycle of improvements and fixes. Welcome to our
@@ -42,7 +46,8 @@ title: home
 				<p><a class="" href="/products">Read more &raquo;</a></p>
 			</div>
 			<div class="span4">
-				<h2><span class="icon icon-cloud grey"> </span><span class="grey">Our </span> Services</h2>
+				<h2><a href="/services"><span class="icon icon-cloud grey">
+				</span><span class="grey">Our </span> Services</a></h2>
 				<p>Connectical begins with a hard social orientation and
 				motivation. We are focused in spread new ideas and developments,
 				so we provide many of those as a service for the world. That is

@@ -16,6 +16,10 @@ import ConfigParser
 Site.CONTEXT.about = []
 Site.CONTEXT.staff = []
 
+config_fields = [
+        "github", "linkedin", "twitter", "google+", "blog", "facebook"
+]
+
 try:
     for section in Site.CONTEXT.config.about.sections():
         Site.CONTEXT.about.append({
@@ -27,9 +31,10 @@ try:
         _x = Site.CONTEXT.config.staff._sections[section]
         _x["name"] = unicode(_x["__name__"], "utf-8")
         _x["links"] = {}
+
         for k,v in _x.items():
-            if k.startswith("link_"):
-                _x["links"][k.split("_",2)[1]] = v
+            if k in config_fields:
+                _x["links"][k] = v
         Site.CONTEXT.staff.append(_x)
 
 except Exception, e:
