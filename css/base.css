@@ -1392,3 +1392,21 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 	overflow:hidden;
 	white-space:pre-line;
 }
+.homepage .container h2 a:hover span {
+	-webkit-transform: rotate(8deg);
+	-moz-transform: rotate(8deg);
+	-ms-transform: rotate(8deg);
+	-o-transform: rotate(8deg);
+	transform: rotate(8deg);
+	color: #41b7d8;
+}
+
+.homepage .container h2 a span {
+
+	line-height:20px;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+-o-transition: all 0.2s;
+transition: all 0.2s;
+}
+

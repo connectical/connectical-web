@@ -22,7 +22,7 @@ title: innovation
 						<ul class="articles">
 						{% for a in area.articles %}
 						<li><a href="{{a.link}}"><span
-								class="icon-beaker"> </span>{{a.title}}</a></li>
+								class="icon icon-beaker"> </span>{{a.title}}</a></li>
 						{% endfor %}
 						</ul>
 					{% endif %}
@@ -44,7 +44,7 @@ title: innovation
 					<ul class="articles">
 						{% for a in area.articles %}
 						<li><a href="{{a.link}}"><span
-								class="icon-beaker"> </span>{{a.title}}</a></li>
+								class="icon icon-beaker"> </span>{{a.title}}</a></li>
 						{% endfor %}
 					</ul>
 					{% endif %}
