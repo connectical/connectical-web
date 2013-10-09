@@ -34,7 +34,10 @@ try:
 
         for k,v in _x.items():
             if k in config_fields:
-                _x["links"][k] = v
+                if k == "github":
+                    _x["links"][k] = "http://github.com/%s" % v
+                else:
+                    _x["links"][k] = v
         Site.CONTEXT.staff.append(_x)
 
 except Exception, e:

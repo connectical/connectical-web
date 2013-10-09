@@ -1,70 +1,787 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Connectical Blog Feed</title><link>http://connectical.com/blog</link><description>Blog for Connectical staff and collaborators</description><lastBuildDate>Wed, 09 Oct 2013 19:17:15 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Chill out listening to the waves&#8230;</title><link>http://hario.wordpress.com/2009/11/16/chill-out-listening-to-the-waves/</link><description>&lt;p&gt;&lt;a href="http://hario.files.wordpress.com/2009/11/wave.png"&gt;&lt;img alt="Google Wave Failure" class="aligncenter size-medium wp-image-395" height="181" src="http://hario.files.wordpress.com/2009/11/wave.png?w=300&amp;#038;h=181" title="Google Wave Failure" width="300" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is how &lt;a href="http://wave.google.com"&gt;Google Wave&lt;/a&gt; will greet you when the service has gone out past lunch. Funny &lt;img alt=":D" class="wp-smiley" src="http://s0.wp.com/wp-includes/images/smilies/icon_biggrin.gif" /&gt; &lt;/p&gt;
-&lt;br /&gt; Tagged: funny &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/396/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/396/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=396&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Sun, 15 Nov 2009 23:37:53 +0000</pubDate></item><item><title>Ahoy, ye maties!</title><link>http://hario.wordpress.com/2009/09/19/ahoy-ye-maties/</link><description>&lt;p style="text-align: center;"&gt;&lt;a href="http://www.telltalegames.com/playlikeapirate/"&gt;&lt;img alt="Play Like a Pirate" class="size-full wp-image-388  aligncenter" src="http://hario.files.wordpress.com/2009/09/playpirate.png?w=440" title="Play Like a Pirate" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;So it is September the 19th aboard, meaning yer should be &lt;a href="http://en.wikipedia.org/wiki/International_Talk_Like_a_Pirate_Day"&gt;talkin&amp;#8217; like pirates&lt;/a&gt;&amp;#8230; because &lt;a href="http://www.venganza.org/2006/09/19/talk-like-a-pirate-day/"&gt;yer truly FSM mandates&lt;/a&gt; so. For those of yer who would wavin&amp;#8217; yer cutlasses for new Monkey Island stuff, some folks have smartly made readily available a &lt;a href="http://www.telltalegames.com/playlikeapirate/"&gt;free copy of Tales of Monkey Island&lt;/a&gt; for yer surfin&amp;#8217; buccaneers!&lt;/p&gt;
-&lt;p&gt;Some bad news: yer will be needin&amp;#8217; Windows. Dunno what that&amp;#8217;s mean, folk, but sound like no good, arrrrr!&lt;/p&gt;
-&lt;br /&gt;  &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/387/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/387/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=387&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Sat, 19 Sep 2009 13:03:58 +0000</pubDate></item><item><title>Squeeze release goals</title><link>http://hario.wordpress.com/2009/08/08/squeeze-release-goals/</link><description>&lt;p&gt;It is a shame that large file support (LFS) is &lt;em&gt;still&lt;/em&gt; a &lt;a href="http://lists.debian.org/debian-devel-announce/2009/07/msg00001.html"&gt;release goal&lt;/a&gt; for Debian. Hey folks, we are in 2009&amp;#8230; support for lage files landed in the kernel a lot of time ago, and (probably) 99% of applications already support that. I have always had LFS support in &lt;a href="http://www.gentoo.org"&gt;Gentoo&lt;/a&gt; without needing to do &lt;em&gt;nothing&lt;/em&gt;. There is IPv6 on the listo, too&amp;#8230; Please do not make me talk about my opinion on the &#8220;great&#8221; release cycle of two years. You must be kidding, guys.&lt;/p&gt;
-&lt;br /&gt;  &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/382/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/382/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=382&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Sat, 08 Aug 2009 10:47:08 +0000</pubDate></item><item><title>La movida de los suicidios</title><link>http://hario.wordpress.com/2009/06/10/la-movida-de-los-suicidios/</link><description>&lt;p&gt;Recibo un correo de la gente de una compañía de «hosting» en la que tengo contratada una máquina virtual. El mensaje reza:&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;Subject:&lt;/strong&gt; Important: Future of use of HyperVM&lt;/p&gt;
-&lt;p&gt;As many of you may know, the owner of HyperVM (LxLabs) has committed suicide &lt;span style="color: #999;"&gt;[...]&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Como me resultaba extraña la cosa, me he puesto a investigar un poquito&amp;#8230; la cosa va más o menos así, ordenada temporalmente:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Unos 100.000 websites hosteados por &lt;a href="http://vaserv.com"&gt;VA-Serv&lt;/a&gt; son borrados de la faz de la tierra (no os perdáis los reports de estado en su página), aparentemente por algún problema con &lt;a href="http://lxlabs.com/software/hypervm/"&gt;HyperVM&lt;/a&gt;, un panel de control para máquinas virtuales.&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://lxlabs.com"&gt;LxLabs&lt;/a&gt; (los autores de HyperVM) &lt;a href="http://forum.lxlabs.com/index.php?t=msg&amp;amp;th=11197&amp;amp;start=0&amp;amp;"&gt;anuncia&lt;/a&gt; que pagará a quien demuestre haber encontrado problemas de seguridad en sus productos. En resumen: que lanzan un órdago a ver quien es más chulo. Hay que ser un &lt;a href="http://cr.yp.to/djb.html"&gt;Dan J. Bernstein&lt;/a&gt; de la vida para estar seguro de hacer una cosa, no es algo que haga pueda hacer una persona cualquiera&amp;#8230;&lt;/li&gt;
-&lt;li&gt;Un grupo de barbudos descubre al menos 24 vulnerabilidades critiquísimas que potencialmente podrían haber sido usadas para trincar unas cuantas centenas de máquinas virtuales.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;(Conjetura mía)&lt;/em&gt; La gerencia de VA-Serv empieza a presionar a LxLabs para que les indemnicen o algo así, pues seguramente LxLabs vende la moto de que da un «muy buen soporte» al producto.&lt;/li&gt;
-&lt;li&gt;El dueño de LxLabs &lt;a href="http://www.theregister.co.uk/2009/06/09/lxlabs_funder_death/"&gt;se cuelga&lt;/a&gt; de un árbol. Debe ser una &lt;a href="http://timesofindia.indiatimes.com/Bangalore/Techie-hangs-himself-in-HSR-Layout-/articleshow/4633101.cms"&gt;antigua tradición familiar&lt;/a&gt;, pues tiempo ha algunos de sus allegados habían hecho lo mismo.&lt;/li&gt;
-&lt;li&gt;Las otras compañías de hosting (por suerte la mía incluída) se empiezan a cagar de miedo y (como es lógico y sanamente recomendable) desactivan sus instalaciones de HyperVM y empiezan a pensar seriamente en cambiarse a la competencia.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;(Predicción mía)&lt;/em&gt; LxLabs se va al garete. Mientras tanto otra compañía saca tajada vendiendo un software para manejo de VMs igual de cutre que HyperVM hecho en PHP, pero que visualmente es más bonito y sus comerciales son más convincentes a la hora de vender la moto de que es más seguro que Fort Knox, oiga.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Resumiendo, al final, nada como guisarte &lt;em&gt;tú mismo&lt;/em&gt; la administración de &lt;em&gt;tus  propias máquinas&lt;/em&gt;: No hay nada que sustituya a un buen cliente de SSH y toquetear todo en línea de comandos.&lt;/p&gt;
-&lt;br /&gt; Tagged: informatica, reallife &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/375/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/375/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=375&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Tue, 09 Jun 2009 23:25:31 +0000</pubDate></item><item><title>Ezmlm lists and the From header</title><link>http://hario.wordpress.com/2009/05/13/ezmlm-lists-and-the-from-header/</link><description>&lt;p&gt;If you have used the fine &lt;a href="http://ezmlm.org/"&gt;ezmlm&lt;/a&gt; mailing list manager (which is a perfect complement for the &lt;a href="http://cr.yp.to/qmail.html"&gt;qmail&lt;/a&gt; MTA) you may have found that when hitting the &#8220;Reply&#8221; button in your mail client, the recipient will be the author of the message instead of the list address. There is a quick workaround by passing the list address to the &lt;tt&gt;-3&lt;/tt&gt; to &lt;tt&gt;ezmlm-make&lt;/tt&gt;, but that will screw up the &#8220;From&#8221; MIME header in messages, and it will look like all messages were send by the mailing list!&lt;/p&gt;
-&lt;p&gt;Fortunately, there is a solution thanks to the infinite tuneability of ezmlm. As you should already know, for each list a directory with some files is created for each mailing list, and most of the behaviour of the mailing list can be tuned by editing those files. There are two files which affect MIME headers which will be of interest:&lt;/p&gt;
+<rss version="2.0"><channel><title>Connectical Blog Feed</title><link>http://connectical.com/blog</link><description>Blog for Connectical staff and collaborators</description><lastBuildDate>Wed, 09 Oct 2013 19:25:17 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>DMon 0.4.2 &#8220;Three Wise Men&#8221; released</title><link>http://perezdecastro.org/2012/dmon-0-4-2-released.html</link><description>&lt;p&gt;Don't expect lots of surprises this time, but an otherwise smooth
+maintenance release that includes a couple of minor niceties. Changes
+since version 0.4.1 mostly affected the logging tools (&lt;code&gt;dlog&lt;/code&gt;, &lt;code&gt;dslog&lt;/code&gt;
+and &lt;code&gt;drlog&lt;/code&gt;):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;tt&gt;headerremove&lt;/tt&gt; defines a list of headers which will be stripped off messages when they arrive.&lt;/li&gt;
-&lt;li&gt;&lt;tt&gt;heeaderadd&lt;/tt&gt; defines a list of headers (and their values) which will be added by ezmlm when processing messages.&lt;/li&gt;
+&lt;li&gt;Logging tools now may accept input from arbitrary file descriptors,
+using the &lt;code&gt;--input-fd&lt;/code&gt; command line option. This enables to do some
+nice redirection tricks from shell scripts and other programs which
+use them.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Logging tools now support adding an arbitrary string in front of
+logged lines using the &lt;code&gt;--prefix&lt;/code&gt; option. For example, this allows
+to send the output of several commands to a FIFO, and when reading
+from it it would be possible to know which command originated the
+message in the resulting output:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;mkfifo logpipe
+dmon cat logpipe -- dlog -t /var/log/combined
+dmon command1 -- dlog -p command1: logpipe
+dmon command2 -- dlog -p command2: logpipe
+dmon command3 -- dlog -p command3: logpipe&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Logging tools now handle the &lt;code&gt;INT&lt;/code&gt;, &lt;code&gt;TERM&lt;/code&gt; and &lt;code&gt;HUP&lt;/code&gt; signals. When
+signalled, they will flush buffers to disk, and in the case of
+&lt;code&gt;drlog&lt;/code&gt; check if log rotation is needed; for &lt;code&gt;INT&lt;/code&gt; and &lt;code&gt;TERM&lt;/code&gt; the
+processes will also shut down gracefully.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;The manual pages now also include the long variant of command line
+options.&lt;/li&gt;
+&lt;li&gt;A number of small improvements: better error messages, removal of
+some unused code, updated to a slightly newer version of &lt;code&gt;libwheel&lt;/code&gt;,
+better and more consistent command line parsing, silent Make
+rules...&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;What we want to do is that the &#8220;Reply&#8221; button of mail clients makes them use the list address as recipient. For this we can add a &#8220;Reply-To&#8221; header, and a &#8220;X-Mailing-List&#8221; one (the latter is not standard, but honored by a number of clients):&lt;/p&gt;
-&lt;pre&gt;  echo 'Reply-To: yourlist@yourdomain.com' &amp;gt;&amp;gt; headeradd
-  echo 'X-Mailing-List: &amp;lt;yourlist@yourdomain.com&amp;gt;' &amp;gt;&amp;gt; headeradd&lt;/pre&gt;
-&lt;p&gt;The we must ensure that the original &#8220;From&#8221; header is preserved, by not listing it in &lt;tt&gt;headerremove&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre&gt;  sed -i -e '/^[Ff]rom$/d' headerremove&lt;/pre&gt;
-&lt;p&gt;Now you will see the correct &#8220;From&#8221; value in messages, and replying to them will send the message to the list by default. Also, if you want to filter list messages, you can now use the &#8220;X-Mailing-List&#8221; header, which is the default action of some clients when classifying messages per mailing list.&lt;/p&gt;
-&lt;p&gt;Isn&amp;#8217;t ezmlm nice? &lt;img alt=";-)" class="wp-smiley" src="http://s1.wp.com/wp-includes/images/smilies/icon_wink.gif" /&gt; &lt;/p&gt;
-&lt;br /&gt;  &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/341/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/341/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=341&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Wed, 13 May 2009 11:17:13 +0000</pubDate></item><item><title>Latest updates</title><link>http://hario.wordpress.com/2008/07/07/latest-updates/</link><description>&lt;p&gt;Being occupied means that one does not have as much time as desired to update this weblog, so here you have a quick summary of what happened the last weeks:&lt;/p&gt;
+&lt;p&gt;Make sure you grab the &lt;a href="http://people.igalia.com/aperez/files/dmon-0.4.2.tar.gz"&gt;tarball&lt;/a&gt; while it is still fresh, and do not
+forget that a package for &lt;a href="http://archlinux.org"&gt;Arch Linux&lt;/a&gt; is available &lt;a&gt;in the AUR&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update, Jan 30th:&lt;/strong&gt; Packages for DMon 0.4.2 are now also available at
+the &lt;a href="http://apt.igalia.com"&gt;Igalia APT respoitory&lt;/a&gt;, for &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt; and &lt;code&gt;armel&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Happy 2012!&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2012-01-07T20:13:00.000Z</pubDate></item><item><title>DMon 0.4: New guts &amp; new features</title><link>http://perezdecastro.org/2011/dmon-0-4-new-guts-and-new-features.html</link><description>&lt;p&gt;Wow, that was a lot of time without me posting anything (five months),
+mostly because I am investing most of my spare time after work here in
+Finland for socializing. Still, from time to time one has to take a
+break, and there is no better way than just staying at home watching &lt;a href="http://www.thetvdb.com/?tab=series&amp;amp;id=75760&amp;amp;lid=7"&gt;a
+good TV series&lt;/a&gt;, or doing some coding on &lt;a href="https://gitorious.org/dmon"&gt;pet&lt;/a&gt; &lt;a href="https://gitorious.org/wheel"&gt;projects&lt;/a&gt;. The
+later means that DMon got some love, and that &lt;a href="https://gitorious.org/dmon/dmon/trees/v0.4.1"&gt;version 0.4.1&lt;/a&gt; is now
+available (tarball &lt;a href="http://people.igalia.com/aperez/files/dmon-0.4.1.tar.gz"&gt;here&lt;/a&gt;, mirror &lt;a href="http://furi-ku.org/files/dmon-0.4.1.tar.gz"&gt;there&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So... What's new?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Most changes in this release are not user-visible, because I have been
+rewriting the insides of DMon to use &lt;a href="https://gitorious.org/wheel"&gt;libwheel&lt;/a&gt;, which enables
+some nice features and allowed to reduce the amount of code (&lt;a href="http://en.wikipedia.org/wiki/Minimalism#Minimalist_design"&gt;less is
+more!&lt;/a&gt;). Anyway this is a summary of what's new since version 0.3.7:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;I started working in the systems department of &lt;a href="http://www.igalia.com"&gt;Igalia&lt;/a&gt;, a very cool company which works with free software (as in &#8220;freedom&#8221;). For geeky stuff related to systems administration, you can take a look at my &lt;a href="http://blogs.igalia.com/aperez/"&gt;new weblog there&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;I attended the Bob Dylan concert which was held in Vigo last June 27th. I mostly enjoyed it, although I think that the concert would fit better in an auditorium. Even so, the performance was impeccable, and the &lt;a href="http://princesadeframbuesa.blogspot.com/"&gt;accompaniment&lt;/a&gt; awesome.&lt;/li&gt;
-&lt;li&gt;We now have two cat in our flat, named Xan and Ziggy. They are quiet but sometimes it looks like they had too much coffee&amp;#8230; and that&amp;#8217;s fun!&lt;/li&gt;
-&lt;li&gt;One of my roommates is on holidays&amp;#8230; and we miss her a lot.&lt;/li&gt;
-&lt;li&gt;I started learning how to use &lt;a href="http://git.or.cz/"&gt;Git&lt;/a&gt;. Some of my mates at work use it and once basic things are understood everything starts to make sense &lt;img alt=":D" class="wp-smiley" src="http://s0.wp.com/wp-includes/images/smilies/icon_biggrin.gif" /&gt; &lt;/li&gt;
-&lt;li&gt;Some friends of mine and myself are preparing a little trip to the Cíes Islands.&lt;/li&gt;
-&lt;li&gt;There are two persons which I do love a lot went to Ireland. I know they are having a good time, but I will cover them with hugs when they arrive.&lt;/li&gt;
-&lt;li&gt;I am glad that &lt;a href="http://libelulazul.wordpress.com/"&gt;someone I care about&lt;/a&gt; achieved a good punctuation in her last exam.&lt;/li&gt;
-&lt;li&gt;Did I mention I still searching for someone special? Girl preferred, FYI &lt;img alt=";-)" class="wp-smiley" src="http://s1.wp.com/wp-includes/images/smilies/icon_wink.gif" /&gt; &lt;/li&gt;
+&lt;li&gt;Long command line options are now supported. Parsing and error
+reporting of arguments was improved.&lt;/li&gt;
+&lt;li&gt;It is now possible for &lt;code&gt;dmon&lt;/code&gt; to read options from text files, by
+passing &lt;code&gt;--config&lt;/code&gt; (or &lt;code&gt;-C&lt;/code&gt;) as first command line option, followed
+by a path to a file. File format is dead easy: long command line
+options (without trailing dashes) followed by arguments, one option
+per line, and lines starting with dashes are ignored.&lt;/li&gt;
+&lt;li&gt;Real-time updates on the status of the processes being monitored can
+be written now to a file (which may be a FIFO), using the
+&lt;code&gt;--write-info&lt;/code&gt; option. This may be useful to integrate &lt;code&gt;dmon&lt;/code&gt; with
+other tools. The manual page has now a section documenting the
+format of the generated status information.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;drlog&lt;/code&gt; log tool, which supersedes &lt;code&gt;rotlog&lt;/code&gt;, was added. Use it
+to log to a directory of auto-rotated log files.&lt;/li&gt;
+&lt;li&gt;A multicall binary is now built by default (that is: one binary
+contains all tools, which can be symlinked under different names).
+Separate binaries can still be built by passing &lt;code&gt;NO_MULTICALL=1&lt;/code&gt; to
+Make.&lt;/li&gt;
+&lt;li&gt;A number of small cleanups and fixes, both in the code and manual
+pages.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Dunno when I will post the next update, but &#8220;mala herba nunca morre&#8221;, as we say in our region &lt;img alt=":D" class="wp-smiley" src="http://s0.wp.com/wp-includes/images/smilies/icon_biggrin.gif" /&gt; &lt;/p&gt;
-&lt;br /&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/hario.wordpress.com/207/" /&gt; &lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/hario.wordpress.com/207/" /&gt; &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/207/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/207/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=207&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Mon, 07 Jul 2008 00:14:47 +0000</pubDate></item><item><title>The fictitious album cover meme</title><link>http://hario.wordpress.com/2008/06/22/the-fictitious-album-cover-meme/</link><description>&lt;p&gt;This is a rather funny thing I have seen at some &lt;a href="http://manuls.inopia.net"&gt;blog of a friend&lt;/a&gt; which proposes the following method to make yourself a fictional cover of an album:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What next?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Those are some vague ideas of things I would like to implement at some
+point:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add support for &lt;a href="https://secure.wikimedia.org/wikipedia/en/wiki/Cgroups"&gt;control groups&lt;/a&gt;. This would allow to do nice
+tricks like isolating processes more reliably, killing subprocesses
+spawned by daemons that create new process groups in the wild, finer
+controls on resource usage limits... As this is a Linux-specific
+feature, it will be a compile-time option.&lt;/li&gt;
+&lt;li&gt;Handling of lock files. It may be interesting to have the ability of
+locking some particular file before launching processes. This would
+be mostly useful for tasks that are ran once under control of
+&lt;code&gt;dmon&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;start-stop-daemon&lt;/code&gt; compatible replacement that uses DMon under
+the hood. This would allow for easily hooking it in traditional SysV
+init scripts.&lt;/li&gt;
+&lt;li&gt;DInit: This would be a replacement for &lt;a href="http://en.wikipedia.org/wiki/Init"&gt;init(8)&lt;/a&gt;, which would use
+&lt;code&gt;dmon&lt;/code&gt; to monitor processes. Why implementing another contender when
+there's already &lt;a href="http://freedesktop.org/wiki/Software/systemd/"&gt;systemd&lt;/a&gt;, &lt;a href="http://upstart.ubuntu.com/"&gt;upstart&lt;/a&gt; and a &lt;a href="http://smarden.org/runit/"&gt;bunch&lt;/a&gt; of
+&lt;a href="http://initng.org/trac"&gt;other&lt;/a&gt; &lt;a href="http://roy.marples.name/projects/openrc"&gt;implementations&lt;/a&gt;? First of all, I like hacking this
+kind of system-level things so I will be doing it &#8220;for fun&#8221;; second,
+I would like to focus on making it suitable for embedded devices and
+diskless operation (e.g. cluster nodes or minimal/rescue boot
+images).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Some final words...&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sorry, no Debian packages this time, but now that I am using &lt;a href="http://www.archlinux.org/"&gt;Arch
+Linux&lt;/a&gt; again there is a package &lt;a href="http://aur.archlinux.org/packages.php?ID=50553"&gt;available at the AUR&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also, I will be in Berlin in August, from 5th to 12th... Yes, you
+guessed it: I'm attending the Desktop Summit:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="attending the Desktop Summit in Berlin" src="https://www.desktopsummit.org/sites/www.desktopsummit.org/files/DS2011banner.png" /&gt;&lt;/p&gt;
+&lt;p&gt;See you around... and happy monitoring!&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2011-07-25T08:50:00.000Z</pubDate></item><item><title>DMon status report: evolution to 0.3.7</title><link>http://perezdecastro.org/2010/dmon-status-report-0-3-7.html</link><description>&lt;p&gt;When I &lt;a href="http://perezdecastro.org/aperez/2010/08/dmon-process-monitoring-with-style/"&gt;first wrote about DMon&lt;/a&gt;, I pointed out that version 0.3 could
+be already installed from &lt;a href="http://apt.igalia.com"&gt;our APT repository&lt;/a&gt;, which hosts flavours
+for &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt; and &lt;code&gt;armel&lt;/code&gt;. Five weeks have passed and I feel like
+I have to write a status update now that &lt;a href="http://gitorious.org/dmon/dmon/commits/v0.3.7"&gt;0.3.7 is out&lt;/a&gt;. It is not a
+big version number change because DMon behaves essentially as in 0.3,
+but a number of new features were added and bugs fixed.&lt;/p&gt;
+&lt;p&gt;Let's see which juicy bits are available on top of the features it
+already had:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Additional groups can now be specified using the &lt;code&gt;-u&lt;/code&gt; and &lt;code&gt;-U&lt;/code&gt;
+options. As a side effect of their extended syntax, options &lt;code&gt;-g&lt;/code&gt; and
+&lt;code&gt;-G&lt;/code&gt; were removed as they are no longer needed.&lt;/li&gt;
+&lt;li&gt;Setting of resource usage limits is now supported with the &lt;code&gt;-r&lt;/code&gt;.
+This uses &lt;a href="http://linux.die.net/man/2/setrlimit"&gt;setrlimit(2)&lt;/a&gt; under the hood.&lt;/li&gt;
+&lt;li&gt;DMon can now wait for some time before re-running commands by
+specifying time intervals with the &lt;code&gt;-i&lt;/code&gt; option. Think about it as a
+poor man's recurrent job scheduler.&lt;/li&gt;
+&lt;li&gt;Environment variables can now be manipulated (including deletion) by
+means of the &lt;code&gt;-E&lt;/code&gt; option.&lt;/li&gt;
+&lt;li&gt;All commands (&lt;code&gt;dmon&lt;/code&gt;, &lt;code&gt;dlog&lt;/code&gt;, &lt;code&gt;dslog&lt;/code&gt;) can now be built as a single
+multicall binary. This saves disk space and some kilobytes of
+memory, which is interestinhg for embedded environments.&lt;/li&gt;
+&lt;li&gt;Tools now honor the &lt;code&gt;DMON_OPTIONS&lt;/code&gt;, &lt;code&gt;DLOG_OPTIONS&lt;/code&gt; and
+&lt;code&gt;DSLOG_OPTIONS&lt;/code&gt;; environment variables. When defined, they will be
+interpreted as additional command line arguments. Actual command
+line arguments take precedence, so values given in environment
+variablels can still be overriden.&lt;/li&gt;
+&lt;li&gt;A small &lt;code&gt;libnofork.so&lt;/code&gt; library is included, which overrides the
+system-provided &lt;a href="http://linux.die.net/man/2/fork"&gt;fork(2)&lt;/a&gt; and &lt;a href="http://linux.die.net/man/3/daemon"&gt;daemon(3)&lt;/a&gt; functions in such a
+way that the library can be preloaded
+(&lt;code&gt;dmon -E LD_PRELOAD=libnofork.so ....&lt;/code&gt;) to make programs not to
+fork. Very useful for applications which create new daemon processes
+inconditionally so they can be properly monitored. This is tested
+only under GNU/Linux with &lt;code&gt;glibc&lt;/code&gt; at the moment, use with care!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apart from new features, a couple of bugs related to error handling were
+fixed, for better reliability.&lt;/p&gt;
+&lt;p&gt;Last but not least, I would like to thank my friend &lt;a href="http://ajdiaz.wordpress.com/"&gt;Andrés J. Díaz&lt;/a&gt;
+who is using DMon and provided feedback and ideas for some of those new
+features.&lt;/p&gt;
+&lt;p&gt;Happy monitoring!&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2010-10-04T15:06:00.000Z</pubDate></item><item><title>DMon: Process monitoring with style</title><link>http://perezdecastro.org/2010/dmon-process-monitoring-with-style.html</link><description>&lt;p&gt;Have you ever wanted to run a lengthy process making sure that it will
+be restarted on failure? Did you need at some point to daemonize a
+&#8220;normal&#8221; program? Well, maybe you already knew about &lt;a href="http://cr.yp.to/daemontools.html"&gt;daemontools&lt;/a&gt;,
+&lt;a href="http://smarden.org/runit/"&gt;runit&lt;/a&gt;, &lt;a href="http://offog.org/code/freedt.html"&gt;freedt&lt;/a&gt;, &lt;a href="http://supervisord.org/"&gt;Supervisor&lt;/a&gt;, &lt;a href="http://upstart.ubuntu.com/"&gt;upstart&lt;/a&gt; or &#8212;recently&#8212;
+&lt;a href="http://www.freedesktop.org/wiki/Software/systemd"&gt;systemd&lt;/a&gt;. They already do a good job respawning processes, but there
+are three single things that neither of them are capable of doing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Running a &lt;strong&gt;single command&lt;/strong&gt; and exiting when it exits successfully.&lt;/li&gt;
+&lt;li&gt;Running commands &lt;strong&gt;interactively&lt;/strong&gt;, without daemonizing nor
+detaching from the terminal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temporarily suspending&lt;/strong&gt; execution when the system load goes over
+a configurable value, &lt;strong&gt;and resuming execution&lt;/strong&gt; automatically as
+soon as the load drops below another configurable value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you ever needed at least one of those features, then &lt;a href="http://gitorious.org/dmon"&gt;DMon&lt;/a&gt; is
+probably what you want. If unsure, read the examples below &#8212; you might
+find some inspiration for use-cases!&lt;/p&gt;
+&lt;h2&gt;The Story&lt;/h2&gt;
+&lt;p&gt;Years ago I discovered &lt;a href="http://en.wikipedia.org/wiki/Daniel_J._Bernstein"&gt;Daniel J. Bernstein&lt;/a&gt;'s &lt;a href="http://cr.yp.to/qmail.html"&gt;qmail&lt;/a&gt;, and with it
+came the rest of the &#8220;DJB-ware&#8221; software stack: &lt;a href="http://cr.yp.to/djbdns.html"&gt;djbdns&lt;/a&gt;, &lt;a href="http://cr.yp.to/ucspi-tcp.html"&gt;ucspi&lt;/a&gt;,
+&lt;a href="http://cr.yp.to/daemontools.html"&gt;daemontools&lt;/a&gt;... and their philosophy!)&lt;/p&gt;
+&lt;p&gt;Some weeks ago I coded &lt;a href="http://blogs.igalia.com/aperez/2010/07/vfand-a-daemon-to-control-fan-speed-in-vaio-laptops/"&gt;vfand&lt;/a&gt;, a small &#8220;non-daemon&#8221; to control the
+speed of the fan in my Vaio laptop because it was overheating. I am
+lazy, so I deliberately left out daemonization and suggested launching
+it from &lt;a href="http://linux.die.net/man/8/init"&gt;init(8)&lt;/a&gt; &#8212; because I knew that DJB's tools leave
+daemonization and logging to other tools which &lt;a href="http://onethingwell.org/post/457050307/about-one-thing-well"&gt;just do one thing
+well&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Days back I had to make a huge data copy in a mission-critical mail
+server, and used the mighty &lt;a href="http://www.samba.org/rsync/"&gt;rsync&lt;/a&gt; tool because I wanted the copy to
+be interruptible so I could stop it when the system load was getting
+high and then resuming the data copy. I did that manually (&lt;code&gt;Ctrl-Z&lt;/code&gt;,
+wait, &lt;code&gt;fg&lt;/code&gt;, repeat), and I do not like performing automatable tasks.
+Fortunately I seldom do this kind of tasks.&lt;/p&gt;
+&lt;p&gt;Do you recognize the pattern? &lt;a href="http://gitorious.org/dmon"&gt;DMon&lt;/a&gt; is a subproduct of what I have
+been doing lately, applying the knowledge about &lt;code&gt;daemontools&lt;/code&gt; I already
+had.&lt;/p&gt;
+&lt;h2&gt;How does it work? &#8212; Modus operandi&lt;/h2&gt;
+&lt;p&gt;In short it works àla &lt;code&gt;daemontools&lt;/code&gt; without control sockets and without
+using script files for launching processes. All options are specified in
+the command line, as long as the commands to be run. Like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;dmon [options] command [command-options] 
+     [-- log-command [log-command-options]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As an example, consider the following command line:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;dmon cron -f -- dlog /var/log/cron.log&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is what DMon wil do:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Go to a &lt;a href="http://en.wikipedia.org/wiki/Special:Random"&gt;random Wikipedia page&lt;/a&gt;, the title of the article will be your name or the name of your band.&lt;/li&gt;
-&lt;li&gt;Load a page with &lt;a href="http://www.quotationspage.com/random.php3"&gt;random quotes&lt;/a&gt;, choose the last four words of the last citation: that will be the title of your album.&lt;/li&gt;
-&lt;li&gt;Grab the third image of the &lt;a href="http://www.flickr.com/explore/interesting/7days/"&gt;Flickr random images&lt;/a&gt; gallery: that would be the cover of your album.&lt;/li&gt;
-&lt;li&gt;Use &lt;a href="http://www.gimp.org"&gt;The GIMP&lt;/a&gt; to create a nifty the cover.&lt;/li&gt;
-&lt;li&gt;Show your result to the audience.&lt;/li&gt;
-&lt;li&gt;Voilà! You&amp;#8217;re done.&lt;/li&gt;
+&lt;li&gt;Daemonize itself.&lt;/li&gt;
+&lt;li&gt;Create a &lt;a href="http://linux.die.net/man/2/pipe"&gt;pipe(2)&lt;/a&gt;, which will be used to connect the output of
+the given &lt;code&gt;command&lt;/code&gt; to the input of the &lt;code&gt;log-command&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Spawn both the &lt;code&gt;command&lt;/code&gt; and the &lt;code&gt;log-command&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Silently wait. If some child is terminated, it will be respawned.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;My result is pretty funny, I think:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://hario.files.wordpress.com/2008/06/album.jpg"&gt;&lt;img alt="" class="aligncenter size-full wp-image-206" src="http://hario.files.wordpress.com/2008/06/album.jpg?w=440" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Feel free to follow this meme&amp;#8230; if you dare!&lt;/p&gt;
-&lt;br /&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/hario.wordpress.com/205/" /&gt; &lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/hario.wordpress.com/205/" /&gt; &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/205/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/205/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=205&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Sun, 22 Jun 2008 15:36:59 +0000</pubDate></item><item><title>Evolution with RSS (redux)</title><link>http://hario.wordpress.com/2008/06/06/evolution-with-rss-redux/</link><description>&lt;p&gt;Today I learnt about a &lt;a href="http://gnome.eu.org/index.php/Evolution_RSS_Reader_Plugin"&gt;RSS plugin&lt;/a&gt; for Evolution, thus making standalone feed readers uneeded for me. Kewl &lt;img alt=":-D" class="wp-smiley" src="http://s0.wp.com/wp-includes/images/smilies/icon_biggrin.gif" /&gt; &lt;/p&gt;
-&lt;br /&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/hario.wordpress.com/203/" /&gt; &lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/hario.wordpress.com/203/" /&gt; &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/203/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/203/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=203&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Fri, 06 Jun 2008 14:56:23 +0000</pubDate></item><item><title>Evil C</title><link>http://hario.wordpress.com/2008/06/05/evil-c/</link><description>&lt;p&gt;Just letting you know about &lt;a href="http://www.steike.com/code/useless/evil-c/"&gt;evil C programming language constructs&lt;/a&gt;. My favourite one (involving preprocessor-abuse, of course!):&lt;/p&gt;
-&lt;pre&gt;  /* Test whether compiler supports C++-style comments */
-  #define HELPER 0//**/
-  #define CPLUSPLUS_COMMENTS_SUPPORTED (HELPER+1)&lt;/pre&gt;
-&lt;p&gt;More posts to come&amp;#8230; someday! I am pretty busy lately &lt;img alt=":-(" class="wp-smiley" src="http://s0.wp.com/wp-includes/images/smilies/icon_sad.gif" /&gt; &lt;/p&gt;
-&lt;br /&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/hario.wordpress.com/201/" /&gt; &lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/hario.wordpress.com/201/" /&gt; &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/201/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/201/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=201&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Thu, 05 Jun 2008 18:19:13 +0000</pubDate></item><item><title>Running Gentoo GNU/Linux on a Vaio TZ</title><link>http://hario.wordpress.com/2008/05/24/running-gentoo-gnulinux-on-a-vaio-tz/</link><description>&lt;p&gt;I have summarized all my previous posts about running &lt;a href="http://www.gentoo.org"&gt;Gentoo&lt;/a&gt; on a Sony Vaio TZ laptop, and added some more tips &amp;amp; tricks. You can find the &lt;a href="http://furi-ku.org/gentoo-tz11mn/"&gt;article at my website&lt;/a&gt;.&lt;/p&gt;
-&lt;br /&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/hario.wordpress.com/200/" /&gt; &lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/hario.wordpress.com/200/" /&gt; &lt;a href="http://feeds.wordpress.com/1.0/gocomments/hario.wordpress.com/200/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/hario.wordpress.com/200/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=hario.wordpress.com&amp;#038;blog=581379&amp;#038;post=200&amp;#038;subd=hario&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description><author>Adrián Pérez</author><pubDate>Sat, 24 May 2008 21:19:44 +0000</pubDate></item><item><title>Simple way to manage lots of system users in distributed environments.</title><link>http://ajdiaz.wordpress.com/2011/06/03/simple-way-to-manage-lots-of-system-users-in-distributed-environments/</link><description>&lt;p&gt;Few years ago I was working in design of a large cluster of systems to perform some actions (solving some mathematical models, sharding database&amp;#8230;). From the point of view of the systems, I had to deal with a number of pesky troubles. One of them was the user management.&lt;/p&gt;
+&lt;p&gt;That is pretty close to what the &lt;code&gt;supervise&lt;/code&gt; program included in
+&lt;code&gt;daemontools&lt;/code&gt; does, so it have already all the advantages of it, plus
+without needing stuff in the file system. Passing options to &lt;code&gt;dmon&lt;/code&gt; will
+trigger some of the extra features provided:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Passing &lt;code&gt;-n&lt;/code&gt; makes it run in the foreground. This is very useful in
+conjunction with &lt;code&gt;-1&lt;/code&gt;: with tha latter the processes will be only
+respawned if their exit status is non-zero.&lt;/li&gt;
+&lt;li&gt;If you want to log messages from standard error, use &lt;code&gt;-e&lt;/code&gt; and both
+standard output and standard error will be piped to the logging
+command.&lt;/li&gt;
+&lt;li&gt;For faulty programs which could get somewhat &#8220;locked&#8221; and sometimes
+take too much time to run, you may pass a maximum running time with
+&lt;code&gt;-t&lt;/code&gt;. When the timeout is reached the program will be forcibly
+killed and then started again.&lt;/li&gt;
+&lt;li&gt;Finally, for pausing the program over a given value of system load,
+use &lt;code&gt;-L&lt;/code&gt;. After pausing execution (by means of the &lt;code&gt;SIGSTOP&lt;/code&gt;
+signal), it will be resumed when the system load falls below the
+value given with &lt;code&gt;-l&lt;/code&gt; (by sending &lt;code&gt;SIGCONT&lt;/code&gt;). The signals used are
+the standard ones used for this duty e.g. by the shell, so almost
+every well-behaved program will work without modifications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The DMon package already includes a couple tools ready to be used as
+logging command: &lt;code&gt;dlog&lt;/code&gt; will append lines to a log file, optionally
+adding a timestamp to them, and &lt;code&gt;dsyslog&lt;/code&gt; will send lines to &lt;a href="http://linux.die.net/man/3/syslog"&gt;the system
+log&lt;/a&gt;. You can use any logging tool which works with &lt;code&gt;daemontools&lt;/code&gt;,
+like &lt;code&gt;multilog&lt;/code&gt; (part of it) or my own &lt;a href="http://gitorious.org/rotlog"&gt;rotlog&lt;/a&gt; ;-)&lt;/p&gt;
+&lt;h2&gt;DMon use-cases &amp;amp; Examples&lt;/h2&gt;
+&lt;p&gt;Running &lt;code&gt;rsync&lt;/code&gt; in a terminal (without detaching), pausing the copy when
+the system load is above &lt;code&gt;4.0&lt;/code&gt;, retrying until the copy succeeds:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;dmon -n -1 -L 4.0 rsync -az /path/to/srcdir /path/to/destdir&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Launching &lt;a href="http://gitorious.org/vfand"&gt;vfand&lt;/a&gt; as a daemon, logging errors to the local &lt;code&gt;syslog&lt;/code&gt;,
+and saving the PID of the process (the second line terminates &lt;code&gt;dmon&lt;/code&gt;,
+&lt;code&gt;vfand&lt;/code&gt; and &lt;code&gt;dsyslog&lt;/code&gt; in a single shot):&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;dmon -e -p /var/run/vfand.pid vfand -- dsyslog vfand
+kill $(cat /var/run/vfand.pid)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Starting the &lt;a href="http://mediatomb.cc/"&gt;MediaTomb&lt;/a&gt; UPnP server as a user &lt;code&gt;mediatomb&lt;/code&gt; (i.e. at
+bootup), saving auto-rotated logs with &lt;a href="http://gitorious.org/rotlog"&gt;rotlog&lt;/a&gt; running as user &lt;code&gt;log&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;dmon -e -u mediatomb -g mediatomb -U log -G log 
+     mediatomb --interface eth0 --home /mnt/mediafiles 
+     -- rotlog -c /var/log/mediatomb/&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Final Words&lt;/h2&gt;
+&lt;p&gt;It was fun for me to hack in &lt;a href="http://gitorious.org/dmon"&gt;DMon&lt;/a&gt; because C is a language I learnt
+to love, and using it from time to time is nice to not lose contact with
+it. Also, I had a clear idea of what I wanted to do for solving a
+particular problem, which is great for keeping focus.&lt;/p&gt;
+&lt;p&gt;Albeit DMon is already in its third release (namely &lt;a href="http://gitorious.org/dmon/dmon/commit/d342f15dcd7262b420dba3be5ac96dadbab48952"&gt;version 0.3&lt;/a&gt;) and
+I have been using it since its first inceptions, it may contain bugs as
+any other piece of software. Do not hesitate to &lt;a href="mailto:aperez@igalia.com"&gt;drop me a line&lt;/a&gt; with
+your complaints and suggestions &#8212; or even better: get yourself a clone
+of the &lt;a href="http://git-scm.com"&gt;Git&lt;/a&gt; &lt;a href="http://gitorious.org/dmon/dmon/"&gt;repository&lt;/a&gt; and use its &lt;a href="http://www.kernel.org/pub/software/scm/git/docs/git-send-email.html"&gt;send-email&lt;/a&gt; awesomeness!&lt;/p&gt;
+&lt;p&gt;Happy monitoring!&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2010-08-26T22:18:00.000Z</pubDate></item><item><title>vfand: A daemon to control fan speed in Vaio laptops</title><link>http://perezdecastro.org/2010/vfand-a-daemon-to-control-fan-speed-in-vaio-laptops.html</link><description>&lt;p&gt;Today I got tired of getting frequent lock-ups in my laptop, a &lt;a href="http://www.small-laptops.com/sony-vaio-tz11/"&gt;Vaio
+TZ11MN/N&lt;/a&gt; which has been serving me just fine the during the past
+three years. I decided to investigate a bit because the machine was
+quite hot, and after some digging I found that the fan speed was being
+kept below 45, by reading from &lt;code&gt;/sys&lt;/code&gt;. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cat /sys/devices/platform/sony-laptop/fanspeed
+44&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then I noticed that writing to the file would also work, but the
+embedded controller would insist in lowering the speed, so I ran the
+following loop from the shell:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;&lt;span class="keyword"&gt;while&lt;/span&gt; sleep 5 ; &lt;span class="keyword"&gt;do&lt;/span&gt;
+   &lt;span class="keyword"&gt;echo&lt;/span&gt; 200 &amp;gt; /sys/devices/platform/sony-laptop/fanspeed
+&lt;span class="keyword"&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That snip caused the fan to stay running at a higher speed, and the
+laptop temperature started to fall slowly. Then I tried &lt;a href="http://linux.die.net/man/8/fancontrol"&gt;fancontrol&lt;/a&gt;,
+without luck: the fans in my TZ11 cannot be controlled with it. Then I
+decided to write my own, and &lt;a href="http://gitorious.org/vfand/"&gt;vfand&lt;/a&gt; was born.&lt;/p&gt;
+&lt;p&gt;Even when some temperature sensors are there (e.g. the one in the CPU
+die), I found no easy way of determining the &lt;em&gt;overall&lt;/em&gt; temperature of
+the machine using entries from &lt;code&gt;/sys&lt;/code&gt;. Next was to determine which
+driver is in charge of the fan entry under &lt;code&gt;/sys&lt;/code&gt;, to check whether it
+can do something else. The fan entry is managed by the &lt;a href="http://lxr.linux.no/linux+v2.6.34.1/drivers/char/sonypi.c"&gt;sonypi&lt;/a&gt;
+driver, which actually does support opening &lt;code&gt;/dev/sonypi&lt;/code&gt; and getting
+the temperature using an &lt;code&gt;ioctl&lt;/code&gt; called &lt;code&gt;SONYPI_IOCGTEMP&lt;/code&gt;. It looked
+fine, so I implemented my little daemon in terms of &lt;code&gt;ioctl&lt;/code&gt; on that
+device, so it should would with all Vaio laptops supported by the
+driver.&lt;/p&gt;
+&lt;p&gt;The speed control algorithm is quite simple at the moment, but it works
+fine for me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When the temperature is less than a user-configurable value (35º C
+by default), the fan speed is set to the minimum possible value.&lt;/li&gt;
+&lt;li&gt;When the temperature is above a user-configurable value (55 ºC by
+default), the fan speed is set to the maximum possible value.&lt;/li&gt;
+&lt;li&gt;If the temperature is in between the configurable values, then a
+linear formula is used to calculate the speed. As the temperature
+raises, the fan speed will be raised, too (and vice versa).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The daemon is naïve, so it will log errors to the standard error stream,
+and it will not detach itself from the controlling terminal. An option
+is running it from &lt;code&gt;/etc/rc.local&lt;/code&gt; until I add an init script which uses
+&lt;code&gt;start-stop-daemon&lt;/code&gt; (or something else) to launch it.&lt;/p&gt;
+&lt;p&gt;Another option, which is a bit bizarre but will ensure that it is always
+running even if it does, is doing:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;&lt;span class="keyword"&gt;echo&lt;/span&gt; &lt;span class="string"&gt;'vf:2345:respawn:/usr/bin/vfand'&lt;/span&gt; &amp;gt;&amp;gt; /etc/inittab
+telinit q&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Last, but not least, I have already uploaded a simple, working package
+to &lt;a href="http://apt.igalia.com"&gt;our APT repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I hope this is useful for some other Vaio users out there.&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2010-07-27T17:45:00.000Z</pubDate></item><item><title>How to make the Python interpreter friendlier</title><link>http://perezdecastro.org/2010/make-the-python-interpreter-friendlier.html</link><description>&lt;p&gt;We are doing quite some coding in &lt;a href="http://www.python.org"&gt;Python&lt;/a&gt; lately (well, and &lt;a href="http://perezdecastro.org/aperez/2010/04/surrender-to-subrender/"&gt;also at
+spare time&lt;/a&gt;), and it is always nice to have the possibility of having
+the interactive interpreter to play with. But sometimes my mind refuses
+to stop working, so I wondered whether there would be a simple way of
+improving the overall user experience when using the stock Python
+interpreter without needing to install alternative ones like
+&lt;a href="http://bpython-interpreter.org/"&gt;bpython&lt;/a&gt;, &lt;a href="http://ipython.scipy.org/"&gt;IPython&lt;/a&gt; or &lt;a href="http://www.reinteract.org/"&gt;Reinteract&lt;/a&gt;. The idea is to have
+something &lt;em&gt;a bit better&lt;/em&gt; without throwing in additional dependencies.&lt;/p&gt;
+&lt;p&gt;So I lurked a bit by the documentation and learnt about the
+&lt;a href="http://docs.python.org/using/cmdline.html#envvar-PYTHONSTARTUP"&gt;PYTHONSTARTUP&lt;/a&gt; environment variable. Next step? Fired out &lt;code&gt;$EDITOR&lt;/code&gt;
+and created a &lt;code&gt;~/.startup.py&lt;/code&gt; file with the following contents:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;&lt;span class="keyword"&gt;import&lt;/span&gt; readline, atexit, os, rlcompleter
+
+historypath = os.path.expanduser(&lt;span class="string"&gt;"~/.pyhistory"&lt;/span&gt;)
+readline.parse_and_bind(&lt;span class="string"&gt;"tab: complete"&lt;/span&gt;)
+
+&lt;span class="function"&gt;&lt;span class="keyword"&gt;def&lt;/span&gt; &lt;span class="title"&gt;save_history&lt;/span&gt;&lt;span class="params"&gt;(historypath=historypath)&lt;/span&gt;:&lt;/span&gt;
+    &lt;span class="keyword"&gt;import&lt;/span&gt; readline
+    readline.write_history_file(historypath)
+
+&lt;span class="keyword"&gt;if&lt;/span&gt; os.path.exists(historypath):
+    readline.read_history_file(historypath)
+
+atexit.register(save_history)
+
+&lt;span class="keyword"&gt;del&lt;/span&gt; os, atexit, readline, save_history, historypath, rlcompleter&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The most important thing is to bind the &lt;code&gt;Tab&lt;/code&gt; key for completion. That
+&lt;code&gt;complete&lt;/code&gt; function already comes bundled with the Python binding for
+&lt;a href="http://tiswww.case.edu/php/chet/readline/rltop.html"&gt;readline&lt;/a&gt; (and compatibles), and will complete names for functions,
+variables, classes, methods, etc.&lt;/p&gt;
+&lt;p&gt;The rest of the snippet deals with saving the history of entered lines
+to a file when the interpreter is exited. The trick there is the
+&lt;code&gt;historypath=historypath&lt;/code&gt;, to make that variable an &lt;a href="http://en.wikipedia.org/wiki/Upvalue"&gt;upvalue&lt;/a&gt;. Being
+that way, we can clean up everything (last line) after initialization,
+so the interpreter will not get its global namespace poluted.&lt;/p&gt;
+&lt;p&gt;Finally, make &lt;code&gt;PYTHONSTARTUP&lt;/code&gt; to be defined in every shell creation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-bash"&gt;&lt;span class="keyword"&gt;echo&lt;/span&gt; &lt;span class="string"&gt;'export PYTHONSTARTUP="$HOME/.startup.py"'&lt;/span&gt; &amp;gt;&amp;gt; .bashrc&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now re-launch your shell, type in &lt;code&gt;python&lt;/code&gt; and enjoy your
+freshly-supercharged interpreter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ exec bash -l
+$ python
+Python 2.5.5 (r255:77872, Mar 20 2010, 05:19:32)
+[GCC 4.4.3] on linux2
+Type &amp;quot;help&amp;quot;, &amp;quot;copyright&amp;quot;, &amp;quot;credits&amp;quot; or &amp;quot;license&amp;quot; for more information.
+&amp;gt;&amp;gt;&amp;gt; import os
+&amp;gt;&amp;gt;&amp;gt; os. # tap TAB two-times here
+Display all 224 possibilities? (y or n)&lt;/code&gt;&lt;/pre&gt;</description><author>Adrián Pérez</author><pubDate>2010-04-15T15:02:00.000Z</pubDate></item><item><title>Python recipe: Functional config file parsing</title><link>http://perezdecastro.org/2009/python-recipe-functional-config-file-parsing.html</link><description>&lt;p&gt;Sometimes one has to parse programmatically some file containing
+&lt;code&gt;key=value&lt;/code&gt; pairs. In the world of systems administration this means
+configuration files most of the time. Also, one thing I like is
+&lt;a href="http://en.wikipedia.org/wiki/Functional_programming"&gt;functional programming&lt;/a&gt;, but in the real world one ends up making
+almost all of the code in &lt;a href="http://en.wikipedia.org/wiki/Imperative_programming"&gt;imperative&lt;/a&gt; style. Python allows some
+functional constructs, and sometimes I like to use them to make code
+most concise, because it express better what the code is trying to do or
+just because I wanted to melt my mind doing some functional tricks.&lt;/p&gt;
+&lt;p&gt;First, let me introduce the code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;&lt;span class="keyword"&gt;from&lt;/span&gt; itertools &lt;span class="keyword"&gt;import&lt;/span&gt; imap, ifilter
+
+config_items = &lt;span class="keyword"&gt;lambda&lt;/span&gt; iterable: 
+    imap(&lt;span class="keyword"&gt;lambda&lt;/span&gt; (k, v): (k.strip(), v.strip()),
+        imap(&lt;span class="keyword"&gt;lambda&lt;/span&gt; s: s.split(&lt;span class="string"&gt;"="&lt;/span&gt;, &lt;span class="number"&gt;1&lt;/span&gt;),
+            ifilter(&lt;span class="keyword"&gt;lambda&lt;/span&gt; s: s &lt;span class="keyword"&gt;and&lt;/span&gt; &lt;span class="keyword"&gt;not&lt;/span&gt; s.startswith(&lt;span class="string"&gt;"#"&lt;/span&gt;),
+                imap(&lt;span class="keyword"&gt;lambda&lt;/span&gt; s: s.strip(), iterable))))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Neat, huh? As promised in the title, this is functional. And yes, I am
+aware of &lt;a href="http://docs.python.org/library/configparser.html"&gt;ConfigParser&lt;/a&gt;, but I do not need its full power, and also I
+have found some problems with files containing &lt;a href="http://en.wikipedia.org/wiki/Unicode"&gt;Unicode&lt;/a&gt; strings.&lt;/p&gt;
+&lt;p&gt;I think this is one of the most beautiful snippets of code I have ever
+written in Python: it makes just one thing well, and it is terse and
+concise. Moreover, it is quite easy to explain.&lt;/p&gt;
+&lt;h2&gt;How does it work&lt;/h2&gt;
+&lt;p&gt;I have just written that it is easy to explain how this works. Okay, I
+will dissect this beast one line at a time, starting at the innermost.
+But first, a quick introduction to &lt;code&gt;imap()&lt;/code&gt; and &lt;code&gt;ifilter&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;imap()&lt;/code&gt;&lt;/strong&gt;: Works like &lt;code&gt;map()&lt;/code&gt;, which returns a list whose
+contents are the results of applying a function (first argument) to
+each of the elements of another list (the second argument). The
+difference is that &lt;code&gt;imap()&lt;/code&gt; uses &lt;a href="http://www.python.org/dev/peps/pep-0289/"&gt;generators&lt;/a&gt; instead.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;ifilter()&lt;/code&gt;&lt;/strong&gt;: This one works like &lt;code&gt;filter()&lt;/code&gt; and will also return
+a list, whose contents are the items of another list (second
+argument) for which the result of calling the given function (first
+argument) is &lt;code&gt;True&lt;/code&gt;. This one also works with generators.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, let us start with the first one:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;imap(&lt;span class="keyword"&gt;lambda&lt;/span&gt; s: s.strip(), iterable)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This picks each line, and removes whitespace sitting at the left and and
+the right of the string.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;ifilter(&lt;span class="keyword"&gt;lambda&lt;/span&gt; s: s &lt;span class="keyword"&gt;and&lt;/span&gt; &lt;span class="keyword"&gt;not&lt;/span&gt; s.startswith(&lt;span class="string"&gt;"#"&lt;/span&gt;),&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We want to keep &lt;em&gt;interesting&lt;/em&gt; lines: empty lines and comment-lines
+starting with a hash mark (&lt;code&gt;#&lt;/code&gt;) must be thrashed away. We check for
+lines which &lt;em&gt;both&lt;/em&gt; are not empty and that do not start with a hash-mark.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;imap(&lt;span class="keyword"&gt;lambda&lt;/span&gt; s: s.split(&lt;span class="string"&gt;"="&lt;/span&gt;, &lt;span class="number"&gt;1&lt;/span&gt;),&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That one picks each string and splits it at the first &lt;code&gt;=&lt;/code&gt; character,
+thus separating the key from the value. This is what converts each
+string into a &lt;code&gt;(key, value)&lt;/code&gt; tuple.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;imap(&lt;span class="keyword"&gt;lambda&lt;/span&gt; (k, v): (k.strip(), v.strip()),&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the last remaining detail: Removes extra leading and trailing
+whitespace from the keys and values of the generated tuples. This is
+needed for removing the spaces around the &lt;code&gt;=&lt;/code&gt; character.&lt;/p&gt;
+&lt;h2&gt;How to use it&lt;/h2&gt;
+&lt;p&gt;Fire in the interpreter, type in (or copy-and-paste) the above code and
+guess by yourself:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; text = &amp;quot;&amp;quot;&amp;quot;a = 1
+... b = this is b&amp;quot;&amp;quot;&amp;quot;
+&amp;gt;&amp;gt;&amp;gt; tuple(config_items(text.splitlines()))
+(('a', '1'), ('b', 'this is b'))
+&amp;gt;&amp;gt;&amp;gt; dict(config_items(text.splitlines()))
+{'a': '1', 'b': 'this is b'}
+&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So you pass it &lt;del&gt;a list&lt;/del&gt; an iterable which yields lines, and it will
+return another iterable, which yields &lt;code&gt;(key, value)&lt;/code&gt; tuples. Thanks to
+how &lt;code&gt;dict()&lt;/code&gt; is defined, we can directly pass the result to it and get a
+dictionary.&lt;/p&gt;
+&lt;p&gt;But it would be useful as well to use it on files, so here we go:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; file(&amp;quot;test.conf&amp;quot;, &amp;quot;w&amp;quot;).write(text)
+&amp;gt;&amp;gt;&amp;gt; dict(config_items(file(&amp;quot;test.conf&amp;quot;)))
+{'a': '1', 'b': 'this is B'}
+&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For your convenience, you may want to define a helper function if it
+makes you feel more comfortable:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; def config_file_items(path):
+...    with file(path, &amp;quot;rU&amp;quot;) as f:
+...        return config_items(f)
+...
+&amp;gt;&amp;gt;&amp;gt; dict(config_file_items(&amp;quot;test.conf&amp;quot;))
+{'a': '1', 'b': 'this is B'}
+&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Extra niceties&lt;/h2&gt;
+&lt;p&gt;I have already mentioned that this code uses &lt;a href="http://www.python.org/dev/peps/pep-0289/"&gt;generators&lt;/a&gt; in its
+entirety. What is passed from one function to another in the chain of
+&lt;code&gt;imap()&lt;/code&gt; and &lt;code&gt;ifilter()&lt;/code&gt; calls are &lt;em&gt;always&lt;/em&gt; generators. This means that
+if &lt;code&gt;config_items()&lt;/code&gt; is used to read a big file (e.g. some hundreds of
+megabytes) &lt;em&gt;only one line is in memory at a given time&lt;/em&gt;. This is why I
+did not use &lt;code&gt;map()&lt;/code&gt; and &lt;code&gt;filter()&lt;/code&gt; but their &#8220;incremental&#8221; counterparts
+from the &lt;code&gt;itertools&lt;/code&gt; module. So the bottom line is that this may not be
+the most efficient implementation out there, but it is good and is
+capable of working over arbitrarily long sequences of data while the
+function remains small and understandable.&lt;/p&gt;
+&lt;h2&gt;Error Handling&lt;/h2&gt;
+&lt;p&gt;Whenever the input is not well formed, then this function will raise
+&lt;code&gt;ValueError&lt;/code&gt;, or when a &lt;code&gt;=&lt;/code&gt; character is not found in some line. This
+means that you can do something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;&lt;span class="keyword"&gt;import&lt;/span&gt; sys
+&lt;span class="keyword"&gt;try&lt;/span&gt;:
+    items = dict(config_items(sys.stdin))
+&lt;span class="keyword"&gt;except&lt;/span&gt; ValueError:
+    &lt;span class="keyword"&gt;raise&lt;/span&gt; SystemExit(&lt;span class="string"&gt;"Malformed 'key=value' input in standard input"&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Of course more elaborate error checking could be done i.e. to be able of
+showing to the user the exact offending line number, but the goal is to
+keep things as simple as possible. Also the syntax of those simple
+configuration files is so simple that it should be fairy simple for the
+user to spot typos.&lt;/p&gt;
+&lt;h2&gt;Final words and advice&lt;/h2&gt;
+&lt;p&gt;My advice is that if you have the possibility, make your Python code in
+such a way that it uses generators, unless you are sure that it will
+&lt;em&gt;always&lt;/em&gt; handle reasonably small amounts of data.&lt;/p&gt;
+&lt;p&gt;I hope that things are explained well enough, and (who knows!) maybe
+this can help someone to better understand why generators are a good
+idea. I will also be happy if you came here looking for some code to
+parse simple configuration files and this did the trick for you.&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2009-12-12T02:17:00.000Z</pubDate></item><item><title>Factor out your Apache-fu with mod_macro</title><link>http://perezdecastro.org/2009/factor-out-your-apache-fu-with-mod_macro.html</link><description>&lt;p&gt;For nearly all HTTP-serving related work, our software of choice is the
+&lt;a href="http://httpd.apache.org/"&gt;Apache&lt;/a&gt; web server. Lately, we have been moving some old setups which
+were still running Apache 1.3 to the latest version in the 2.x series.
+This may be a lot of work when the number of virtual hosts you are
+serving is far from low, or if you have some lengthy, repetitive
+configuration blocks which must be modified everytime you want introduce
+some change. One may be tempted to auto-generate configuration snippets
+from something else using some quick Bash/Perl/Python/Whatever script,
+but there is a more elegant solution: meet &lt;a href="http://www.cri.ensmp.fr/~coelho/mod_macro/"&gt;mod_macro&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As the name suggests, it is an Apache 2.x module which allows for
+defining snippets with customizable optional parameters. Take this
+real-world example from &lt;code&gt;/etc/apache2/mods-available/macro.conf&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-apache"&gt;&lt;span class="keyword"&gt;AuthType&lt;/span&gt; basic
+&lt;span class="keyword"&gt;AuthBasicProvider&lt;/span&gt; ldap
+&lt;span class="keyword"&gt;AuthLDAPUrl&lt;/span&gt; ldap://ldap.local/dc=yoursite,dc=com?uid
+&lt;span class="keyword"&gt;AuthLDAPGroupAttribute&lt;/span&gt; uniqueMember
+&lt;span class="keyword"&gt;AuthLDAPGroupAttributeIsDN&lt;/span&gt; &lt;span class="literal"&gt;On&lt;/span&gt;
+&lt;span class="keyword"&gt;Require&lt;/span&gt; ldap-&lt;span class="keyword"&gt;group&lt;/span&gt; cn=$&lt;span class="keyword"&gt;group&lt;/span&gt;,ou=&lt;span class="keyword"&gt;Group&lt;/span&gt;,dc=yoursite,dc=com&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a common setup in most of our services, so now everytime one
+wants to add autentication against the LDAP server, it is only a matter
+of adding an &lt;code&gt;Use&lt;/code&gt; clause in the proper place:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-apache"&gt;&lt;span class="comment"&gt;# Put this into the virtual host configuration block:&lt;/span&gt;
+Use AuthLDAPSetup wwwusers&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ta-da! This is 5 lines shorter, and less error-prone. Also, if some day
+some extra configuration is needed to authenticate using LDAP, it is
+enough to change the macro definition, and changes will be automatically
+propagated to all places where it is used.&lt;/p&gt;
+&lt;p&gt;Wrapping up, you may consider installing &lt;a href="http://www.cri.ensmp.fr/~coelho/mod_macro/"&gt;mod_macro&lt;/a&gt; in your Apache
+installs for the following reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="background-color: #ffffff;"&gt;Greatly simplifies repeated
+code snippets in configuration files.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="background-color: #ffffff;"&gt;It is integrated with the
+web server: no external tools are needed.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="background-color: #ffffff;"&gt;Is especially useful to make
+changes to big sites in a single shot.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="background-color: #ffffff;"&gt;Does not add overhead to
+request processing, only to initial configuration file parsing at
+server startup.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="background-color: #ffffff;"&gt;It is simple enough to learn
+and use in a couple of minutes.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><author>Adrián Pérez</author><pubDate>2009-10-19T10:23:00.000Z</pubDate></item><item><title>More DebConf 9 adventures</title><link>http://perezdecastro.org/2009/more-debconf9-adventures.html</link><description>&lt;p&gt;Now it looks like it is time to complete my &lt;a href="http://perezdecastro.org/aperez/2009/07/1st-day-at-debconf9/"&gt;previous post about
+DebConf 9&lt;/a&gt;, after a tiresome journey back from Cáceres to Coruña the
+30th, an &lt;a href="http://blogs.igalia.com/agomez/2008/10/22/igalia-is-yours/"&gt;Igalia assembly&lt;/a&gt; the 31st (the first one ever for me :-D),
+and sleeping for more than 14 hours today.&lt;/p&gt;
+&lt;p&gt;Fortunately I did not need to travel alone, as &lt;a href="http://blogs.gnome.org/diegoe/"&gt;Diego&lt;/a&gt; came with me to
+visit Coruña and the journey was more enjoyable than the other way
+around. To make the most out of the occasion, we followed an alternative
+route via  &lt;a href="http://en.wikipedia.org/wiki/Ciudad_Rodrigo"&gt;Ciudad Rodrigo&lt;/a&gt; (where we had lunch and bought some red
+wine, olive oil, and &lt;a href="http://en.wikipedia.org/wiki/Embutido"&gt;Iberian &#8220;embutido&#8221;&lt;/a&gt;: chorizo, salchichón and
+cured loin), then &lt;a href="http://en.wikipedia.org/wiki/Porto"&gt;Porto&lt;/a&gt; (where we saw the bridges by Gustave Eiffel
+and his disciples), &lt;a href="http://en.wikipedia.org/wiki/Valen%C3%A7a,_Portugal"&gt;Valença do Minho&lt;/a&gt; (where we bought some goods
+which are sold in Portugal: salted butter, cheese, coffee, &lt;a href="http://en.wikipedia.org/wiki/Guava"&gt;guava&lt;/a&gt;
+jelly...) and finally we made a longer stop at &lt;a href="http://en.wikipedia.org/wiki/Santiago_de_compostela"&gt;Santiago de
+Compostela&lt;/a&gt; in order to see the cathedral and the old town area while
+eating a sandwich. It took some time to complete the trip, but was far
+funnier that going alone to Cáceres.&lt;/p&gt;
+&lt;p&gt;But going back on to DebConf 9, here is the rest of my batch of lectures
+and events, including summaries of them:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/374.en.html"&gt;Free travel instead of free beer&lt;/a&gt;: Very nice presentation of
+photographs from &lt;em&gt;all&lt;/em&gt; past DebConf and FLOSS related events, by
+Andreas Tille who has attended loads of them! This was a quite
+relaxing event, and the people there made the thing more enjoyable
+by telling the others about anecdotes and funny things about the
+places and the things which happened all along the world in past
+conferences.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/409.en.html"&gt;Stable/Volatile/Backports ecosystem&lt;/a&gt;: This was a nice chat trying
+to define how the different Debian repositories should interact
+between each other. I think that the nicer part was including the
+not-so-official &lt;a href="http://backports.org/"&gt;backports.org repositories&lt;/a&gt;, but nothing has been
+said about including &lt;a href="http://debian-multimedia.org/"&gt;debian-multimedia&lt;/a&gt;. It is a good thing to be
+coherent with the &lt;a href="http://www.debian.org/social_contract#guidelines"&gt;DFSG&lt;/a&gt; and being picky with which packages are
+actually in the main repository, but in my opinion something should
+be done to support &lt;em&gt;the packages the users want&lt;/em&gt; in some way,
+including debian-multimedia as well.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/382.en.html"&gt;Qemu for Debian developers&lt;/a&gt;: Not something which could be
+considered astonishing, but I have learned a couple of nice Qemu
+tricks with this. This was an interesting introduction for people
+wanting to make packages for architectures different than the one
+they are running.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/409.en.html"&gt;Drowning in bugs&lt;/a&gt;: This was an
+extremely interesting chat about how it would be possible to
+actually get people to do &lt;a href="http://nedbatchelder.com/text/triaging.html"&gt;bug triaging&lt;/a&gt; in Debian. Some solutions
+were outlined, like having some kind of teams for people to belong
+to, so they get at least some social recognition (e.g. &#8220;look, I am
+part of the Debian Foo-Bar Bugsquad&#8221; and the like), adding a score
+meter to the BTS like in the &lt;a href="http://bugs.gnome.org"&gt;Gnome Bugzilla&lt;/a&gt; and so on. I think
+that &lt;a href="http://wiki.debian.org/SummerOfCode2007/DebbugsWebUI"&gt;something&lt;/a&gt; which
+&lt;span style="text-decoration: line-through;"&gt;should&lt;/span&gt; is being
+cooked right now will help a lot with this.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/444.en.html"&gt;Libvirt, hypervisor independent virtual machine management&lt;/a&gt;: I
+heard before about &lt;a href="http://libvirt.org/"&gt;libvirt&lt;/a&gt;, but have always thought that it
+looked like an unneccessary layer of indirection about &lt;a href="http://linux-vserver.org/"&gt;THE
+virtualization technology&lt;/a&gt; you want to use. The facts are that it
+does not have Linux-vServer support (well, it &lt;a href="http://www.redhat.com/archives/libvir-list/2008-January/msg00097.html"&gt;might&lt;/a&gt;) and that
+one gets an interesting feature: remote management of virtual
+machines. Does that feature that pose much differences from using
+SSH to open a remote session? Probably if you use &lt;a href="http://www.qemu.org/"&gt;Qemu&lt;/a&gt; and/or
+&lt;a href="http://www.xen.org/"&gt;Xen&lt;/a&gt;, but I do not see the point of having the additional hassle
+of another software layer.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/459.en.html"&gt;Debian Redesign&lt;/a&gt;: Agnieszka aka &#8220;pixelgirl&#8221; proposed a new design
+for some stuff related to Debian, logo, colours, fonts and website.
+Some minor work for boot splash screens and is also there in the
+pack. It was funny to see how people asked questions about the
+openness of the license of the new font used for the logo, when the
+&lt;a href="http://wiki.debian.org/DebianLogo"&gt;old one&lt;/a&gt; has a commercial one... I hope that she does not get
+annoyed too much by the rest of the community, because I also think
+there is a &lt;em&gt;real&lt;/em&gt; and &lt;em&gt;urgent&lt;/em&gt; need to give some love to how things
+look in Debian. And having people which has the neccessary knowledge
+to properly design nice things is great, so the community should
+support her.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/434.en.html"&gt;State of the Bug Tracking System&lt;/a&gt;: Don Armstrong was making some
+improvements and cleanups to the old &lt;code&gt;debbugs&lt;/code&gt; big code clean-up,
+and presented to the public one new feature which allows to mirror
+the state of the BTS and run a local copy. This made all the
+audience clap hands like crazy, as this allows for speedier
+operations, especially for searching and filtering in reports.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/429.en.html"&gt;Introducing DebConf10&lt;/a&gt;: New York will held the next DebConf,
+which will be also the 10th anniversary of the event. The main venue
+will be at the &lt;a href="http://www.columbia.edu/"&gt;Columbia University&lt;/a&gt; which looks great for such a
+thing. The main issue could be problems for people living in certain
+countries to get a visa so they can travel there the next year, so
+the organizers will be even providing legal advice and support. I
+just hope that this will not make the next edition be a &#8220;DebConf
+light&#8221; and that people from all around the world is represented the
+next year.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/412.en.html"&gt;Debian on Network Attached Storage (NAS) devices&lt;/a&gt;: First of all,
+as most igalians have a NSLU2, I would want to say that Martin has
+already found the perfect and improved replacement for them: the
+&lt;a href="http://www.engadget.com/2009/02/24/marvells-sheevaplug-linux-pc-fits-in-its-power-adapter/"&gt;Marvell SheevaPlug&lt;/a&gt;. It is great to see how well GNU/Linux is
+spreading over to all kinds of devices and architectures. And it is
+even nicer to see how the developers have designed a way for
+seamlessly installing Debian in this kind of devices in such a way
+that an average user could do it without requiring ninja skills.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That's a good selection of the lectures and events I attended to. Of
+course there were some more interesting things, like the conference
+dinner, the &lt;a href="http://www.flickr.com/photos/aigarius/3769719319/"&gt;massive group photo&lt;/a&gt;, giving a &lt;a href="https://penta.debconf.org/dc9_schedule/events/450.en.html"&gt;talk&lt;/a&gt; (&lt;a href="https://penta.debconf.org/dc9_schedule/attachments/114_slides.pdf"&gt;slides
+here&lt;/a&gt;), the odyssey all along Cáceres to find a proper Irish tavern...
+The pint of Guinness with &lt;a href="http://gwolf.org/"&gt;Gunnar&lt;/a&gt;, &lt;a href="http://blog.kov.eti.br/"&gt;Gustavo&lt;/a&gt; and &lt;a href="http://blogs.gnome.org/diegoe/"&gt;Diego&lt;/a&gt; was one
+of the best moments of the conference ;-)&lt;/p&gt;
+&lt;p&gt;Quick summary: going to DebConf 9 was a rewarding experience, even when I
+ended up extremely tired after it. Let's try to attend some more
+conferences anytime soon...&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2009-08-01T22:40:00.000Z</pubDate></item><item><title>First day at the DebConf 9</title><link>http://perezdecastro.org/2009/1st-day-at-debconf9.html</link><description>&lt;p&gt;I arrived yesterday at the main venue after a the long trip by car:
+~700km in a car &lt;em&gt;without&lt;/em&gt; air conditioning. I was very tired so I
+headed up for my room (which is in an ancient building at the &lt;a href="http://whc.unesco.org/en/list/384"&gt;old town
+area of Cáceres&lt;/a&gt;), had a shower and decided to take a nap... with so
+much success that I slept for two hours and a miracle made me wake up
+just in time for the &lt;a href="https://penta.debconf.org/dc9_schedule/events/367.en.html"&gt;Cheese &amp;amp; wine party&lt;/a&gt;. It was great to taste an
+uncountable amount of kinds of cheese, wine and liquors from places all
+around the world. Among a lot of tasty stuff, it was really enlightening
+to try out some &lt;em&gt;real&lt;/em&gt; japanese &lt;a href="http://en.wikipedia.org/wiki/Sake"&gt;sake&lt;/a&gt; and &lt;a href="http://www.hubspeanuts.com/"&gt;the best peanuts I ever
+tried&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After a quick breakfast today in the morning, my personal schedule
+included attending the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/413.en.html"&gt;Using FOSSology for license analysis in Debian&lt;/a&gt;: a &lt;a href="http://fossology.org/"&gt;tool&lt;/a&gt; which
+determines which license a package has by examining its sources and
+looking for license disclaimers and similar texts contained in
+source code was presented. This way even cases where each source
+file may have a different license can be easily identified. For
+packagers this makes easier to check whether a software component
+complies with the packaging policy.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/418.en.html"&gt;Not your grandpa's debhelper&lt;/a&gt;: This one really catched my
+attention, as I do some packaging from time to time it is very
+interesting to know about new incarnations of tools which suppose an
+aid to this task. The new &lt;code&gt;dh&lt;/code&gt; thing is able of &lt;a href="http://kitenet.net/~joey/blog/entry/debhelper_dh_overrides/"&gt;greatly
+simplifying&lt;/a&gt; build rules. I wanna try it!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/416.en.html"&gt;Debian System Administraors BoF&lt;/a&gt;: I thought that it could be
+interesting to know how systems used for running the Debian
+infrastructure are configured. Three of the members of the team
+asked lots of questions from the audience, most of them being about
+e-mail services and whether it would be possible to improve spam
+handling.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/388.en.html"&gt;Scratchbox2 for cross-compiling Debian&lt;/a&gt;: It was a shame that
+there was no projector nor something similar for Riku to give an
+introduction to &lt;a href="http://www.freedesktop.org/wiki/Software/sbox2"&gt;Scratchbox 2&lt;/a&gt;, which looks like a good step
+forward. For example now it is possible to use it without &lt;code&gt;root&lt;/code&gt;
+privileges at all.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://penta.debconf.org/dc9_schedule/events/408.en.html"&gt;Point releases - How to update stable more efficiently&lt;/a&gt;: I have
+missed some bits of this lecture because I was sitting near the end
+of the room, but if I understood correctly there is a plan for
+rolling updates sooner into the Debian stable package set by using a
+repository in the fashion of the Ubuntu &#8220;proposed-updates&#8221; one, so
+users can get theirs hands on sooner on the packages in order to
+provide the needed feedback for stabilization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After having a light dinner I went along with &lt;a href="http://blogs.gnome.org/diegoe/"&gt;Diego&lt;/a&gt; for a walk along
+the old town area, to see how does it look at night. The perfect
+accompaniment was a glass of beer and ice cream.&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2009-07-26T23:19:00.000Z</pubDate></item><item><title>See you at DebConf 9</title><link>http://perezdecastro.org/2009/see-you-at-debconf9.html</link><description>&lt;p class="image"&gt;
+  &lt;a href="http://debconf9.debconf.org/"&gt;&lt;img alt="DebConf9 Logo" src="http://blogs.igalia.com/aperez/files/2009/07/dc9logo.png" /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I will pick up my car and embark myself into a
+8-hour trip to reach Cáceres tomorrow in the evening, after 699 km of
+road trip. The goal: attending (and enjoying!) the &lt;a href="http://debconf9.debconf.org"&gt;ninth edition of the
+Debian Conference&lt;/a&gt;, which has already started. As I do not know
+exactly the arrival time, I will skip the dinner tomorrow, but I will do
+my best to be at the &lt;a href="https://penta.debconf.org/dc9_schedule/events/367.en.html"&gt;Cheese &amp;amp; wine party&lt;/a&gt; and bringing some &#8220;tetilla&#8221;
+(small breast) cheese from Galicia, which has a funny shape as you can
+imagine:&lt;/p&gt;
+&lt;p class="image"&gt;
+  &lt;a href="http://en.wikipedia.org/wiki/Tetilla_cheese"&gt;&lt;img alt="Tetilla cheese" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Queso_tetilla_entre_otros.jpg/290px-Queso_tetilla_entre_otros.jpg" /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I am looking forward to be there tomorrow, as this will be my first time
+at a big community event and it really looks like &lt;a href="http://blogs.igalia.com/jmunhoz/2009/07/23/gran-canaria-desktop-summit09/"&gt;this&lt;/a&gt; &lt;a href="http://blogs.igalia.com/berto/2009/07/14/back-from-gran-canaria/"&gt;kind&lt;/a&gt;
+&lt;a href="http://blogs.igalia.com/mario/2009/07/07/gnome-party-at-gcds-09/"&gt;of&lt;/a&gt; &lt;a href="http://blogs.igalia.com/apinheiro/2009/07/08/my-last-day-in-gcds/"&gt;things&lt;/a&gt; are really interesting and a great opportunity to get
+in touch with latest developments, learning lots of new stuff, and
+meeting people from all around the world... The latter is a &lt;em&gt;must&lt;/em&gt; for
+me, as I will not know anyone there because there will be no more
+&lt;a href="http://planet.igalia.com/"&gt;Igalians&lt;/a&gt; attending the conference. So if you will be there from 25th
+to 30th feel free to approach me and have some chat.&lt;/p&gt;
+&lt;p&gt;Last, but not least, shell scripters (and anyone interested) may want to
+know that have a &lt;a href="https://penta.debconf.org/dc9_schedule/events/450.en.html"&gt;slot in the unofficial&lt;/a&gt; track for a  lecture on
+Shaft, a tool which we have been using lately to do declarative unit
+testing of shell scripts. I am just now polishing the slides, preparing
+a couple of examples and preparing the code for release.&lt;/p&gt;
+&lt;p&gt;See you there!&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2009-07-24T15:01:00.000Z</pubDate></item><item><title>Python talks Collectd</title><link>http://perezdecastro.org/2009/python-talks-collectd.html</link><description>&lt;p&gt;I have been playing lately with &lt;a href="http://collectd.org"&gt;collectd&lt;/a&gt; again, which is a very nice
+piece of software to monitor out things, especially when you want more
+than just the network statistics that other tools like &lt;a href="http://oss.oetiker.ch/mrtg/"&gt;MRTG&lt;/a&gt;. In a
+coffee break &lt;a href="http://blogs.igalia.com/jmunhoz/"&gt;someone&lt;/a&gt; commented that it would be interesting to
+process and display some if the data sent by collectd daemons installed
+in machines in real-time, and it sounded like a funny idea, so the first
+thing I did was implementing the network protocol. At the moment I have
+a working pure-&lt;a href="http://python.org"&gt;Python&lt;/a&gt; implementation of it working: &lt;a href="http://people.igalia.com/aperez/files/collectd.py"&gt;collectd.py&lt;/a&gt;,
+capable of receiving data (sending data is stil work in progress).&lt;/p&gt;
+&lt;p&gt;As a quick introduction, you could use the module as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;&lt;span class="keyword"&gt;from&lt;/span&gt; collectd &lt;span class="keyword"&gt;import&lt;/span&gt; Reader
+
+rdr = Reader()
+&lt;span class="keyword"&gt;while&lt;/span&gt; &lt;span class="built_in"&gt;True&lt;/span&gt;:
+    &lt;span class="keyword"&gt;print&lt;/span&gt; &lt;span class="string"&gt;"-"&lt;/span&gt; * &lt;span class="number"&gt;80&lt;/span&gt;
+    &lt;span class="keyword"&gt;for&lt;/span&gt; item &lt;span class="keyword"&gt;in&lt;/span&gt; rdr.interpret():
+        &lt;span class="keyword"&gt;print&lt;/span&gt; item&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will join the default IPv4 multicast group (&lt;code&gt;239.19274.66&lt;/code&gt;) used by
+collectd (sorry, IPv6 support is incomplete) and start listening for
+incoming UDP packets in the default port (&lt;code&gt;25826&lt;/code&gt;), will interpret each
+incoming data packet, and then print each component of the data packet
+to standard output in a rather readable format:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[1237749608] localhost.localdomain/swap/swap/used [(1, 48082944.0)]
+[1237749608] localhost.localdomain/swap/swap/free [(1, 1007009792.0)]
+[1237749608] localhost.localdomain/swap/swap/cached [(1, 18640896.0)]
+[1237749608] localhost.localdomain/users/users [(1, 5.0)]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Each data item is an instance of &lt;code&gt;collectd.Values&lt;/code&gt; (which behaves mostly
+as a list, and can contain multiple values) and &lt;code&gt;collectd.Notification&lt;/code&gt;.
+Both of them share some fields inherited from &lt;code&gt;collectd.Data&lt;/code&gt;. For
+example, you could filter messages regarding swap space usage from
+machines containing &lt;code&gt;foobar&lt;/code&gt; in their host names:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;&lt;span class="keyword"&gt;if&lt;/span&gt; &lt;span class="string"&gt;"foobar"&lt;/span&gt; &lt;span class="keyword"&gt;in&lt;/span&gt; item.host &lt;span class="keyword"&gt;and&lt;/span&gt; item.plugin == &lt;span class="string"&gt;"swap"&lt;/span&gt;:
+    &lt;span class="keyword"&gt;print&lt;/span&gt; item&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to bind to a particular address/port or join any other
+multicast group than de default (sorry: joining multiple groups is not
+implemented right now) you can pass parameters to the constructor:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="lang-python"&gt;rdr = collectd.Reader(host=&lt;span class="string"&gt;"192.168.0.32"&lt;/span&gt;, port=&lt;span class="number"&gt;9000&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The protocol was pretty straightforward to interpret, the hardest part
+was guessing how to properly handle multicast, as I never had to deal
+with it before. Now it is time to spend some time with &lt;a href="http://cairographics.org/pycairo/"&gt;PyCairo&lt;/a&gt;, or
+even &lt;a href="http://www.lorenzogil.com/projects/pycha/"&gt;PyCha&lt;/a&gt; which looks pretty convenient, and make a small
+application which dumps real-time graphs to a window :-)&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2009-03-22T21:32:00.000Z</pubDate></item><item><title>Tip: Faster remote shells with multiplexed SSH</title><link>http://perezdecastro.org/2008/tip-ssh-mux.html</link><description>&lt;p&gt;Edit &lt;code&gt;~/.ssh/config&lt;/code&gt; (or &lt;code&gt;/etc/ssh/ssh_config&lt;/code&gt; for sitewide
+configuration) and add the following snippet:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Host *
+   ControlMaster auto
+   ControlPersist 120
+   ControlPath ~/.ssh/socket-%r@%h:%p&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will create a socket for each set &lt;em&gt;(user, machine, port)&lt;/em&gt; when the
+first SSH session is opened. Further sessions will see the socket and
+use it instead of opening a new connection, multiplexing all concurrent
+connections via the same connection. The same goes for &lt;code&gt;scp&lt;/code&gt; and &lt;code&gt;sftp&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Nice side-effects of this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No functionality is lost at all.&lt;/li&gt;
+&lt;li&gt;SSH sessions will open faster, as there is no need to establish a
+connection.&lt;/li&gt;
+&lt;li&gt;You will not need to enter you password everytime (but note that
+maybe you should be using public-key authentication).&lt;/li&gt;
+&lt;li&gt;You can open several sessions to servers which put a limit on the
+number of simultaneous connections.&lt;/li&gt;
+&lt;li&gt;If you are a sysadmin, you can limit the number of SSH connections
+to exactly one per user :-)&lt;/li&gt;
+&lt;/ul&gt;</description><author>Adrián Pérez</author><pubDate>2008-06-26T16:37:00.000Z</pubDate></item><item><title>More btrfs goodness: snapshots</title><link>http://perezdecastro.org/2008/more-btrfs-goodness-snapshots.html</link><description>&lt;p&gt;As I am currently working with KVM &lt;a href="http://kvm.qumranet.com/kvmwiki"&gt;KVM&lt;/a&gt; and I will have some big disk
+image files hanging around, I thought it could be a good opportunity to
+give a try to the &lt;a href="http://btrfs.wiki.kernel.org/"&gt;&lt;code&gt;btrfs&lt;/code&gt;&lt;/a&gt; snapshot and subvolume support.&lt;/p&gt;
+&lt;p&gt;First of all: snapshots and subvolumes &lt;em&gt;are the same&lt;/em&gt; to &lt;code&gt;btrfs&lt;/code&gt;. To be
+fair: snapshots are &lt;em&gt;subvolumes with initial content&lt;/em&gt;. The nice thing
+about btrfs is the Copy-On-Write (COW) semantics: snapshots do not take
+physical space until blocks are overwritten, and only new versions of
+overwritten blocks are allocated from free space. This is a lot similar
+to KVM/Qemu snapshots when dealing with images in the &lt;code&gt;qcow2&lt;/code&gt; format.
+The difference is that you can &lt;em&gt;mount&lt;/em&gt; a &lt;code&gt;btrfs&lt;/code&gt; volume: you get
+features designed for virtualization right on the filesystem level! Once
+again old technology is applied in a novel way :-)&lt;/p&gt;
+&lt;p&gt;I have a &lt;code&gt;btrfs&lt;/code&gt; volume mounted at &lt;code&gt;/mnt/misc&lt;/code&gt;, and a 1GB Debian &#8220;Etch&#8221;
+image and a file with some notes about the image:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# ls -l /mnt/misc
+-rw-r--r-- 1 root root 1000000000 2008-06-24 20:44 etch-base.img
+-rw-r--r-- 1 root root         60 2008-06-24 18:35 etch-base.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now let us create a snapshot named &lt;code&gt;snappy&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# btrfsctl -s snappy /mnt/misc
+# ls -l /mnt/misc
+-rw-r--r-- 1 root root 1000000000 2008-06-24 20:44 etch-base.img
+-rw-r--r-- 1 root root         60 2008-06-24 18:35 etch-base.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Hey! Wait a second! Nothing seems to happen!... This is due to all
+subvolumes and snapshots hanging from the filesystem root, and the
+&lt;code&gt;default&lt;/code&gt; subvolume is mounted (you guessed it) &lt;em&gt;by default&lt;/em&gt;. Let's
+remount another subvolume:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# umount /mnt/misc
+# mount -o subvol=snappy /dev/hda1 /mnt/misc
+# ls -l /mnt/misc
+-rw-r--r-- 1 root root 1000000000 2008-06-24 20:44 etch-base.img
+-rw-r--r-- 1 root root         60 2008-06-24 18:35 etch-base.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nothing impressive... now for the fun part we will add some garbage, and
+mount &lt;em&gt;all&lt;/em&gt; the subvolumes at once:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# touch /mnt/misc/hello-btrfs.txt
+# echo 'btrfs rocks' &amp;gt;&amp;gt; /mnt/misc/etch-base.txt
+# umount /mnt/misc
+# mount -o subvol=. /dev/hda1 /mnt/misc
+# ls /mnt/misc
+default  snappy&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now the mount point shows a directory for each subvolume, and the files
+are really there:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# ls /mnt/misc/*
+/mnt/misc/default:
+etch-base.img  etch-base.txt
+
+/mnt/misc/snappy:
+etch-base.img  etch-base.txt  hello-btrfs.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now please run &lt;code&gt;df -h /mnt/misc&lt;/code&gt; by yourself and get surprised: only
+about 1GB of physical space is really in use. In fact that can even be
+less than 1GB, as &lt;code&gt;btrfs&lt;/code&gt; supports sparse files as well (if there are
+&#8220;gaps&#8221; they do not take physical space). Final remark: you can also make
+snapshots of snapshots.&lt;/p&gt;</description><author>Adrián Pérez</author><pubDate>2008-06-25T21:42:00.000Z</pubDate></item><item><title>Simple way to manage lots of system users in distributed environments.</title><link>http://ajdiaz.wordpress.com/2011/06/03/simple-way-to-manage-lots-of-system-users-in-distributed-environments/</link><description>&lt;p&gt;Few years ago I was working in design of a large cluster of systems to perform some actions (solving some mathematical models, sharding database&amp;#8230;). From the point of view of the systems, I had to deal with a number of pesky troubles. One of them was the user management.&lt;/p&gt;
 &lt;p&gt;Since I had more than one hundred of hosts, and this number could be grow up in short, and I&amp;#8217;ve a number of users which need to access to all hosts, I need to think in a way to easy user management. Actually user management is, in my opinion a pain in the butt. If you ve a central user directory, you need to deal with a big and fat single point of failure, so you need to create some kind of HA service for this directory. And if you ve systems around the world, then you need to replicate the user data in different directories and keep them synchronized. If it is not the hell, it must be very similar.&lt;/p&gt;
 &lt;p&gt;Dealing with user managemet is a royal hassle for system administrators in every place, but in the cloud (i.e. a number of hosts distributed around the world), it&amp;#8217;s also a punishment. So, I need to solve (almost in part) this problem before moving forward in my deployment. I do not need a full user management really, just a basic UID mapping and a way to authenticate users (for which I could use the old-and-friendly authorized_keys).&lt;/p&gt;
 &lt;p&gt;So, How can I manage a big number of users in a single way, and to be effective in a distributed environment? That&amp;#8217;s not a simple questions, and of course each implementation has its own solution, from authentication services to suites of scripts. Anyway, I was looking for a simple to manage ones, cause of I was the responsible to manage the entire environment and I&amp;#8217;m too lazy too &lt;img alt=";)" class="wp-smiley" src="http://s1.wp.com/wp-includes/images/smilies/icon_wink.gif" /&gt; &lt;/p&gt;
