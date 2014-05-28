@@ -15,22 +15,15 @@ title: opengpg - policy
 		<h2 id="preamble">Preamble</h2>
 <p>This policy is valid for all signatures made by the following GnuPG keys:</p>
 <pre>
-
-pub   4096R/031EE2EF 2010-08-10
-
-      Key fingerprint = FCE7 1C20 5345 EDA5 198D  B3FC 5841 4BA9 031E E2EF
-
-uid                  Andres J. Diaz 
-
-uid                  [jpeg image of size 2034]
-
-sub   4096R/CA2A80E3 2010-08-10
-
+pub   8192R/82A850A8 2013-11-12
+uid                  Andrés Julián Díaz López (Andrés J. Díaz) <ajdiaz@connectical.com>
+uid                  [jpeg image of size 5138]
+sub   8192R/A62DA9D7 2013-11-12
 </pre>
 <p>These keys will always be available on this page, but the most current versions can usually be fetched from keyserver hkp://keys.gnupg.net (<a href="http://keys.gnupg.net/" rel="nofollow">http://keys.gnupg.net/</a>). </p>
 <p>This policy was originally written on 2010-08-10 and will be followed from this date on but it may be replaced with a new version at any time. Content and structure of this document are strongly based on the <a href="http://www.mathematik.uni-bielefeld.de/~mmutz/sign-policy.html">OpenPGP Key Signing Policy of Marc Mutz</a>, <a href="http://www.lysator.liu.se/~jc/signing-policy.html">Jörgen Cederlöf ones</a> and <a href="http://www.sc-delphin-eschweiler.de/pgp/">Marcus Frings</a> but have been slightly modified from the original sources.</p>
 <h2 id="loc">Location</h2>
-<p>I live in Galicia (Spain) and I am open to sign keys at any time. The easiest way for verifying keys would be to meet me here in <a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=a+coru%C3%B1a&amp;sll=40.396764,-3.713379&amp;sspn=12.758925,19.709473&amp;ie=UTF8&amp;hq=&amp;hnear=A+Coru%C3%B1a,+La+Coru%C3%B1a,+Galicia&amp;z=13">A Coruña</a>. Another opportunity to get in personal contact would be to address me at certain computer related fairs. </p>
+<p>I live in Spain and I am open to sign keys at any time. The easiest way for verifying keys would be to meet me here in <a href="http://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=a+coru%C3%B1a&amp;sll=40.396764,-3.713379&amp;sspn=12.758925,19.709473&amp;ie=UTF8&amp;hq=&amp;hnear=A+Coru%C3%B1a,+La+Coru%C3%B1a,+Galicia&amp;z=13">A Coruña</a>. Another opportunity to get in personal contact would be to address me at certain computer related fairs. </p>
 <h2 id="req">Prerequisites for signing</h2>
 <ol>
 <li>The <em>signee</em> (the key owner who wishes to obtain a signature to his/her key from me, the signer) must make his/her OpenPGP key available on a publicly accessible keyserver (see above for example keyservers).</li>
